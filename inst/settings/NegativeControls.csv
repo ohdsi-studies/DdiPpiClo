@@ -1,0 +1,811 @@
+targetId,comparatorId,outcomeId,outcomeName,type
+275,268,378256,Abnormal reflex,outcome
+275,268,321689,Apnea,outcome
+275,268,78200,Benign mammary dysplasia,outcome
+275,268,4195873,Breath smells unpleasant,outcome
+275,268,443792,Calculus of bile duct,outcome
+275,268,434327,Cannabis abuse,outcome
+275,268,197318,Cholesterolosis of gallbladder,outcome
+275,268,432303,Cocaine abuse,outcome
+275,268,439125,Complete trisomy 21 syndrome,outcome
+275,268,433270,Cord entanglement without compression,outcome
+275,268,4311591,Cramp in limb,outcome
+275,268,441267,Cystic fibrosis,outcome
+275,268,436233,Delayed milestone,outcome
+275,268,40486120,Delay in physiological development,outcome
+275,268,4114472,Ear problem,outcome
+275,268,439791,Emotional upset,outcome
+275,268,433527,Endometriosis (clinical),outcome
+275,268,374801,Foreign body in ear,outcome
+275,268,259995,Foreign body in orifice,outcome
+275,268,196456,Gallstone,outcome
+275,268,4166231,Genetic predisposition,outcome
+275,268,434164,Glycosuria,outcome
+275,268,4163735,Hemochromatosis,outcome
+275,268,439871,Hemospermia,outcome
+275,268,4012570,High risk sexual behavior,outcome
+275,268,4058388,Hypertrophic scar,outcome
+275,268,435522,Hypervitaminosis D,outcome
+275,268,443236,Hypnotic or anxiolytic dependence,outcome
+275,268,4098604,Hypomagnesemia,outcome
+275,268,435371,Hypothermia,outcome
+275,268,443447,Iatrogenic hypotension,outcome
+275,268,374375,Impacted cerumen,outcome
+275,268,4344500,Impingement syndrome of shoulder region,outcome
+275,268,440382,Learning difficulties,outcome
+275,268,435516,Lipoprotein deficiency disorder,outcome
+275,268,438808,Mammary duct ectasia,outcome
+275,268,443585,Abrasion and/or friction burn of multiple sites,outcome
+275,268,4092879,Absent kidney,outcome
+275,268,44783954,Acid reflux,outcome
+275,268,433753,Alcohol abuse,outcome
+275,268,4155909,Anesthesia of skin,outcome
+275,268,438130,Opioid abuse,outcome
+275,268,378160,Otorrhea,outcome
+275,268,313601,Oxygen supply absent,outcome
+275,268,44782778,Pain disorder with psychological factor,outcome
+275,268,4091513,Passing flatus,outcome
+275,268,4022076,Patient dependence on care provider,outcome
+275,268,439971,Poisoning by anticoagulant,outcome
+275,268,441191,Poisoning due to arthropod venom,outcome
+275,268,4295261,Postmenopausal state,outcome
+275,268,198715,Premature menopause,outcome
+275,268,439081,Premenstrual tension syndrome,outcome
+275,268,46286594,Problem related to lifestyle,outcome
+275,268,199876,Prolapse of female genital organs,outcome
+275,268,4049367,Psychologic conversion disorder,outcome
+275,268,440068,Psychosexual dysfunction,outcome
+275,268,436246,Reduced libido,outcome
+275,268,73754,Restless legs,outcome
+275,268,4168212,Restlessness and agitation,outcome
+275,268,80811,Rupture of extensor tendons of hand AND/OR wrist,outcome
+275,268,81943,Rupture of flexor tendons of hand AND/OR wrist,outcome
+275,268,138821,Seborrhea,outcome
+275,268,4198492,Shoulder joint unstable,outcome
+275,268,25518,Sickle cell trait,outcome
+275,268,4176908,Snapping thumb syndrome,outcome
+275,268,4248728,Snoring,outcome
+275,268,138278,Sprains and strains of joints and adjacent muscles,outcome
+275,268,4008710,"Stenosis due to any device, implant AND/OR graft",outcome
+275,268,40479573,Stimulant abuse,outcome
+275,268,40483172,Stimulant dependence,outcome
+275,268,440233,Strain of supraspinatus muscle AND/OR tendon,outcome
+275,268,4194160,Thyroid function tests abnormal,outcome
+275,268,4216708,Urgent desire for stool,outcome
+275,268,79873,Urolith,outcome
+275,268,4275889,Visual hallucinations,outcome
+275,268,4193634,Worried,outcome
+275,268,439082,Menopausal syndrome,outcome
+275,268,441553,Myoclonus,outcome
+275,268,4119307,Neurogenic claudication,outcome
+275,268,4209423,Nicotine dependence,outcome
+275,268,40304526,Nocturia,outcome
+273,274,378256,Abnormal reflex,outcome
+273,274,321689,Apnea,outcome
+273,274,78200,Benign mammary dysplasia,outcome
+273,274,4195873,Breath smells unpleasant,outcome
+273,274,443792,Calculus of bile duct,outcome
+273,274,434327,Cannabis abuse,outcome
+273,274,197318,Cholesterolosis of gallbladder,outcome
+273,274,432303,Cocaine abuse,outcome
+273,274,439125,Complete trisomy 21 syndrome,outcome
+273,274,433270,Cord entanglement without compression,outcome
+273,274,4311591,Cramp in limb,outcome
+273,274,441267,Cystic fibrosis,outcome
+273,274,436233,Delayed milestone,outcome
+273,274,40486120,Delay in physiological development,outcome
+273,274,4114472,Ear problem,outcome
+273,274,439791,Emotional upset,outcome
+273,274,433527,Endometriosis (clinical),outcome
+273,274,374801,Foreign body in ear,outcome
+273,274,259995,Foreign body in orifice,outcome
+273,274,196456,Gallstone,outcome
+273,274,4166231,Genetic predisposition,outcome
+273,274,434164,Glycosuria,outcome
+273,274,4163735,Hemochromatosis,outcome
+273,274,439871,Hemospermia,outcome
+273,274,4012570,High risk sexual behavior,outcome
+273,274,4058388,Hypertrophic scar,outcome
+273,274,435522,Hypervitaminosis D,outcome
+273,274,443236,Hypnotic or anxiolytic dependence,outcome
+273,274,4098604,Hypomagnesemia,outcome
+273,274,435371,Hypothermia,outcome
+273,274,443447,Iatrogenic hypotension,outcome
+273,274,374375,Impacted cerumen,outcome
+273,274,4344500,Impingement syndrome of shoulder region,outcome
+273,274,440382,Learning difficulties,outcome
+273,274,435516,Lipoprotein deficiency disorder,outcome
+273,274,438808,Mammary duct ectasia,outcome
+273,274,443585,Abrasion and/or friction burn of multiple sites,outcome
+273,274,4092879,Absent kidney,outcome
+273,274,44783954,Acid reflux,outcome
+273,274,433753,Alcohol abuse,outcome
+273,274,4155909,Anesthesia of skin,outcome
+273,274,438130,Opioid abuse,outcome
+273,274,378160,Otorrhea,outcome
+273,274,313601,Oxygen supply absent,outcome
+273,274,44782778,Pain disorder with psychological factor,outcome
+273,274,4091513,Passing flatus,outcome
+273,274,4022076,Patient dependence on care provider,outcome
+273,274,439971,Poisoning by anticoagulant,outcome
+273,274,441191,Poisoning due to arthropod venom,outcome
+273,274,4295261,Postmenopausal state,outcome
+273,274,198715,Premature menopause,outcome
+273,274,439081,Premenstrual tension syndrome,outcome
+273,274,46286594,Problem related to lifestyle,outcome
+273,274,199876,Prolapse of female genital organs,outcome
+273,274,4049367,Psychologic conversion disorder,outcome
+273,274,440068,Psychosexual dysfunction,outcome
+273,274,436246,Reduced libido,outcome
+273,274,73754,Restless legs,outcome
+273,274,4168212,Restlessness and agitation,outcome
+273,274,80811,Rupture of extensor tendons of hand AND/OR wrist,outcome
+273,274,81943,Rupture of flexor tendons of hand AND/OR wrist,outcome
+273,274,138821,Seborrhea,outcome
+273,274,4198492,Shoulder joint unstable,outcome
+273,274,25518,Sickle cell trait,outcome
+273,274,4176908,Snapping thumb syndrome,outcome
+273,274,4248728,Snoring,outcome
+273,274,138278,Sprains and strains of joints and adjacent muscles,outcome
+273,274,4008710,"Stenosis due to any device, implant AND/OR graft",outcome
+273,274,40479573,Stimulant abuse,outcome
+273,274,40483172,Stimulant dependence,outcome
+273,274,440233,Strain of supraspinatus muscle AND/OR tendon,outcome
+273,274,4194160,Thyroid function tests abnormal,outcome
+273,274,4216708,Urgent desire for stool,outcome
+273,274,79873,Urolith,outcome
+273,274,4275889,Visual hallucinations,outcome
+273,274,4193634,Worried,outcome
+273,274,439082,Menopausal syndrome,outcome
+273,274,441553,Myoclonus,outcome
+273,274,4119307,Neurogenic claudication,outcome
+273,274,4209423,Nicotine dependence,outcome
+273,274,40304526,Nocturia,outcome
+275,277,378256,Abnormal reflex,outcome
+275,277,321689,Apnea,outcome
+275,277,78200,Benign mammary dysplasia,outcome
+275,277,4195873,Breath smells unpleasant,outcome
+275,277,443792,Calculus of bile duct,outcome
+275,277,434327,Cannabis abuse,outcome
+275,277,197318,Cholesterolosis of gallbladder,outcome
+275,277,432303,Cocaine abuse,outcome
+275,277,439125,Complete trisomy 21 syndrome,outcome
+275,277,433270,Cord entanglement without compression,outcome
+275,277,4311591,Cramp in limb,outcome
+275,277,441267,Cystic fibrosis,outcome
+275,277,436233,Delayed milestone,outcome
+275,277,40486120,Delay in physiological development,outcome
+275,277,4114472,Ear problem,outcome
+275,277,439791,Emotional upset,outcome
+275,277,433527,Endometriosis (clinical),outcome
+275,277,374801,Foreign body in ear,outcome
+275,277,259995,Foreign body in orifice,outcome
+275,277,196456,Gallstone,outcome
+275,277,4166231,Genetic predisposition,outcome
+275,277,434164,Glycosuria,outcome
+275,277,4163735,Hemochromatosis,outcome
+275,277,439871,Hemospermia,outcome
+275,277,4012570,High risk sexual behavior,outcome
+275,277,4058388,Hypertrophic scar,outcome
+275,277,435522,Hypervitaminosis D,outcome
+275,277,443236,Hypnotic or anxiolytic dependence,outcome
+275,277,4098604,Hypomagnesemia,outcome
+275,277,435371,Hypothermia,outcome
+275,277,443447,Iatrogenic hypotension,outcome
+275,277,374375,Impacted cerumen,outcome
+275,277,4344500,Impingement syndrome of shoulder region,outcome
+275,277,440382,Learning difficulties,outcome
+275,277,435516,Lipoprotein deficiency disorder,outcome
+275,277,438808,Mammary duct ectasia,outcome
+275,277,443585,Abrasion and/or friction burn of multiple sites,outcome
+275,277,4092879,Absent kidney,outcome
+275,277,44783954,Acid reflux,outcome
+275,277,433753,Alcohol abuse,outcome
+275,277,4155909,Anesthesia of skin,outcome
+275,277,438130,Opioid abuse,outcome
+275,277,378160,Otorrhea,outcome
+275,277,313601,Oxygen supply absent,outcome
+275,277,44782778,Pain disorder with psychological factor,outcome
+275,277,4091513,Passing flatus,outcome
+275,277,4022076,Patient dependence on care provider,outcome
+275,277,439971,Poisoning by anticoagulant,outcome
+275,277,441191,Poisoning due to arthropod venom,outcome
+275,277,4295261,Postmenopausal state,outcome
+275,277,198715,Premature menopause,outcome
+275,277,439081,Premenstrual tension syndrome,outcome
+275,277,46286594,Problem related to lifestyle,outcome
+275,277,199876,Prolapse of female genital organs,outcome
+275,277,4049367,Psychologic conversion disorder,outcome
+275,277,440068,Psychosexual dysfunction,outcome
+275,277,436246,Reduced libido,outcome
+275,277,73754,Restless legs,outcome
+275,277,4168212,Restlessness and agitation,outcome
+275,277,80811,Rupture of extensor tendons of hand AND/OR wrist,outcome
+275,277,81943,Rupture of flexor tendons of hand AND/OR wrist,outcome
+275,277,138821,Seborrhea,outcome
+275,277,4198492,Shoulder joint unstable,outcome
+275,277,25518,Sickle cell trait,outcome
+275,277,4176908,Snapping thumb syndrome,outcome
+275,277,4248728,Snoring,outcome
+275,277,138278,Sprains and strains of joints and adjacent muscles,outcome
+275,277,4008710,"Stenosis due to any device, implant AND/OR graft",outcome
+275,277,40479573,Stimulant abuse,outcome
+275,277,40483172,Stimulant dependence,outcome
+275,277,440233,Strain of supraspinatus muscle AND/OR tendon,outcome
+275,277,4194160,Thyroid function tests abnormal,outcome
+275,277,4216708,Urgent desire for stool,outcome
+275,277,79873,Urolith,outcome
+275,277,4275889,Visual hallucinations,outcome
+275,277,4193634,Worried,outcome
+275,277,439082,Menopausal syndrome,outcome
+275,277,441553,Myoclonus,outcome
+275,277,4119307,Neurogenic claudication,outcome
+275,277,4209423,Nicotine dependence,outcome
+275,277,40304526,Nocturia,outcome
+278,279,378256,Abnormal reflex,outcome
+278,279,321689,Apnea,outcome
+278,279,78200,Benign mammary dysplasia,outcome
+278,279,4195873,Breath smells unpleasant,outcome
+278,279,443792,Calculus of bile duct,outcome
+278,279,434327,Cannabis abuse,outcome
+278,279,197318,Cholesterolosis of gallbladder,outcome
+278,279,432303,Cocaine abuse,outcome
+278,279,439125,Complete trisomy 21 syndrome,outcome
+278,279,433270,Cord entanglement without compression,outcome
+278,279,4311591,Cramp in limb,outcome
+278,279,441267,Cystic fibrosis,outcome
+278,279,436233,Delayed milestone,outcome
+278,279,40486120,Delay in physiological development,outcome
+278,279,4114472,Ear problem,outcome
+278,279,439791,Emotional upset,outcome
+278,279,433527,Endometriosis (clinical),outcome
+278,279,374801,Foreign body in ear,outcome
+278,279,259995,Foreign body in orifice,outcome
+278,279,196456,Gallstone,outcome
+278,279,4166231,Genetic predisposition,outcome
+278,279,434164,Glycosuria,outcome
+278,279,4163735,Hemochromatosis,outcome
+278,279,439871,Hemospermia,outcome
+278,279,4012570,High risk sexual behavior,outcome
+278,279,4058388,Hypertrophic scar,outcome
+278,279,435522,Hypervitaminosis D,outcome
+278,279,443236,Hypnotic or anxiolytic dependence,outcome
+278,279,4098604,Hypomagnesemia,outcome
+278,279,435371,Hypothermia,outcome
+278,279,443447,Iatrogenic hypotension,outcome
+278,279,374375,Impacted cerumen,outcome
+278,279,4344500,Impingement syndrome of shoulder region,outcome
+278,279,440382,Learning difficulties,outcome
+278,279,435516,Lipoprotein deficiency disorder,outcome
+278,279,438808,Mammary duct ectasia,outcome
+278,279,443585,Abrasion and/or friction burn of multiple sites,outcome
+278,279,4092879,Absent kidney,outcome
+278,279,44783954,Acid reflux,outcome
+278,279,433753,Alcohol abuse,outcome
+278,279,4155909,Anesthesia of skin,outcome
+278,279,438130,Opioid abuse,outcome
+278,279,378160,Otorrhea,outcome
+278,279,313601,Oxygen supply absent,outcome
+278,279,44782778,Pain disorder with psychological factor,outcome
+278,279,4091513,Passing flatus,outcome
+278,279,4022076,Patient dependence on care provider,outcome
+278,279,439971,Poisoning by anticoagulant,outcome
+278,279,441191,Poisoning due to arthropod venom,outcome
+278,279,4295261,Postmenopausal state,outcome
+278,279,198715,Premature menopause,outcome
+278,279,439081,Premenstrual tension syndrome,outcome
+278,279,46286594,Problem related to lifestyle,outcome
+278,279,199876,Prolapse of female genital organs,outcome
+278,279,4049367,Psychologic conversion disorder,outcome
+278,279,440068,Psychosexual dysfunction,outcome
+278,279,436246,Reduced libido,outcome
+278,279,73754,Restless legs,outcome
+278,279,4168212,Restlessness and agitation,outcome
+278,279,80811,Rupture of extensor tendons of hand AND/OR wrist,outcome
+278,279,81943,Rupture of flexor tendons of hand AND/OR wrist,outcome
+278,279,138821,Seborrhea,outcome
+278,279,4198492,Shoulder joint unstable,outcome
+278,279,25518,Sickle cell trait,outcome
+278,279,4176908,Snapping thumb syndrome,outcome
+278,279,4248728,Snoring,outcome
+278,279,138278,Sprains and strains of joints and adjacent muscles,outcome
+278,279,4008710,"Stenosis due to any device, implant AND/OR graft",outcome
+278,279,40479573,Stimulant abuse,outcome
+278,279,40483172,Stimulant dependence,outcome
+278,279,440233,Strain of supraspinatus muscle AND/OR tendon,outcome
+278,279,4194160,Thyroid function tests abnormal,outcome
+278,279,4216708,Urgent desire for stool,outcome
+278,279,79873,Urolith,outcome
+278,279,4275889,Visual hallucinations,outcome
+278,279,4193634,Worried,outcome
+278,279,439082,Menopausal syndrome,outcome
+278,279,441553,Myoclonus,outcome
+278,279,4119307,Neurogenic claudication,outcome
+278,279,4209423,Nicotine dependence,outcome
+278,279,40304526,Nocturia,outcome
+278,280,378256,Abnormal reflex,outcome
+278,280,321689,Apnea,outcome
+278,280,78200,Benign mammary dysplasia,outcome
+278,280,4195873,Breath smells unpleasant,outcome
+278,280,443792,Calculus of bile duct,outcome
+278,280,434327,Cannabis abuse,outcome
+278,280,197318,Cholesterolosis of gallbladder,outcome
+278,280,432303,Cocaine abuse,outcome
+278,280,439125,Complete trisomy 21 syndrome,outcome
+278,280,433270,Cord entanglement without compression,outcome
+278,280,4311591,Cramp in limb,outcome
+278,280,441267,Cystic fibrosis,outcome
+278,280,436233,Delayed milestone,outcome
+278,280,40486120,Delay in physiological development,outcome
+278,280,4114472,Ear problem,outcome
+278,280,439791,Emotional upset,outcome
+278,280,433527,Endometriosis (clinical),outcome
+278,280,374801,Foreign body in ear,outcome
+278,280,259995,Foreign body in orifice,outcome
+278,280,196456,Gallstone,outcome
+278,280,4166231,Genetic predisposition,outcome
+278,280,434164,Glycosuria,outcome
+278,280,4163735,Hemochromatosis,outcome
+278,280,439871,Hemospermia,outcome
+278,280,4012570,High risk sexual behavior,outcome
+278,280,4058388,Hypertrophic scar,outcome
+278,280,435522,Hypervitaminosis D,outcome
+278,280,443236,Hypnotic or anxiolytic dependence,outcome
+278,280,4098604,Hypomagnesemia,outcome
+278,280,435371,Hypothermia,outcome
+278,280,443447,Iatrogenic hypotension,outcome
+278,280,374375,Impacted cerumen,outcome
+278,280,4344500,Impingement syndrome of shoulder region,outcome
+278,280,440382,Learning difficulties,outcome
+278,280,435516,Lipoprotein deficiency disorder,outcome
+278,280,438808,Mammary duct ectasia,outcome
+278,280,443585,Abrasion and/or friction burn of multiple sites,outcome
+278,280,4092879,Absent kidney,outcome
+278,280,44783954,Acid reflux,outcome
+278,280,433753,Alcohol abuse,outcome
+278,280,4155909,Anesthesia of skin,outcome
+278,280,438130,Opioid abuse,outcome
+278,280,378160,Otorrhea,outcome
+278,280,313601,Oxygen supply absent,outcome
+278,280,44782778,Pain disorder with psychological factor,outcome
+278,280,4091513,Passing flatus,outcome
+278,280,4022076,Patient dependence on care provider,outcome
+278,280,439971,Poisoning by anticoagulant,outcome
+278,280,441191,Poisoning due to arthropod venom,outcome
+278,280,4295261,Postmenopausal state,outcome
+278,280,198715,Premature menopause,outcome
+278,280,439081,Premenstrual tension syndrome,outcome
+278,280,46286594,Problem related to lifestyle,outcome
+278,280,199876,Prolapse of female genital organs,outcome
+278,280,4049367,Psychologic conversion disorder,outcome
+278,280,440068,Psychosexual dysfunction,outcome
+278,280,436246,Reduced libido,outcome
+278,280,73754,Restless legs,outcome
+278,280,4168212,Restlessness and agitation,outcome
+278,280,80811,Rupture of extensor tendons of hand AND/OR wrist,outcome
+278,280,81943,Rupture of flexor tendons of hand AND/OR wrist,outcome
+278,280,138821,Seborrhea,outcome
+278,280,4198492,Shoulder joint unstable,outcome
+278,280,25518,Sickle cell trait,outcome
+278,280,4176908,Snapping thumb syndrome,outcome
+278,280,4248728,Snoring,outcome
+278,280,138278,Sprains and strains of joints and adjacent muscles,outcome
+278,280,4008710,"Stenosis due to any device, implant AND/OR graft",outcome
+278,280,40479573,Stimulant abuse,outcome
+278,280,40483172,Stimulant dependence,outcome
+278,280,440233,Strain of supraspinatus muscle AND/OR tendon,outcome
+278,280,4194160,Thyroid function tests abnormal,outcome
+278,280,4216708,Urgent desire for stool,outcome
+278,280,79873,Urolith,outcome
+278,280,4275889,Visual hallucinations,outcome
+278,280,4193634,Worried,outcome
+278,280,439082,Menopausal syndrome,outcome
+278,280,441553,Myoclonus,outcome
+278,280,4119307,Neurogenic claudication,outcome
+278,280,4209423,Nicotine dependence,outcome
+278,280,40304526,Nocturia,outcome
+278,281,378256,Abnormal reflex,outcome
+278,281,321689,Apnea,outcome
+278,281,78200,Benign mammary dysplasia,outcome
+278,281,4195873,Breath smells unpleasant,outcome
+278,281,443792,Calculus of bile duct,outcome
+278,281,434327,Cannabis abuse,outcome
+278,281,197318,Cholesterolosis of gallbladder,outcome
+278,281,432303,Cocaine abuse,outcome
+278,281,439125,Complete trisomy 21 syndrome,outcome
+278,281,433270,Cord entanglement without compression,outcome
+278,281,4311591,Cramp in limb,outcome
+278,281,441267,Cystic fibrosis,outcome
+278,281,436233,Delayed milestone,outcome
+278,281,40486120,Delay in physiological development,outcome
+278,281,4114472,Ear problem,outcome
+278,281,439791,Emotional upset,outcome
+278,281,433527,Endometriosis (clinical),outcome
+278,281,374801,Foreign body in ear,outcome
+278,281,259995,Foreign body in orifice,outcome
+278,281,196456,Gallstone,outcome
+278,281,4166231,Genetic predisposition,outcome
+278,281,434164,Glycosuria,outcome
+278,281,4163735,Hemochromatosis,outcome
+278,281,439871,Hemospermia,outcome
+278,281,4012570,High risk sexual behavior,outcome
+278,281,4058388,Hypertrophic scar,outcome
+278,281,435522,Hypervitaminosis D,outcome
+278,281,443236,Hypnotic or anxiolytic dependence,outcome
+278,281,4098604,Hypomagnesemia,outcome
+278,281,435371,Hypothermia,outcome
+278,281,443447,Iatrogenic hypotension,outcome
+278,281,374375,Impacted cerumen,outcome
+278,281,4344500,Impingement syndrome of shoulder region,outcome
+278,281,440382,Learning difficulties,outcome
+278,281,435516,Lipoprotein deficiency disorder,outcome
+278,281,438808,Mammary duct ectasia,outcome
+278,281,443585,Abrasion and/or friction burn of multiple sites,outcome
+278,281,4092879,Absent kidney,outcome
+278,281,44783954,Acid reflux,outcome
+278,281,433753,Alcohol abuse,outcome
+278,281,4155909,Anesthesia of skin,outcome
+278,281,438130,Opioid abuse,outcome
+278,281,378160,Otorrhea,outcome
+278,281,313601,Oxygen supply absent,outcome
+278,281,44782778,Pain disorder with psychological factor,outcome
+278,281,4091513,Passing flatus,outcome
+278,281,4022076,Patient dependence on care provider,outcome
+278,281,439971,Poisoning by anticoagulant,outcome
+278,281,441191,Poisoning due to arthropod venom,outcome
+278,281,4295261,Postmenopausal state,outcome
+278,281,198715,Premature menopause,outcome
+278,281,439081,Premenstrual tension syndrome,outcome
+278,281,46286594,Problem related to lifestyle,outcome
+278,281,199876,Prolapse of female genital organs,outcome
+278,281,4049367,Psychologic conversion disorder,outcome
+278,281,440068,Psychosexual dysfunction,outcome
+278,281,436246,Reduced libido,outcome
+278,281,73754,Restless legs,outcome
+278,281,4168212,Restlessness and agitation,outcome
+278,281,80811,Rupture of extensor tendons of hand AND/OR wrist,outcome
+278,281,81943,Rupture of flexor tendons of hand AND/OR wrist,outcome
+278,281,138821,Seborrhea,outcome
+278,281,4198492,Shoulder joint unstable,outcome
+278,281,25518,Sickle cell trait,outcome
+278,281,4176908,Snapping thumb syndrome,outcome
+278,281,4248728,Snoring,outcome
+278,281,138278,Sprains and strains of joints and adjacent muscles,outcome
+278,281,4008710,"Stenosis due to any device, implant AND/OR graft",outcome
+278,281,40479573,Stimulant abuse,outcome
+278,281,40483172,Stimulant dependence,outcome
+278,281,440233,Strain of supraspinatus muscle AND/OR tendon,outcome
+278,281,4194160,Thyroid function tests abnormal,outcome
+278,281,4216708,Urgent desire for stool,outcome
+278,281,79873,Urolith,outcome
+278,281,4275889,Visual hallucinations,outcome
+278,281,4193634,Worried,outcome
+278,281,439082,Menopausal syndrome,outcome
+278,281,441553,Myoclonus,outcome
+278,281,4119307,Neurogenic claudication,outcome
+278,281,4209423,Nicotine dependence,outcome
+278,281,40304526,Nocturia,outcome
+278,282,378256,Abnormal reflex,outcome
+278,282,321689,Apnea,outcome
+278,282,78200,Benign mammary dysplasia,outcome
+278,282,4195873,Breath smells unpleasant,outcome
+278,282,443792,Calculus of bile duct,outcome
+278,282,434327,Cannabis abuse,outcome
+278,282,197318,Cholesterolosis of gallbladder,outcome
+278,282,432303,Cocaine abuse,outcome
+278,282,439125,Complete trisomy 21 syndrome,outcome
+278,282,433270,Cord entanglement without compression,outcome
+278,282,4311591,Cramp in limb,outcome
+278,282,441267,Cystic fibrosis,outcome
+278,282,436233,Delayed milestone,outcome
+278,282,40486120,Delay in physiological development,outcome
+278,282,4114472,Ear problem,outcome
+278,282,439791,Emotional upset,outcome
+278,282,433527,Endometriosis (clinical),outcome
+278,282,374801,Foreign body in ear,outcome
+278,282,259995,Foreign body in orifice,outcome
+278,282,196456,Gallstone,outcome
+278,282,4166231,Genetic predisposition,outcome
+278,282,434164,Glycosuria,outcome
+278,282,4163735,Hemochromatosis,outcome
+278,282,439871,Hemospermia,outcome
+278,282,4012570,High risk sexual behavior,outcome
+278,282,4058388,Hypertrophic scar,outcome
+278,282,435522,Hypervitaminosis D,outcome
+278,282,443236,Hypnotic or anxiolytic dependence,outcome
+278,282,4098604,Hypomagnesemia,outcome
+278,282,435371,Hypothermia,outcome
+278,282,443447,Iatrogenic hypotension,outcome
+278,282,374375,Impacted cerumen,outcome
+278,282,4344500,Impingement syndrome of shoulder region,outcome
+278,282,440382,Learning difficulties,outcome
+278,282,435516,Lipoprotein deficiency disorder,outcome
+278,282,438808,Mammary duct ectasia,outcome
+278,282,443585,Abrasion and/or friction burn of multiple sites,outcome
+278,282,4092879,Absent kidney,outcome
+278,282,44783954,Acid reflux,outcome
+278,282,433753,Alcohol abuse,outcome
+278,282,4155909,Anesthesia of skin,outcome
+278,282,438130,Opioid abuse,outcome
+278,282,378160,Otorrhea,outcome
+278,282,313601,Oxygen supply absent,outcome
+278,282,44782778,Pain disorder with psychological factor,outcome
+278,282,4091513,Passing flatus,outcome
+278,282,4022076,Patient dependence on care provider,outcome
+278,282,439971,Poisoning by anticoagulant,outcome
+278,282,441191,Poisoning due to arthropod venom,outcome
+278,282,4295261,Postmenopausal state,outcome
+278,282,198715,Premature menopause,outcome
+278,282,439081,Premenstrual tension syndrome,outcome
+278,282,46286594,Problem related to lifestyle,outcome
+278,282,199876,Prolapse of female genital organs,outcome
+278,282,4049367,Psychologic conversion disorder,outcome
+278,282,440068,Psychosexual dysfunction,outcome
+278,282,436246,Reduced libido,outcome
+278,282,73754,Restless legs,outcome
+278,282,4168212,Restlessness and agitation,outcome
+278,282,80811,Rupture of extensor tendons of hand AND/OR wrist,outcome
+278,282,81943,Rupture of flexor tendons of hand AND/OR wrist,outcome
+278,282,138821,Seborrhea,outcome
+278,282,4198492,Shoulder joint unstable,outcome
+278,282,25518,Sickle cell trait,outcome
+278,282,4176908,Snapping thumb syndrome,outcome
+278,282,4248728,Snoring,outcome
+278,282,138278,Sprains and strains of joints and adjacent muscles,outcome
+278,282,4008710,"Stenosis due to any device, implant AND/OR graft",outcome
+278,282,40479573,Stimulant abuse,outcome
+278,282,40483172,Stimulant dependence,outcome
+278,282,440233,Strain of supraspinatus muscle AND/OR tendon,outcome
+278,282,4194160,Thyroid function tests abnormal,outcome
+278,282,4216708,Urgent desire for stool,outcome
+278,282,79873,Urolith,outcome
+278,282,4275889,Visual hallucinations,outcome
+278,282,4193634,Worried,outcome
+278,282,439082,Menopausal syndrome,outcome
+278,282,441553,Myoclonus,outcome
+278,282,4119307,Neurogenic claudication,outcome
+278,282,4209423,Nicotine dependence,outcome
+278,282,40304526,Nocturia,outcome
+278,283,378256,Abnormal reflex,outcome
+278,283,321689,Apnea,outcome
+278,283,78200,Benign mammary dysplasia,outcome
+278,283,4195873,Breath smells unpleasant,outcome
+278,283,443792,Calculus of bile duct,outcome
+278,283,434327,Cannabis abuse,outcome
+278,283,197318,Cholesterolosis of gallbladder,outcome
+278,283,432303,Cocaine abuse,outcome
+278,283,439125,Complete trisomy 21 syndrome,outcome
+278,283,433270,Cord entanglement without compression,outcome
+278,283,4311591,Cramp in limb,outcome
+278,283,441267,Cystic fibrosis,outcome
+278,283,436233,Delayed milestone,outcome
+278,283,40486120,Delay in physiological development,outcome
+278,283,4114472,Ear problem,outcome
+278,283,439791,Emotional upset,outcome
+278,283,433527,Endometriosis (clinical),outcome
+278,283,374801,Foreign body in ear,outcome
+278,283,259995,Foreign body in orifice,outcome
+278,283,196456,Gallstone,outcome
+278,283,4166231,Genetic predisposition,outcome
+278,283,434164,Glycosuria,outcome
+278,283,4163735,Hemochromatosis,outcome
+278,283,439871,Hemospermia,outcome
+278,283,4012570,High risk sexual behavior,outcome
+278,283,4058388,Hypertrophic scar,outcome
+278,283,435522,Hypervitaminosis D,outcome
+278,283,443236,Hypnotic or anxiolytic dependence,outcome
+278,283,4098604,Hypomagnesemia,outcome
+278,283,435371,Hypothermia,outcome
+278,283,443447,Iatrogenic hypotension,outcome
+278,283,374375,Impacted cerumen,outcome
+278,283,4344500,Impingement syndrome of shoulder region,outcome
+278,283,440382,Learning difficulties,outcome
+278,283,435516,Lipoprotein deficiency disorder,outcome
+278,283,438808,Mammary duct ectasia,outcome
+278,283,443585,Abrasion and/or friction burn of multiple sites,outcome
+278,283,4092879,Absent kidney,outcome
+278,283,44783954,Acid reflux,outcome
+278,283,433753,Alcohol abuse,outcome
+278,283,4155909,Anesthesia of skin,outcome
+278,283,438130,Opioid abuse,outcome
+278,283,378160,Otorrhea,outcome
+278,283,313601,Oxygen supply absent,outcome
+278,283,44782778,Pain disorder with psychological factor,outcome
+278,283,4091513,Passing flatus,outcome
+278,283,4022076,Patient dependence on care provider,outcome
+278,283,439971,Poisoning by anticoagulant,outcome
+278,283,441191,Poisoning due to arthropod venom,outcome
+278,283,4295261,Postmenopausal state,outcome
+278,283,198715,Premature menopause,outcome
+278,283,439081,Premenstrual tension syndrome,outcome
+278,283,46286594,Problem related to lifestyle,outcome
+278,283,199876,Prolapse of female genital organs,outcome
+278,283,4049367,Psychologic conversion disorder,outcome
+278,283,440068,Psychosexual dysfunction,outcome
+278,283,436246,Reduced libido,outcome
+278,283,73754,Restless legs,outcome
+278,283,4168212,Restlessness and agitation,outcome
+278,283,80811,Rupture of extensor tendons of hand AND/OR wrist,outcome
+278,283,81943,Rupture of flexor tendons of hand AND/OR wrist,outcome
+278,283,138821,Seborrhea,outcome
+278,283,4198492,Shoulder joint unstable,outcome
+278,283,25518,Sickle cell trait,outcome
+278,283,4176908,Snapping thumb syndrome,outcome
+278,283,4248728,Snoring,outcome
+278,283,138278,Sprains and strains of joints and adjacent muscles,outcome
+278,283,4008710,"Stenosis due to any device, implant AND/OR graft",outcome
+278,283,40479573,Stimulant abuse,outcome
+278,283,40483172,Stimulant dependence,outcome
+278,283,440233,Strain of supraspinatus muscle AND/OR tendon,outcome
+278,283,4194160,Thyroid function tests abnormal,outcome
+278,283,4216708,Urgent desire for stool,outcome
+278,283,79873,Urolith,outcome
+278,283,4275889,Visual hallucinations,outcome
+278,283,4193634,Worried,outcome
+278,283,439082,Menopausal syndrome,outcome
+278,283,441553,Myoclonus,outcome
+278,283,4119307,Neurogenic claudication,outcome
+278,283,4209423,Nicotine dependence,outcome
+278,283,40304526,Nocturia,outcome
+284,285,378256,Abnormal reflex,outcome
+284,285,321689,Apnea,outcome
+284,285,78200,Benign mammary dysplasia,outcome
+284,285,4195873,Breath smells unpleasant,outcome
+284,285,443792,Calculus of bile duct,outcome
+284,285,434327,Cannabis abuse,outcome
+284,285,197318,Cholesterolosis of gallbladder,outcome
+284,285,432303,Cocaine abuse,outcome
+284,285,439125,Complete trisomy 21 syndrome,outcome
+284,285,433270,Cord entanglement without compression,outcome
+284,285,4311591,Cramp in limb,outcome
+284,285,441267,Cystic fibrosis,outcome
+284,285,436233,Delayed milestone,outcome
+284,285,40486120,Delay in physiological development,outcome
+284,285,4114472,Ear problem,outcome
+284,285,439791,Emotional upset,outcome
+284,285,433527,Endometriosis (clinical),outcome
+284,285,374801,Foreign body in ear,outcome
+284,285,259995,Foreign body in orifice,outcome
+284,285,196456,Gallstone,outcome
+284,285,4166231,Genetic predisposition,outcome
+284,285,434164,Glycosuria,outcome
+284,285,4163735,Hemochromatosis,outcome
+284,285,439871,Hemospermia,outcome
+284,285,4012570,High risk sexual behavior,outcome
+284,285,4058388,Hypertrophic scar,outcome
+284,285,435522,Hypervitaminosis D,outcome
+284,285,443236,Hypnotic or anxiolytic dependence,outcome
+284,285,4098604,Hypomagnesemia,outcome
+284,285,435371,Hypothermia,outcome
+284,285,443447,Iatrogenic hypotension,outcome
+284,285,374375,Impacted cerumen,outcome
+284,285,4344500,Impingement syndrome of shoulder region,outcome
+284,285,440382,Learning difficulties,outcome
+284,285,435516,Lipoprotein deficiency disorder,outcome
+284,285,438808,Mammary duct ectasia,outcome
+284,285,443585,Abrasion and/or friction burn of multiple sites,outcome
+284,285,4092879,Absent kidney,outcome
+284,285,44783954,Acid reflux,outcome
+284,285,433753,Alcohol abuse,outcome
+284,285,4155909,Anesthesia of skin,outcome
+284,285,438130,Opioid abuse,outcome
+284,285,378160,Otorrhea,outcome
+284,285,313601,Oxygen supply absent,outcome
+284,285,44782778,Pain disorder with psychological factor,outcome
+284,285,4091513,Passing flatus,outcome
+284,285,4022076,Patient dependence on care provider,outcome
+284,285,439971,Poisoning by anticoagulant,outcome
+284,285,441191,Poisoning due to arthropod venom,outcome
+284,285,4295261,Postmenopausal state,outcome
+284,285,198715,Premature menopause,outcome
+284,285,439081,Premenstrual tension syndrome,outcome
+284,285,46286594,Problem related to lifestyle,outcome
+284,285,199876,Prolapse of female genital organs,outcome
+284,285,4049367,Psychologic conversion disorder,outcome
+284,285,440068,Psychosexual dysfunction,outcome
+284,285,436246,Reduced libido,outcome
+284,285,73754,Restless legs,outcome
+284,285,4168212,Restlessness and agitation,outcome
+284,285,80811,Rupture of extensor tendons of hand AND/OR wrist,outcome
+284,285,81943,Rupture of flexor tendons of hand AND/OR wrist,outcome
+284,285,138821,Seborrhea,outcome
+284,285,4198492,Shoulder joint unstable,outcome
+284,285,25518,Sickle cell trait,outcome
+284,285,4176908,Snapping thumb syndrome,outcome
+284,285,4248728,Snoring,outcome
+284,285,138278,Sprains and strains of joints and adjacent muscles,outcome
+284,285,4008710,"Stenosis due to any device, implant AND/OR graft",outcome
+284,285,40479573,Stimulant abuse,outcome
+284,285,40483172,Stimulant dependence,outcome
+284,285,440233,Strain of supraspinatus muscle AND/OR tendon,outcome
+284,285,4194160,Thyroid function tests abnormal,outcome
+284,285,4216708,Urgent desire for stool,outcome
+284,285,79873,Urolith,outcome
+284,285,4275889,Visual hallucinations,outcome
+284,285,4193634,Worried,outcome
+284,285,439082,Menopausal syndrome,outcome
+284,285,441553,Myoclonus,outcome
+284,285,4119307,Neurogenic claudication,outcome
+284,285,4209423,Nicotine dependence,outcome
+284,285,40304526,Nocturia,outcome
+286,287,378256,Abnormal reflex,outcome
+286,287,321689,Apnea,outcome
+286,287,78200,Benign mammary dysplasia,outcome
+286,287,4195873,Breath smells unpleasant,outcome
+286,287,443792,Calculus of bile duct,outcome
+286,287,434327,Cannabis abuse,outcome
+286,287,197318,Cholesterolosis of gallbladder,outcome
+286,287,432303,Cocaine abuse,outcome
+286,287,439125,Complete trisomy 21 syndrome,outcome
+286,287,433270,Cord entanglement without compression,outcome
+286,287,4311591,Cramp in limb,outcome
+286,287,441267,Cystic fibrosis,outcome
+286,287,436233,Delayed milestone,outcome
+286,287,40486120,Delay in physiological development,outcome
+286,287,4114472,Ear problem,outcome
+286,287,439791,Emotional upset,outcome
+286,287,433527,Endometriosis (clinical),outcome
+286,287,374801,Foreign body in ear,outcome
+286,287,259995,Foreign body in orifice,outcome
+286,287,196456,Gallstone,outcome
+286,287,4166231,Genetic predisposition,outcome
+286,287,434164,Glycosuria,outcome
+286,287,4163735,Hemochromatosis,outcome
+286,287,439871,Hemospermia,outcome
+286,287,4012570,High risk sexual behavior,outcome
+286,287,4058388,Hypertrophic scar,outcome
+286,287,435522,Hypervitaminosis D,outcome
+286,287,443236,Hypnotic or anxiolytic dependence,outcome
+286,287,4098604,Hypomagnesemia,outcome
+286,287,435371,Hypothermia,outcome
+286,287,443447,Iatrogenic hypotension,outcome
+286,287,374375,Impacted cerumen,outcome
+286,287,4344500,Impingement syndrome of shoulder region,outcome
+286,287,440382,Learning difficulties,outcome
+286,287,435516,Lipoprotein deficiency disorder,outcome
+286,287,438808,Mammary duct ectasia,outcome
+286,287,443585,Abrasion and/or friction burn of multiple sites,outcome
+286,287,4092879,Absent kidney,outcome
+286,287,44783954,Acid reflux,outcome
+286,287,433753,Alcohol abuse,outcome
+286,287,4155909,Anesthesia of skin,outcome
+286,287,438130,Opioid abuse,outcome
+286,287,378160,Otorrhea,outcome
+286,287,313601,Oxygen supply absent,outcome
+286,287,44782778,Pain disorder with psychological factor,outcome
+286,287,4091513,Passing flatus,outcome
+286,287,4022076,Patient dependence on care provider,outcome
+286,287,439971,Poisoning by anticoagulant,outcome
+286,287,441191,Poisoning due to arthropod venom,outcome
+286,287,4295261,Postmenopausal state,outcome
+286,287,198715,Premature menopause,outcome
+286,287,439081,Premenstrual tension syndrome,outcome
+286,287,46286594,Problem related to lifestyle,outcome
+286,287,199876,Prolapse of female genital organs,outcome
+286,287,4049367,Psychologic conversion disorder,outcome
+286,287,440068,Psychosexual dysfunction,outcome
+286,287,436246,Reduced libido,outcome
+286,287,73754,Restless legs,outcome
+286,287,4168212,Restlessness and agitation,outcome
+286,287,80811,Rupture of extensor tendons of hand AND/OR wrist,outcome
+286,287,81943,Rupture of flexor tendons of hand AND/OR wrist,outcome
+286,287,138821,Seborrhea,outcome
+286,287,4198492,Shoulder joint unstable,outcome
+286,287,25518,Sickle cell trait,outcome
+286,287,4176908,Snapping thumb syndrome,outcome
+286,287,4248728,Snoring,outcome
+286,287,138278,Sprains and strains of joints and adjacent muscles,outcome
+286,287,4008710,"Stenosis due to any device, implant AND/OR graft",outcome
+286,287,40479573,Stimulant abuse,outcome
+286,287,40483172,Stimulant dependence,outcome
+286,287,440233,Strain of supraspinatus muscle AND/OR tendon,outcome
+286,287,4194160,Thyroid function tests abnormal,outcome
+286,287,4216708,Urgent desire for stool,outcome
+286,287,79873,Urolith,outcome
+286,287,4275889,Visual hallucinations,outcome
+286,287,4193634,Worried,outcome
+286,287,439082,Menopausal syndrome,outcome
+286,287,441553,Myoclonus,outcome
+286,287,4119307,Neurogenic claudication,outcome
+286,287,4209423,Nicotine dependence,outcome
+286,287,40304526,Nocturia,outcome
