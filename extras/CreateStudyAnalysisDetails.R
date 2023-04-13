@@ -24,7 +24,7 @@
 #'
 #' @export
 createAnalysesDetails <- function(workFolder) {
-  defaultPrior <- Cyclops::createPrior("laplace",
+  defaultPrior <- Cyclops::createPrior(priorType = "laplace",
                                        exclude = c(0),
                                        useCrossValidation = TRUE)
   
@@ -166,19 +166,18 @@ createAnalysesDetails <- function(workFolder) {
                                                                    removeDuplicateSubjects = 'keep first',
                                                                    restrictToCommonPeriod = TRUE,
                                                                    maxCohortSize = 0,
-                                                                   excludeDrugsFromCovariates = FALSE,
                                                                    covariateSettings = covariateSettings)
   
   ####TAR####
-  otPop <- CohortMethod::createCreateStudyPopulationArgs(removeSubjectsWithPriorOutcome = FALSE,
-                                                         firstExposureOnly = FALSE,
+  otPop <- CohortMethod::createCreateStudyPopulationArgs(firstExposureOnly = FALSE,
+                                                         removeSubjectsWithPriorOutcome = FALSE,
                                                          washoutPeriod = 0,
                                                          removeDuplicateSubjects = 'keep first',
                                                          minDaysAtRisk = 1,
                                                          riskWindowStart = 1,
-                                                         addExposureDaysToStart = FALSE,
+                                                         startAnchor = "cohort start",
                                                          riskWindowEnd = 0,
-                                                         addExposureDaysToEnd = TRUE,
+                                                         endAnchor = "cohort end",
                                                          censorAtNewRiskWindow = FALSE)
   
   ittPop <- CohortMethod::createCreateStudyPopulationArgs(removeSubjectsWithPriorOutcome = FALSE,
@@ -187,16 +186,31 @@ createAnalysesDetails <- function(workFolder) {
                                                           removeDuplicateSubjects = 'keep first',
                                                           minDaysAtRisk = 1,
                                                           riskWindowStart = 1,
-                                                          addExposureDaysToStart = FALSE,
+                                                          startAnchor = "cohort start",
                                                           riskWindowEnd = 9999,
-                                                          addExposureDaysToEnd = FALSE,
+                                                          endAnchor = "cohort end",
                                                           censorAtNewRiskWindow = FALSE)
   
   ####Create PS####
-  createPsArgs1 <- CohortMethod::createCreatePsArgs(control = defaultControl,
-                                                    errorOnHighCorrelation = FALSE,
-                                                    excludeCovariateIds = excludedCovariateConceptIds,
-                                                    stopOnError = FALSE)
+  createPsArgsAtt <- CohortMethod::createCreatePsArgs(control = defaultControl,
+                                                      errorOnHighCorrelation = FALSE,
+                                                      excludeCovariateIds = excludedCovariateConceptIds,
+                                                      stopOnError = FALSE,
+                                                      estimator = "att" #for the average treatment effect in the treated
+  )
+  createPsArgsAte <- CohortMethod::createCreatePsArgs(control = defaultControl,
+                                                      errorOnHighCorrelation = FALSE,
+                                                      excludeCovariateIds = excludedCovariateConceptIds,
+                                                      stopOnError = FALSE,
+                                                      estimator = "ate" #for the average treatment effect
+  )
+  
+  createPsArgsAto <- CohortMethod::createCreatePsArgs(control = defaultControl,
+                                                      errorOnHighCorrelation = FALSE,
+                                                      excludeCovariateIds = excludedCovariateConceptIds,
+                                                      stopOnError = FALSE,
+                                                      estimator = "ato" #ATO for average treatment effect in the overlap population
+  )
   
   ####PS model####
   oneToOneMatchOnPsArgs <- CohortMethod::createMatchOnPsArgs(maxRatio = 1,
@@ -208,6 +222,8 @@ createAnalysesDetails <- function(workFolder) {
                                                                   caliperScale = "standardized logit")
   
   stratifyByPsArgs <- CohortMethod::createStratifyByPsArgs(numberOfStrata = 10)
+  
+  
   
   ####Outcome model####
   #without matching arg
@@ -235,9 +251,7 @@ createAnalysesDetails <- function(workFolder) {
                                                                      stratified = FALSE,
                                                                      prior = defaultPrior,
                                                                      control = defaultControl,
-                                                                     inversePtWeighting = TRUE,
-                                                                     estimator = "ate",
-                                                                     maxWeight = 0 #Larger values will be truncated to this value; maxWeight = 0 means no truncation takes place.
+                                                                     inversePtWeighting = TRUE
   )
   
   #PS overlap weighting
@@ -246,14 +260,17 @@ createAnalysesDetails <- function(workFolder) {
                                                                    stratified = FALSE,
                                                                    prior = defaultPrior,
                                                                    control = defaultControl,
-                                                                   inversePtWeighting = TRUE,
-                                                                   estimator = "ato",
-                                                                   maxWeight = 0 #Larger values will be truncated to this value; maxWeight = 0 means no truncation takes place.
+                                                                   inversePtWeighting = TRUE
   )
   
   #Create trimming args
   trimByPsToEquipoiseArgs <- CohortMethod::createTrimByPsToEquipoiseArgs(bounds = c(0.3,0.7))
+  # trimByPsToIptwArgs <- CohortMethod::createTrimByIptwArgs()
   #Stumer et al., 10.1093/aje/kwab041
+  
+  # Compute Covariate Balance
+  computeSharedCovBalArgs <- CohortMethod::createComputeCovariateBalanceArgs()
+  computeCovBalArgs <- CohortMethod::createComputeCovariateBalanceArgs(covariateFilter = getDefaultCmTable1Specifications())
   
   ####CohortMethod Analysis####
   #On-treatment, PS overlap weighting
@@ -261,11 +278,9 @@ createAnalysesDetails <- function(workFolder) {
                                         description = "On-treatment, PS overlap weighting",
                                         getDbCohortMethodDataArgs = getDbCmDataArgs,
                                         createStudyPopArgs = otPop,
-                                        createPs = TRUE,
-                                        createPsArgs = createPsArgs1,
-                                        #trimByPs = TRUE,
-                                        #trimByPsArgs = trimByPsArgs,
-                                        fitOutcomeModel = TRUE,
+                                        createPsArgs = createPsArgsAto,
+                                        computeSharedCovariateBalanceArgs = computeSharedCovBalArgs,
+                                        computeCovariateBalanceArgs = computeCovBalArgs,
                                         fitOutcomeModelArgs = fitOutcomeModelArgsOW)
   
   #On-treatment, 1:1 PS matching
@@ -273,11 +288,10 @@ createAnalysesDetails <- function(workFolder) {
                                         description = "On-treatment, one-to-one matching",
                                         getDbCohortMethodDataArgs = getDbCmDataArgs,
                                         createStudyPopArgs = otPop,
-                                        createPs = TRUE,
-                                        createPsArgs = createPsArgs1,
-                                        matchOnPs = TRUE,
+                                        createPsArgs = createPsArgsAtt,
                                         matchOnPsArgs = oneToOneMatchOnPsArgs,
-                                        fitOutcomeModel = TRUE,
+                                        computeSharedCovariateBalanceArgs = computeSharedCovBalArgs,
+                                        computeCovariateBalanceArgs = computeCovBalArgs,
                                         fitOutcomeModelArgs = fitOutcomeModelArgsWoCon)
   
   
@@ -286,11 +300,10 @@ createAnalysesDetails <- function(workFolder) {
                                         description = "On-treatment, variable-ratio matching",
                                         getDbCohortMethodDataArgs = getDbCmDataArgs,
                                         createStudyPopArgs = otPop,
-                                        createPs = TRUE,
-                                        createPsArgs = createPsArgs1,
-                                        matchOnPs = TRUE,
+                                        createPsArgs = createPsArgsAtt,
                                         matchOnPsArgs = variableRatioMatchOnPsArgs,
-                                        fitOutcomeModel = TRUE,
+                                        computeSharedCovariateBalanceArgs = computeSharedCovBalArgs,
+                                        computeCovariateBalanceArgs = computeCovBalArgs,
                                         fitOutcomeModelArgs = fitOutcomeModelArgsCon)
   
   #On-treatment, PS stratification
@@ -298,13 +311,10 @@ createAnalysesDetails <- function(workFolder) {
                                         description = "On-treatment, stratification",
                                         getDbCohortMethodDataArgs = getDbCmDataArgs,
                                         createStudyPopArgs = otPop,
-                                        createPs = TRUE,
-                                        createPsArgs = createPsArgs1,
-                                        #trimByPs = TRUE,
-                                        #trimByPsArgs = trimByPsArgs,
-                                        stratifyByPs = TRUE,
+                                        createPsArgs = createPsArgsAtt,
                                         stratifyByPsArgs = stratifyByPsArgs,
-                                        fitOutcomeModel = TRUE,
+                                        computeSharedCovariateBalanceArgs = computeSharedCovBalArgs,
+                                        computeCovariateBalanceArgs = computeCovBalArgs,
                                         fitOutcomeModelArgs = fitOutcomeModelArgsCon)
   
   #On-treatment, IPTW
@@ -312,11 +322,9 @@ createAnalysesDetails <- function(workFolder) {
                                         description = "On-treatment, IPTW",
                                         getDbCohortMethodDataArgs = getDbCmDataArgs,
                                         createStudyPopArgs = otPop,
-                                        createPs = TRUE,
-                                        createPsArgs = createPsArgs1,
-                                        #trimByPs = TRUE,
-                                        #trimByPsArgs = trimByPsArgs,
-                                        fitOutcomeModel = TRUE,
+                                        createPsArgs = createPsArgsAte,
+                                        computeSharedCovariateBalanceArgs = computeSharedCovBalArgs,
+                                        computeCovariateBalanceArgs = computeCovBalArgs,
                                         fitOutcomeModelArgs = fitOutcomeModelArgsIptw)
   
   #On-treatment, Without matching
@@ -324,33 +332,30 @@ createAnalysesDetails <- function(workFolder) {
                                         description = "On-treatment, Without matching",
                                         getDbCohortMethodDataArgs = getDbCmDataArgs,
                                         createStudyPopArgs = otPop,
-                                        createPs = FALSE,
                                         createPsArgs = NULL,
-                                        stratifyByPs = FALSE,
                                         stratifyByPsArgs = NULL,
-                                        fitOutcomeModel = TRUE,
+                                        computeSharedCovariateBalanceArgs = computeSharedCovBalArgs,
+                                        computeCovariateBalanceArgs = computeCovBalArgs,
                                         fitOutcomeModelArgs = fitOutcomeModelArgsNoMat)
-  
+  #On-treatment trimming by equipoise
   a17 <- CohortMethod::createCmAnalysis(analysisId = 17,
                                         description = "On-treatment, PS overlap weighting within equipoise",
                                         getDbCohortMethodDataArgs = getDbCmDataArgs,
                                         createStudyPopArgs = otPop,
-                                        createPs = TRUE,
-                                        createPsArgs = createPsArgs1,
-                                        trimByPs = TRUE,
-                                        trimByPsArgs = trimByPsToEquipoiseArgs,
-                                        fitOutcomeModel = TRUE,
+                                        createPsArgs = createPsArgsAto,
+                                        trimByPsToEquipoiseArgs = trimByPsToEquipoiseArgs,
+                                        computeSharedCovariateBalanceArgs = computeSharedCovBalArgs,
+                                        computeCovariateBalanceArgs = computeCovBalArgs,
                                         fitOutcomeModelArgs = fitOutcomeModelArgsOW)
   
   a18 <- CohortMethod::createCmAnalysis(analysisId = 18,
                                         description = "On-treatment, IPTW within equipoise",
                                         getDbCohortMethodDataArgs = getDbCmDataArgs,
                                         createStudyPopArgs = otPop,
-                                        createPs = TRUE,
-                                        createPsArgs = createPsArgs1,
-                                        trimByPs = TRUE,
-                                        trimByPsArgs = trimByPsToEquipoiseArgs,
-                                        fitOutcomeModel = TRUE,
+                                        createPsArgs = createPsArgsAte,
+                                        trimByPsToEquipoiseArgs = trimByPsToEquipoiseArgs,
+                                        computeSharedCovariateBalanceArgs = computeSharedCovBalArgs,
+                                        computeCovariateBalanceArgs = computeCovBalArgs,
                                         fitOutcomeModelArgs = fitOutcomeModelArgsIptw)
   ################
   
@@ -359,11 +364,9 @@ createAnalysesDetails <- function(workFolder) {
                                         description = "ITT, PS overlap weighting",
                                         getDbCohortMethodDataArgs = getDbCmDataArgs,
                                         createStudyPopArgs = ittPop,
-                                        createPs = TRUE,
-                                        createPsArgs = createPsArgs1,
-                                        #trimByPs = TRUE,
-                                        #trimByPsArgs = trimByPsArgs,
-                                        fitOutcomeModel = TRUE,
+                                        createPsArgs = createPsArgsAto,
+                                        computeSharedCovariateBalanceArgs = computeSharedCovBalArgs,
+                                        computeCovariateBalanceArgs = computeCovBalArgs,
                                         fitOutcomeModelArgs = fitOutcomeModelArgsOW)
   
   #ITT, 1:1 PS matching
@@ -371,11 +374,10 @@ createAnalysesDetails <- function(workFolder) {
                                         description = "ITT, one-to-one matching",
                                         getDbCohortMethodDataArgs = getDbCmDataArgs,
                                         createStudyPopArgs = ittPop,
-                                        createPs = TRUE,
-                                        createPsArgs = createPsArgs1,
-                                        matchOnPs = TRUE,
+                                        createPsArgs = createPsArgsAtt,
                                         matchOnPsArgs = oneToOneMatchOnPsArgs,
-                                        fitOutcomeModel = TRUE,
+                                        computeSharedCovariateBalanceArgs = computeSharedCovBalArgs,
+                                        computeCovariateBalanceArgs = computeCovBalArgs,
                                         fitOutcomeModelArgs = fitOutcomeModelArgsWoCon)
   
   
@@ -384,11 +386,10 @@ createAnalysesDetails <- function(workFolder) {
                                         description = "ITT, variable-ratio matching",
                                         getDbCohortMethodDataArgs = getDbCmDataArgs,
                                         createStudyPopArgs = ittPop,
-                                        createPs = TRUE,
-                                        createPsArgs = createPsArgs1,
-                                        matchOnPs = TRUE,
+                                        createPsArgs = createPsArgsAtt,
                                         matchOnPsArgs = variableRatioMatchOnPsArgs,
-                                        fitOutcomeModel = TRUE,
+                                        computeSharedCovariateBalanceArgs = computeSharedCovBalArgs,
+                                        computeCovariateBalanceArgs = computeCovBalArgs,
                                         fitOutcomeModelArgs = fitOutcomeModelArgsCon)
   
   #ITT, PS stratification
@@ -396,13 +397,10 @@ createAnalysesDetails <- function(workFolder) {
                                         description = "ITT, stratification",
                                         getDbCohortMethodDataArgs = getDbCmDataArgs,
                                         createStudyPopArgs = ittPop,
-                                        createPs = TRUE,
-                                        createPsArgs = createPsArgs1,
-                                        #trimByPs = TRUE,
-                                        #trimByPsArgs = trimByPsArgs,
-                                        stratifyByPs = TRUE,
+                                        createPsArgs = createPsArgsAtt,
                                         stratifyByPsArgs = stratifyByPsArgs,
-                                        fitOutcomeModel = TRUE,
+                                        computeSharedCovariateBalanceArgs = computeSharedCovBalArgs,
+                                        computeCovariateBalanceArgs = computeCovBalArgs,
                                         fitOutcomeModelArgs = fitOutcomeModelArgsCon)
   
   #ITT, IPTW
@@ -410,11 +408,9 @@ createAnalysesDetails <- function(workFolder) {
                                         description = "ITT, IPTW",
                                         getDbCohortMethodDataArgs = getDbCmDataArgs,
                                         createStudyPopArgs = ittPop,
-                                        createPs = TRUE,
-                                        createPsArgs = createPsArgs1,
-                                        #trimByPs = TRUE,
-                                        #trimByPsArgs = trimByPsArgs,
-                                        fitOutcomeModel = TRUE,
+                                        createPsArgs = createPsArgsAte,
+                                        computeSharedCovariateBalanceArgs = computeSharedCovBalArgs,
+                                        computeCovariateBalanceArgs = computeCovBalArgs,
                                         fitOutcomeModelArgs = fitOutcomeModelArgsIptw)
   
   #ITT, Without matching
@@ -422,43 +418,40 @@ createAnalysesDetails <- function(workFolder) {
                                         description = "ITT, Without matching",
                                         getDbCohortMethodDataArgs = getDbCmDataArgs,
                                         createStudyPopArgs = ittPop,
-                                        createPs = FALSE,
                                         createPsArgs = NULL,
-                                        stratifyByPs = FALSE,
                                         stratifyByPsArgs = NULL,
-                                        fitOutcomeModel = TRUE,
+                                        computeSharedCovariateBalanceArgs = computeSharedCovBalArgs,
+                                        computeCovariateBalanceArgs = computeCovBalArgs,
                                         fitOutcomeModelArgs = fitOutcomeModelArgsNoMat)
-  
+  #Trimming
   a37 <- CohortMethod::createCmAnalysis(analysisId = 37,
                                         description = "ITT, PS overlap weighting within equipoise",
                                         getDbCohortMethodDataArgs = getDbCmDataArgs,
                                         createStudyPopArgs = ittPop,
-                                        createPs = TRUE,
-                                        createPsArgs = createPsArgs1,
-                                        trimByPs = TRUE,
-                                        trimByPsArgs = trimByPsToEquipoiseArgs,
-                                        fitOutcomeModel = TRUE,
+                                        createPsArgs = createPsArgsAto,
+                                        trimByPsToEquipoiseArgs = trimByPsToEquipoiseArgs,
+                                        computeSharedCovariateBalanceArgs = computeSharedCovBalArgs,
+                                        computeCovariateBalanceArgs = computeCovBalArgs,
                                         fitOutcomeModelArgs = fitOutcomeModelArgsOW)
   
   a38 <- CohortMethod::createCmAnalysis(analysisId = 38,
                                         description = "ITT, IPTW within equipoise",
                                         getDbCohortMethodDataArgs = getDbCmDataArgs,
                                         createStudyPopArgs = ittPop,
-                                        createPs = TRUE,
-                                        createPsArgs = createPsArgs1,
-                                        trimByPs = TRUE,
-                                        trimByPsArgs = trimByPsToEquipoiseArgs,
-                                        fitOutcomeModel = TRUE,
+                                        createPsArgs = createPsArgsAte,
+                                        trimByPsToEquipoiseArgs = trimByPsToEquipoiseArgs,
+                                        computeSharedCovariateBalanceArgs = computeSharedCovBalArgs,
+                                        computeCovariateBalanceArgs = computeCovBalArgs,
                                         fitOutcomeModelArgs = fitOutcomeModelArgsIptw)
   
   
   ####Wrap up####
   cmAnalysisList <- list(#a11, 
-    a12, a13, a14, a15, a16, #a17, 
-    a18,
-    #a31, 
-    a32, a33, a34, a35, a36, #a37, 
-    a38
+    a12, a13, a14, a15, a16 #,a17, 
+    ,a18
+    #,a31
+    #,a32, a33, a34, a35, a36, #a37, 
+    #,a38
   )
   
   CohortMethod::saveCmAnalysisList(cmAnalysisList, file.path(workFolder, "cmAnalysisList.json"))
