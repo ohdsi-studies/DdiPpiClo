@@ -170,7 +170,7 @@ createAnalysesDetails <- function(workFolder) {
   
   ####TAR####
   otPop <- CohortMethod::createCreateStudyPopulationArgs(firstExposureOnly = FALSE,
-                                                         removeSubjectsWithPriorOutcome = FALSE,
+                                                         removeSubjectsWithPriorOutcome = TRUE,
                                                          washoutPeriod = 0,
                                                          removeDuplicateSubjects = 'keep first',
                                                          minDaysAtRisk = 1,
@@ -180,7 +180,7 @@ createAnalysesDetails <- function(workFolder) {
                                                          endAnchor = "cohort end",
                                                          censorAtNewRiskWindow = FALSE)
   
-  ittPop <- CohortMethod::createCreateStudyPopulationArgs(removeSubjectsWithPriorOutcome = FALSE,
+  ittPop <- CohortMethod::createCreateStudyPopulationArgs(removeSubjectsWithPriorOutcome = TRUE,
                                                           firstExposureOnly = FALSE,
                                                           washoutPeriod = 0,
                                                           removeDuplicateSubjects = 'keep first',
@@ -270,18 +270,18 @@ createAnalysesDetails <- function(workFolder) {
   
   # Compute Covariate Balance
   computeSharedCovBalArgs <- CohortMethod::createComputeCovariateBalanceArgs()
-  computeCovBalArgs <- CohortMethod::createComputeCovariateBalanceArgs(covariateFilter = getDefaultCmTable1Specifications())
+  computeCovBalArgs <- CohortMethod::createComputeCovariateBalanceArgs(covariateFilter = CohortMethod::getDefaultCmTable1Specifications())
   
   ####CohortMethod Analysis####
   #On-treatment, PS overlap weighting
-  a11 <- CohortMethod::createCmAnalysis(analysisId = 11,
-                                        description = "On-treatment, PS overlap weighting",
-                                        getDbCohortMethodDataArgs = getDbCmDataArgs,
-                                        createStudyPopArgs = otPop,
-                                        createPsArgs = createPsArgsAto,
-                                        computeSharedCovariateBalanceArgs = computeSharedCovBalArgs,
-                                        computeCovariateBalanceArgs = computeCovBalArgs,
-                                        fitOutcomeModelArgs = fitOutcomeModelArgsOW)
+  # a11 <- CohortMethod::createCmAnalysis(analysisId = 11,
+                                        # description = "On-treatment, PS overlap weighting",
+                                        # getDbCohortMethodDataArgs = getDbCmDataArgs,
+                                        # createStudyPopArgs = otPop,
+                                        # createPsArgs = createPsArgsAto,
+                                        # computeSharedCovariateBalanceArgs = computeSharedCovBalArgs,
+                                        # computeCovariateBalanceArgs = computeCovBalArgs,
+                                        # fitOutcomeModelArgs = fitOutcomeModelArgsOW)
   
   #On-treatment, 1:1 PS matching
   a12 <- CohortMethod::createCmAnalysis(analysisId = 12,
@@ -360,14 +360,14 @@ createAnalysesDetails <- function(workFolder) {
   ################
   
   #ITT, PS overlap weighting
-  a31 <- CohortMethod::createCmAnalysis(analysisId = 31,
-                                        description = "ITT, PS overlap weighting",
-                                        getDbCohortMethodDataArgs = getDbCmDataArgs,
-                                        createStudyPopArgs = ittPop,
-                                        createPsArgs = createPsArgsAto,
-                                        computeSharedCovariateBalanceArgs = computeSharedCovBalArgs,
-                                        computeCovariateBalanceArgs = computeCovBalArgs,
-                                        fitOutcomeModelArgs = fitOutcomeModelArgsOW)
+  # a31 <- CohortMethod::createCmAnalysis(analysisId = 31,
+                                        # description = "ITT, PS overlap weighting",
+                                        # getDbCohortMethodDataArgs = getDbCmDataArgs,
+                                        # createStudyPopArgs = ittPop,
+                                        # createPsArgs = createPsArgsAto,
+                                        # computeSharedCovariateBalanceArgs = computeSharedCovBalArgs,
+                                        # computeCovariateBalanceArgs = computeCovBalArgs,
+                                        # fitOutcomeModelArgs = fitOutcomeModelArgsOW)
   
   #ITT, 1:1 PS matching
   a32 <- CohortMethod::createCmAnalysis(analysisId = 32,
@@ -446,14 +446,13 @@ createAnalysesDetails <- function(workFolder) {
   
   
   ####Wrap up####
-  cmAnalysisList <- list(#a11, 
-    a12, a13, a14, a15, a16 #,a17, 
-    ,a18
-    #,a31
-    #,a32, a33, a34, a35, a36, #a37, 
-    #,a38
-  )
+  cmAnalysisList <- list(a11, 
+    a12, a13, a14, a15, a16, a17, 
+    a18, 
+    a31, 
+    a32, a33, a34, a35, a36, a37, 
+    a38)
   
-  CohortMethod::saveCmAnalysisList(cmAnalysisList, file.path(workFolder, "cmAnalysisList.json"))
+  CohortMethod::saveCmAnalysisList(cmAnalysisList, file.path(workFolder, "inst/settings/cmAnalysisList.json"))
 }
 

@@ -2,13 +2,13 @@ library(DdiPpiCloNoGenericV5)
 
 
 # Optional: specify where the temporary files (used by the Andromeda package) will be created:
-options(andromedaTempFolder = "C:/andromedaTemp")
+options(andromedaTempFolder = "D:/andromedaTemp")
 
 # Maximum number of cores to be used:
 maxCores <- parallel::detectCores()
 
 # The folder where the study intermediate and result files will be written:
-outputFolder <- "D:/studyResults/ddippicloCohortStudy"
+outputFolder <- "D:/ddippicloCohortStudy"
 
 # Details for connecting to the server:
 connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = "sql server",
@@ -17,9 +17,8 @@ connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = "sql serv
                                                                 password = Sys.getenv("password"),
                                                                 pathToDriver = "D:/pathToDriver")
 
-DatabaseConnector::connect(connectionDetails)
 # The name of the database schema where the CDM data can be found:
-cdmDatabaseSchema <- "CDM_IBM_MDCD_V1153.dbo"
+cdmDatabaseSchema <- "cdm_db"
 
 # The name of the database schema and table where the study-specific cohorts will be instantiated:
 cohortDatabaseSchema <- "scratch.dbo"
@@ -53,9 +52,5 @@ dataFolder <- file.path(outputFolder, "shinyData")
 
 # You can inspect the results if you want:
 prepareForEvidenceExplorer(resultsZipFile = resultsZipFile, dataFolder = dataFolder)
-launchEvidenceExplorer(dataFolder = dataFolder, blind = TRUE, launch.browser = FALSE)
 
-# Upload the results to the OHDSI SFTP server:
-privateKeyFileName <- ""
-userName <- ""
-uploadResults(outputFolder, privateKeyFileName, userName)
+launchEvidenceExplorer(dataFolder = dataFolder, blind = TRUE, launch.browser = FALSE)
