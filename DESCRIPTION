@@ -1,10 +1,10 @@
 Package: DdiPpiCloNoGenericV5
 Type: Package
-Title: A Package for Comparative effectiveness and safety of proton pump inhibitors and clopidogrel on cardiovascular events 
+Title: A Package Skeleton for Comparative Effectiveness Studies
 Version: 0.0.1
-Author: Seonji Kim [aut, cre]
-Maintainer: Seonji Kim <seonji0316@yuhs.ac>
-Description: A package, to compare the effectiveness and safety of strong competitive inhibitor for CYP2C19 with weak competitive inhibitor for CYP2C19 in patients who receiving clopidogrel.
+Author: Martijn Schuemie [aut, cre]
+Maintainer: Martijn J. Schuemie <schuemie@ohdsi.org>
+Description: A skeleton package, to be used as a starting point when implementing comparative effect studies.
 Depends:
     R(>= 3.5.0),
     DatabaseConnector (>= 3.0.0)
