@@ -57,26 +57,29 @@ runCohortMethod <- function(connectionDetails,
   cmAnalysisList <- CohortMethod::loadCmAnalysisList(cmAnalysisListFile)
   tcosList <- createTcos(outputFolder = outputFolder)
   outcomesOfInterest <- getOutcomesOfInterest()
-  results <- CohortMethod::runCmAnalyses(connectionDetails,
-                                         cdmDatabaseSchema,
-                                         tempEmulationSchema = getOption("sqlRenderTempEmulationSchema"),
+  results <- CohortMethod::runCmAnalyses(connectionDetails = connectionDetails,
+                                         cdmDatabaseSchema = cdmDatabaseSchema,
                                          exposureDatabaseSchema = cohortDatabaseSchema,
                                          exposureTable = cohortTable,
                                          outcomeDatabaseSchema = cohortDatabaseSchema,
                                          outcomeTable = cohortTable,
-                                         cdmVersion = "5",
                                          outputFolder = cmOutputFolder,
+                                         oracleTempSchema = oracleTempSchema,
                                          cmAnalysisList = cmAnalysisList,
                                          targetComparatorOutcomesList = tcosList,
-                                         analysesToExclude = NULL,
+                                         getDbCohortMethodDataThreads = min(3, maxCores),
+                                         createStudyPopThreads = min(3, maxCores),
+                                         createPsThreads = max(1, round(maxCores/10)),
+                                         psCvThreads = min(10, maxCores),
+                                         trimMatchStratifyThreads = min(10, maxCores),
+                                         fitOutcomeModelThreads = max(1, round(maxCores/4)),
+                                         outcomeCvThreads = min(4, maxCores),
                                          refitPsForEveryOutcome = FALSE,
-                                         refitPsForEveryStudyPopulation = TRUE,
-                                         multiThreadingSettings = CohortMethod::createDefaultMultiThreadingSettings(maxCores = maxCores))
+                                         outcomeIdsOfInterest = outcomesOfInterest)
   
   ParallelLogger::logInfo("Summarizing results")
-  # analysisSummary <- CohortMethod::summarizeResults (referenceTable = results, 
-  #                                                    outputFolder = cmOutputFolder)
-  analysisSummary <- CohortMethod::getResultsSummary(cmOutputFolder)
+  analysisSummary <- CohortMethod::summarizeAnalyses(referenceTable = results, 
+                                                     outputFolder = cmOutputFolder)
   analysisSummary <- addCohortNames(analysisSummary, "targetId", "targetName")
   analysisSummary <- addCohortNames(analysisSummary, "comparatorId", "comparatorName")
   analysisSummary <- addCohortNames(analysisSummary, "outcomeId", "outcomeName")
@@ -154,10 +157,9 @@ createTcos <- function(outputFolder) {
     } else if (length(includeConceptIds) > 0) {
       includeConceptIds <- as.numeric(strsplit(excludeConceptIds, split = ";")[[1]])
     }
-    outcomes <- lapply(outcomeIds, CohortMethod::createOutcome)
     tco <- CohortMethod::createTargetComparatorOutcomes(targetId = targetId,
                                                         comparatorId = comparatorId,
-                                                        outcomes = outcomes,
+                                                        outcomeIds = outcomeIds,
                                                         excludedCovariateConceptIds = excludeConceptIds,
                                                         includedCovariateConceptIds = includeConceptIds)
     return(tco)
