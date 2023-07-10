@@ -1,14 +1,15 @@
 atlasId,atlasName,cohortId,name
-696,[SSI]Clopidogrel and inhibiting PPI without GI bleeding_del7d,696,SSIClopidogrel_and_inhibiting_PPI_without_GI_bleeding_del7d
-697,[SSI]Clopidogrel and other PPI without GI bleeding_del7d,697,SSIClopidogrel_and_other_PPI_without_GI_bleeding_del7d
+275,[SJK]Clopidogrel and inhibiting PPI with ACS,275,SJKClopidogrel_and_inhibiting_PPI_with_ACS
+268,[SJK]Clopidogrel and other PPI with ACS,268,SJKClopidogrel_and_other_PPI_with_ACS
 170,[SJK] Myocardial Infarction,170,SJK_Myocardial_Infarction
-698,[SJK]Stroke (1),698,SJKStroke_1
+171,[SJK]Stroke,171,SJKStroke
 276,[SJK]Acute coronary syndrome,276,SJKAcute_coronary_syndrome
 338,[SJK] MACE1,338,SJK_MACE1
 339,[SJK] CV mortality,339,SJK_CV_mortality
-690,[SJK]All-cause mortality,690,SJKAllcause_mortality
-699,[SSI]Clopidogrel and inhibiting PPI with ACS_del7d,699,SSIClopidogrel_and_inhibiting_PPI_with_ACS_del7d
-700,[SSI]Clopidogrel and other PPI with ACS_del7d,700,SSIClopidogrel_and_other_PPI_with_ACS_del7d
-701,[SSI]Clopidogrel and inhibiting PPI_del7d,701,SSIClopidogrel_and_inhibiting_PPI_del7d
-702,[SSI]Clopidogrel and other PPI_del7d,702,SSIClopidogrel_and_other_PPI_del7d
-703,[SSI]Clopidogrel and H2 blocker_del7d,703,SSIClopidogrel_and_H2_blocker_del7d
+273,[SJK]Clopidogrel and inhibiting PPI,273,SJKClopidogrel_and_inhibiting_PPI
+274,[SJK]Clopidogrel and other PPI,274,SJKClopidogrel_and_other_PPI
+332,[SJK]Clopidogrel and H2 blocker,332,SJKClopidogrel_and_H2_blocker
+284,[SJK]Clopidogrel and inhibiting PPI without GI bleeding,284,SJKClopidogrel_and_inhibiting_PPI_without_GI_bleeding
+285,[SJK]Clopidogrel and other PPI without GI bleeding,285,SJKClopidogrel_and_other_PPI_without_GI_bleeding
+333,[SJK]Clopidogrel and inhibiting PPI_30d,333,SJKClopidogrel_and_inhibiting_PPI_30d
+334,[SJK]Clopidogrel and other PPI_30d,334,SJKClopidogrel_and_other_PPI_30d

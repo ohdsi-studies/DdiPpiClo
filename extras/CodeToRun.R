@@ -1,5 +1,6 @@
 library(DdiPpiCloNoGenericV5)
 
+
 # Optional: specify where the temporary files (used by the Andromeda package) will be created:
 options(andromedaTempFolder = "D:/andromedaTemp")
 
@@ -7,7 +8,7 @@ options(andromedaTempFolder = "D:/andromedaTemp")
 maxCores <- parallel::detectCores()
 
 # The folder where the study intermediate and result files will be written:
-outputFolder <- "D:/DdiPpiCloNoGenericV5"
+outputFolder <- "D:/ddippicloCohortStudy"
 
 # Details for connecting to the server:
 connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = "sql server",
@@ -51,4 +52,5 @@ dataFolder <- file.path(outputFolder, "shinyData")
 
 # You can inspect the results if you want:
 prepareForEvidenceExplorer(resultsZipFile = resultsZipFile, dataFolder = dataFolder)
+
 launchEvidenceExplorer(dataFolder = dataFolder, blind = TRUE, launch.browser = FALSE)
