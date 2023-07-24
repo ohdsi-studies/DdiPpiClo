@@ -7,12 +7,12 @@ blind <- shinySettings$blind
 connection <- NULL
 positiveControlOutcome <- NULL
 
-#database_cdmpv531<- readRDS("D:/git/DdiPpiCloNoGenericV5/inst/shiny/EvidenceExplorer/ShinyData/database_cdmpv531.rds")
-#`database_Meta-analysis` <- readRDS("D:/git/DdiPpiCloNoGenericV5/inst/shiny/EvidenceExplorer/ShinyData/database_Meta-analysis.rds")
-#`database_Meta-analysis`$vocabulary_version <- database_cdmpv531$vocabulary_version
-#`database_Meta-analysis`$min_obs_period_date <- database_cdmpv531$min_obs_period_date
-#`database_Meta-analysis`$max_obs_period_date <- database_cdmpv531$max_obs_period_date
-#`database_Meta-analysis`$study_package_version <- database_cdmpv531$study_package_version
+#database_cdm <- readRDS(file.path(dataFolder, sprintf("./ShinyData/database_%.rds",databaseId)))
+#`database_Meta-analysis` <- readRDS("./ShinyData/database_Meta-analysis.rds")
+#`database_Meta-analysis`$vocabulary_version <- database_cdm$vocabulary_version
+#`database_Meta-analysis`$min_obs_period_date <- database_cdm$min_obs_period_date
+#`database_Meta-analysis`$max_obs_period_date <- database_cdm$max_obs_period_date
+#`database_Meta-analysis`$study_package_version <- database_cdm$study_package_version
 #saveRDS(file = "./ShinyData/database_Meta-analysis.rds", object = `database_Meta-analysis`)
 
 splittableTables <- c("covariate_balance", "preference_score_dist", "kaplan_meier_dist")

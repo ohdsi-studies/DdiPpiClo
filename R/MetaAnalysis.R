@@ -444,7 +444,7 @@ computeSingleMetaAnalysis <- function(outcomeGroup,
                           seTE = outcomeGroup$seLogRr,
                           sm = "RR",
                           hakn = FALSE,
-                          control = list(stepadj=0.5)) ## revised 230525, add control
+                          control = list(maxiter = 10000, stepadj=0.5)) ## revised 230525, add stepadj ## revised 230719, add maxiter    
     s <- summary(meta)
     maRow$i2 <- s$I2 #need to be reviewed. previously it was I2$TE
     # maRow$i2 <- s$I2$TE

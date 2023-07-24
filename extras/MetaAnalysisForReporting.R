@@ -1,7 +1,7 @@
-library(DdiPpiCloNoGenericV5)
+library(DdiPpiClo)
 ##Meta-analysis
-shinyFolder <- "D:/git/DdiPpiCloNoGenericV5/inst/shiny/EvidenceExplorer/ShinyData"
-maExportFolder <- "D:/output/DdiPpiCloNoGenericV5/MaExport"
+shinyFolder <- " "
+maExportFolder <- " "
 
 DdiPpiCloNoGenericV5::doMetaAnalysis(shinyFolder = shinyFolder,
                                      maExportFolder = maExportFolder,
@@ -10,14 +10,14 @@ DdiPpiCloNoGenericV5::doMetaAnalysis(shinyFolder = shinyFolder,
                                      positiveControlOutcome = FALSE)
 
 ####Adding calibrated confidential intervals and re-write RDS####
-# tcosOfInterest <- read.csv("./inst/settings/TcosOfInterest.csv")
+# tcosOfInterest <- read.csv(" ")
 
 # 
 # tcs<-unique(tcosOfInterest[,c("targetId","comparatorId")])
 
-negativeControlOutcome <- read.csv("D:/git/DdiPpiCloNoGenericV5/inst/settings/NegativeControls.csv")
+negativeControlOutcome <- read.csv(" ")
 outcomeOfInterest <- data.frame(outcomeId = c(70,71,67,68,69, 170))
-databaseIds <- c("cdmpv534_220902", "cdmpv532_211109", "cdmpv532_220228", "cdmpv531_220131", "cdmpv532_220131", "cdmpv532_220425", "cdmpv531", "cdmpv534_211007")
+databaseIds <- c(" ")
 
 for(databaseId in databaseIds){
   singleCohortMethodResult <- readRDS(file.path(shinyFolder,sprintf("cohort_method_result_%s.rds",databaseId)))

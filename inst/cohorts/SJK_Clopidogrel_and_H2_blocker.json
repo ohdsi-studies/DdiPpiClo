@@ -1,0 +1,701 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 1322184,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "32968",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "clopidogrel",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Ingredient",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[SJK]Clopidogrel",
+      "id": 0
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19039926,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "816346",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "dexlansoprazole",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 904453,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "283742",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "esomeprazole",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 929887,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "17128",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "lansoprazole",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 923645,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "7646",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "omeprazole",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 948078,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "40790",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pantoprazole",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 911735,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "114979",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "rabeprazole",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[SJK]PPI",
+      "id": 2
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 312327,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "57054005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Acute myocardial infarction",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 438170,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "73795002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Acute myocardial infarction of inferior wall",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 434376,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "54329005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Acute myocardial infarction of anterior wall",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 444406,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "70422006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Acute subendocardial infarction",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 315296,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "4557003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Preinfarction syndrome",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Acute Coronary Syndrome",
+      "id": 4
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 904453,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "283742",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "esomeprazole",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 923645,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "7646",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "omeprazole",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Inhibiting PPI",
+      "id": 6
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 312327,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "57054005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Acute myocardial infarction",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 438170,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "73795002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Acute myocardial infarction of inferior wall",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 434376,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "54329005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Acute myocardial infarction of anterior wall",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 444406,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "70422006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Acute subendocardial infarction",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 315296,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "4557003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Preinfarction syndrome",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[SJK]Acute Coronary Syndrome",
+      "id": 7
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 904453,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "283742",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "esomeprazole",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 923645,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "7646",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "omeprazole",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[SJK]Inhibiting PPI",
+      "id": 8
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 948078,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "40790",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pantoprazole",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 911735,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "114979",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "rabeprazole",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 929887,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "17128",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "lansoprazole",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19039926,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "816346",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "dexlansoprazole",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[SJK]Other PPI",
+      "id": 9
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 997276,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2541",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cimetidine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 953076,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "4278",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "famotidine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009003,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700429",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "lafutidine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19011685,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "114817",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "roxatidine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 950696,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "42319",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "nizatidine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 961047,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "9143",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ranitidine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[SJK]H2 blocker",
+      "id": 10
+    }
+  ],
+  "EndStrategy": {"CustomEra": {
+    "DrugCodesetId": 10,
+    "DaysSupplyOverride": null,
+    "GapDays": 30,
+    "Offset": 0
+  }},
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [{"DrugExposure": {
+    "OccurrenceEndDate": null,
+    "CorrelatedCriteria": null,
+    "DrugSourceConcept": null,
+    "CodesetId": 2,
+    "DrugTypeExclude": false,
+    "Quantity": null,
+    "DrugType": null,
+    "ProviderSpecialty": null,
+    "EffectiveDrugDose": null,
+    "Gender": null,
+    "DaysSupply": null,
+    "DoseUnit": null,
+    "VisitType": null,
+    "Refills": null,
+    "First": null,
+    "OccurrenceStartDate": null,
+    "RouteConcept": null,
+    "StopReason": null,
+    "LotNumber": null,
+    "Age": null
+  }}],
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [{
+    "expression": {
+      "CriteriaList": [{
+        "RestrictVisit": false,
+        "StartWindow": {
+          "UseEventEnd": false,
+          "Start": {
+            "Days": null,
+            "Coeff": -1
+          },
+          "End": {
+            "Days": 30,
+            "Coeff": -1
+          },
+          "UseIndexEnd": false
+        },
+        "IgnoreObservationPeriod": false,
+        "EndWindow": {
+          "UseEventEnd": true,
+          "Start": {
+            "Days": 0,
+            "Coeff": 1
+          },
+          "End": {
+            "Days": null,
+            "Coeff": 1
+          },
+          "UseIndexEnd": false
+        },
+        "Criteria": {"DrugEra": {
+          "EraStartDate": null,
+          "CorrelatedCriteria": null,
+          "OccurrenceCount": null,
+          "AgeAtStart": null,
+          "GapDays": null,
+          "CodesetId": 0,
+          "AgeAtEnd": null,
+          "First": null,
+          "Gender": null,
+          "EraLength": {
+            "Op": "gte",
+            "Extent": null,
+            "Value": 30
+          },
+          "EraEndDate": null
+        }},
+        "Occurrence": {
+          "Type": 2,
+          "CountColumn": null,
+          "IsDistinct": false,
+          "Count": 1
+        }
+      }],
+      "Type": "ALL",
+      "DemographicCriteriaList": [],
+      "Groups": [],
+      "Count": null
+    },
+    "name": "with both drugs",
+    "description": null
+  }],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"DrugEra": {
+      "EraStartDate": null,
+      "CorrelatedCriteria": null,
+      "OccurrenceCount": null,
+      "AgeAtStart": {
+        "Op": "gte",
+        "Extent": null,
+        "Value": 18
+      },
+      "GapDays": null,
+      "CodesetId": 10,
+      "AgeAtEnd": null,
+      "First": null,
+      "Gender": null,
+      "EraLength": null,
+      "EraEndDate": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 365
+    }
+  }
+}

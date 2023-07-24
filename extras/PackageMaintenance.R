@@ -1,6 +1,6 @@
 # Copyright 2020 Observational Health Data Sciences and Informatics
 #
-# This file is part of DdiPpiCloNoGenericV5
+# This file is part of DdiPpiClo
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,13 +16,13 @@
 
 # Format and check code ---------------------------------------------------
 OhdsiRTools::formatRFolder()
-OhdsiRTools::checkUsagePackage("DdiPpiCloNoGenericV5")
+OhdsiRTools::checkUsagePackage("DdiPpiClo")
 OhdsiRTools::updateCopyrightYearFolder()
 devtools::spell_check()
 
 # Create manual -----------------------------------------------------------
-unlink("extras/DdiPpiCloNoGenericV5.pdf")
-shell("R CMD Rd2pdf ./ --output=extras/DdiPpiCloNoGenericV5.pdf")
+unlink("extras/DdiPpiClo.pdf")
+shell("R CMD Rd2pdf ./ --output=extras/DdiPpiClo.pdf")
 
 # Create vignettes ---------------------------------------------------------
 rmarkdown::render("vignettes/UsingSkeletonPackage.Rmd",
@@ -43,7 +43,7 @@ ROhdsiWebApi::insertCohortDefinitionSetInPackage(fileName = "CohortsToCreate.csv
                                                  insertTableSql = TRUE,
                                                  insertCohortCreationR = TRUE,
                                                  generateStats = FALSE,
-                                                 packageName = "DdiPpiCloNoGenericV5")
+                                                 packageName = "DdiPpiClo")
 
 # Create analysis details -------------------------------------------------
 source("extras/CreateStudyAnalysisDetails.R")
@@ -51,4 +51,4 @@ createAnalysesDetails("inst/settings/")
 createPositiveControlSynthesisArgs("inst/settings/")
 
 # Store environment in which the study was executed -----------------------
-OhdsiRTools::createRenvLockFile("DdiPpiCloNoGenericV5")
+OhdsiRTools::createRenvLockFile("DdiPpiClo")

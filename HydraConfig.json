@@ -5,11 +5,11 @@
 	"actions":[{
 		"type": "fileNameFindAndReplace",
 		"input": "packageName",
-		"find": "DdiPpiCloNoGenericV5"
+		"find": "DdiPpiClo"
 	},{
 		"type": "stringFindAndReplace",
 		"input": "packageName",
-		"find": "DdiPpiCloNoGenericV5"
+		"find": "DdiPpiClo"
 	},{
 		"type": "jsonArrayToCsv",
 		"input": "cohortDefinitions",
