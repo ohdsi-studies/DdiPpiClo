@@ -147,7 +147,7 @@
       "riskWindowEnd": 0,
       "firstExposureOnly": false
     },
-    "description": "On-treatment: PS 1:maximum matcing",
+    "description": "On-treatment: PS 1:maximum matching",
     "trimByPsArgs": {
       "trimFraction": 0.025,
       "attr_class": "args"
@@ -715,7 +715,7 @@
       "riskWindowEnd": 9999,
       "firstExposureOnly": false
     },
-    "description": "ITT: PS 1:maximum matcing",
+    "description": "ITT: PS 1:maximum matching",
     "trimByPsArgs": {
       "trimFraction": 0.025,
       "attr_class": "args"
@@ -999,7 +999,7 @@
       "riskWindowEnd": 9999,
       "firstExposureOnly": false
     },
-    "description": "ITT: PS 1:1 matcing",
+    "description": "ITT: PS 1:1 matching",
     "trimByPsArgs": {
       "trimFraction": 0.025,
       "attr_class": "args"
@@ -1567,7 +1567,7 @@
       "riskWindowEnd": 0,
       "firstExposureOnly": false
     },
-    "description": "On-treatment: PS 1:1 matcing",
+    "description": "On-treatment: PS 1:1 matching",
     "trimByPsArgs": {
       "trimFraction": 0.025,
       "attr_class": "args"
@@ -2419,7 +2419,7 @@
       "riskWindowEnd": 365,
       "firstExposureOnly": false
     },
-    "description": "365 days: PS 1:1 matcing",
+    "description": "365 days: PS 1:1 matching",
     "trimByPsArgs": {
       "trimFraction": 0.025,
       "attr_class": "args"
@@ -2703,7 +2703,7 @@
       "riskWindowEnd": 365,
       "firstExposureOnly": false
     },
-    "description": "365 days: PS 1:maximum matcing",
+    "description": "365 days: PS 1:maximum matching",
     "trimByPsArgs": {
       "trimFraction": 0.025,
       "attr_class": "args"

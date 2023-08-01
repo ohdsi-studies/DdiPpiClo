@@ -173,6 +173,275 @@ targetId,comparatorId,outcomeId,outcomeName,type
 776,777,314754,Wheezing,outcome
 776,777,435723,Wound seroma,outcome
 776,777,440193,Wristdrop,outcome
+776,777,4175583,3-Methylglutaconic aciduria type 2,outcome
+776,777,443698,Abnormal anal Papanicolaou smear,outcome
+776,777,375824,Abnormal auditory perception,outcome
+776,777,435574,Abnormal form of root of tooth,outcome
+776,777,4262562,Abnormal heart beat,outcome
+776,777,439935,Abnormal posture,outcome
+776,777,436409,Abnormal pupil,outcome
+776,777,443702,Abnormal response to nerve stimulation,outcome
+776,777,443585,Abrasion and/or friction burn of multiple sites,outcome
+776,777,4088768,Absent nipple,outcome
+776,777,44783954,Acid reflux,outcome
+776,777,380818,Acquired deformity of head,outcome
+776,777,31668,Acquired deformity of neck,outcome
+776,777,4319325,Acquired deformity of trunk,outcome
+776,777,432411,Acquired equinus deformity of foot,outcome
+776,777,439673,Acute hepatitis B with delta-agent (coinfection) without hepatic coma,outcome
+776,777,441481,Adult victim of abuse,outcome
+776,777,435720,Adverse anesthesia outcome,outcome
+776,777,4218106,Alcoholism,outcome
+776,777,4303805,Allergic reaction to bite and/or sting,outcome
+776,777,4254371,Altered growth and development,outcome
+776,777,434916,"Amphetamine or psychostimulant dependence, continuous",outcome
+776,777,4101660,Amputated below knee,outcome
+776,777,4198962,Amputated thumb,outcome
+776,777,4155909,Anesthesia of skin,outcome
+776,777,4171556,Ankle ulcer,outcome
+776,777,45757682,Anomaly of jaw size,outcome
+776,777,4060259,Antenatal amniocentesis - abnormal,outcome
+776,777,4061157,Antenatal ultrasound scan abnormal,outcome
+776,777,77650,Aseptic necrosis of bone,outcome
+776,777,439237,Assault,outcome
+776,777,76744,Azoospermia,outcome
+776,777,4216219,Bizarre personal appearance,outcome
+776,777,141797,Black piedra,outcome
+776,777,433813,Bladder neck obstruction,outcome
+776,777,436230,Blood chemistry abnormal,outcome
+776,777,74698,Breech presentation,outcome
+776,777,256449,Bronchiectasis,outcome
+776,777,79232,Burn of ankle,outcome
+776,777,134765,Cachexia,outcome
+776,777,4172458,Candidiasis of skin,outcome
+776,777,4228429,Carnitine deficiency,outcome
+776,777,42709838,Cellulitis of lower limb,outcome
+776,777,4213540,Cervical somatic dysfunction,outcome
+776,777,443570,Cervicovaginal cytology: Low grade squamous intraepithelial lesion,outcome
+776,777,439674,Chronic viral hepatitis B without delta-agent,outcome
+776,777,438262,Chyluria,outcome
+776,777,4066505,Clicking hip,outcome
+776,777,196454,Colostomy and enterostomy malfunction,outcome
+776,777,4201390,Colostomy present,outcome
+776,777,134734,Compartment syndrome,outcome
+776,777,46269889,Complication due to Crohn's disease,outcome
+776,777,4173078,Complication due to immunization,outcome
+776,777,434675,Complication of gastrostomy,outcome
+776,777,438624,Complication of renal dialysis,outcome
+776,777,72995,Contracture of joint of hand,outcome
+776,777,80492,Contracture of knee joint,outcome
+776,777,439666,Contracture of multiple joints,outcome
+776,777,199978,Contusion of lower limb,outcome
+776,777,433071,Contusion of multiple sites,outcome
+776,777,4022071,Convalescence,outcome
+776,777,432729,Crying infant,outcome
+776,777,75389,Current tear of lateral cartilage AND/OR meniscus of knee,outcome
+776,777,80242,Current tear of medial cartilage AND/OR meniscus of knee,outcome
+776,777,73575,Deformity of toe,outcome
+776,777,436233,Delayed milestone,outcome
+776,777,443737,Dental restoration lost,outcome
+776,777,438183,Denture occlusion incorrect,outcome
+776,777,438759,Descemet's membrane fold,outcome
+776,777,4101282,Dietary selenium deficiency,outcome
+776,777,4115402,Difficulty sleeping,outcome
+776,777,4019971,Discord in school,outcome
+776,777,4022078,Discord with counselor,outcome
+776,777,436906,Disease caused by rickettsiae,outcome
+776,777,4135080,Dislocation of radial head,outcome
+776,777,201091,Disproportion - major pelvic abnormality,outcome
+776,777,372329,Dissociated deviation,outcome
+776,777,4155818,Does climb,outcome
+776,777,4196636,Dysarthria,outcome
+776,777,433441,Ectopic production of endocrine substance,outcome
+776,777,433111,Effects of hunger,outcome
+776,777,78834,Effusion of joint of hand,outcome
+776,777,4247710,Effusion of joint of pelvic region,outcome
+776,777,72407,Effusion of joint of shoulder region,outcome
+776,777,439791,Emotional upset,outcome
+776,777,4150043,Epididymitis,outcome
+776,777,4029271,Essential fatty acid deficiency,outcome
+776,777,197607,Excessive and frequent menstruation,outcome
+776,777,40480271,Extra unidentified structurally abnormal chromosome,outcome
+776,777,193598,Extravasation of urine,outcome
+776,777,439128,Extreme prematurity of infant,outcome
+776,777,4059015,Falls,outcome
+776,777,4092896,Feces contents abnormal,outcome
+776,777,4182437,Female genital cutting,outcome
+776,777,4118057,Fetal or neonatal effect of maternal oligohydramnios,outcome
+776,777,4229403,Flat anterior chamber of eye,outcome
+776,777,4069540,Flexion deformity of knee,outcome
+776,777,374801,Foreign body in ear,outcome
+776,777,4096540,Foreskin deficient,outcome
+776,777,441487,Frostbite,outcome
+776,777,73564,Full thickness rotator cuff tear,outcome
+776,777,40481568,Fussy infant,outcome
+776,777,439788,Galactosemia,outcome
+776,777,40481632,Ganglion cyst,outcome
+776,777,435775,Genetic anomaly of leukocyte,outcome
+776,777,74855,Genital herpes simplex,outcome
+776,777,437744,Heat exhaustion,outcome
+776,777,440021,Herpes simplex without complication,outcome
+776,777,437489,Herpes zoster with complication,outcome
+776,777,440329,Herpes zoster without complication,outcome
+776,777,4012570,High risk sexual behavior,outcome
+776,777,435511,Hypercalcemia,outcome
+776,777,77364,Hypermobility of coccyx,outcome
+776,777,441829,Hyperosmolality and or hypernatremia,outcome
+776,777,4287416,Hyperphenylalaninemia,outcome
+776,777,192298,Hypersplenism,outcome
+776,777,74731,Hypertrophic osteoarthropathy,outcome
+776,777,440129,Hypertrophy of nasal turbinates,outcome
+776,777,4029280,Hypervitaminosis B6,outcome
+776,777,435522,Hypervitaminosis D,outcome
+776,777,434004,Hypervolemia,outcome
+776,777,4024266,Hypocupremia,outcome
+776,777,440072,Hypogammaglobulinemia,outcome
+776,777,437390,Hypoxemia,outcome
+776,777,443447,Iatrogenic hypotension,outcome
+776,777,432596,Immune defect,outcome
+776,777,4344500,Impingement syndrome of shoulder region,outcome
+776,777,4090353,Incompetent urethral closure mechanism,outcome
+776,777,441417,Incoordination,outcome
+776,777,434485,Increase in body fat,outcome
+776,777,440276,"Infection AND/OR inflammatory reaction due to internal prosthetic device, implant AND/OR graft",outcome
+776,777,434872,Infection by Trichomonas,outcome
+776,777,440053,Infestation by insect,outcome
+776,777,4057662,Infestation by Phthirus,outcome
+776,777,442120,Injection site extravasation,outcome
+776,777,4168222,"Intra-abdominal and pelvic swelling, mass and lump",outcome
+776,777,440710,Intraretinal microvascular abnormality,outcome
+776,777,72994,Jaccoud's syndrome,outcome
+776,777,78512,Joint contracture of the ankle and/or foot,outcome
+776,777,78228,Joint derangement,outcome
+776,777,77072,Joint effusion of ankle AND/OR foot,outcome
+776,777,72404,Joint stiffness,outcome
+776,777,435903,Juvenile osteochondrosis of foot,outcome
+776,777,438527,"Juvenile osteochondrosis of lower extremity, excluding foot",outcome
+776,777,435633,Juvenile osteochondrosis of upper extremity,outcome
+776,777,4115991,Knee joint effusion,outcome
+776,777,4093346,Large prostate,outcome
+776,777,133088,Late amputation stump complication,outcome
+776,777,436041,Leech infestation,outcome
+776,777,4228331,Leukokeratosis nicotina palati,outcome
+776,777,377873,Lid lag,outcome
+776,777,4027782,Lipid storage disease,outcome
+776,777,435516,Lipoprotein deficiency disorder,outcome
+776,777,4297984,Local infection of wound,outcome
+776,777,440638,Lyme disease,outcome
+776,777,4083487,Macular drusen,outcome
+776,777,438067,Malaria,outcome
+776,777,4051630,Malingering,outcome
+776,777,436426,Malleus mobility reduced,outcome
+776,777,44783760,Mammographic calcification of breast,outcome
+776,777,258540,Marfan's syndrome,outcome
+776,777,438297,"Mechanical complication of cardiac device, implant AND/OR graft",outcome
+776,777,432798,"Mechanical complication of internal orthopedic device, implant AND/OR graft",outcome
+776,777,439082,Menopausal syndrome,outcome
+776,777,436940,Metabolic syndrome X,outcome
+776,777,435247,Metallosis,outcome
+776,777,45757258,Minimal keratinized residual ridge mucosa,outcome
+776,777,40480000,Multiple complications due to diabetes mellitus,outcome
+776,777,137967,"Muscle, ligament and fascia disorders",outcome
+776,777,4271024,Musculoskeletal fibromatosis,outcome
+776,777,134315,Myelophthisis,outcome
+776,777,4195085,Nasal congestion,outcome
+776,777,4209423,Nicotine dependence,outcome
+776,777,434016,"Nondependent opioid abuse, continuous",outcome
+776,777,201792,Nongonococcal urethritis,outcome
+776,777,4035269,Non-ketotic hyperglycinemia,outcome
+776,777,40480893,Nonspecific tuberculin test reaction,outcome
+776,777,72413,Nontraumatic rupture of muscle,outcome
+776,777,198802,Occlusion of ureter,outcome
+776,777,4215978,Onychomycosis,outcome
+776,777,140648,Onychomycosis due to dermatophyte,outcome
+776,777,4129408,Open wound of ankle,outcome
+776,777,4053600,Open wound of elbow,outcome
+776,777,77139,Open wound of finger without complication,outcome
+776,777,444426,Open wound of foot except toes without complication,outcome
+776,777,137426,Open wound of forearm without complication,outcome
+776,777,77421,Open wound of hand except fingers without complication,outcome
+776,777,4051004,Open wound of scalp,outcome
+776,777,4129404,Open wound of upper arm,outcome
+776,777,438130,Opioid abuse,outcome
+776,777,438120,Opioid dependence,outcome
+776,777,4171915,Orchitis,outcome
+776,777,315361,Orthopnea,outcome
+776,777,74080,Orthostatic proteinuria,outcome
+776,777,75920,Osteitis condensans,outcome
+776,777,437359,Osteochondritis dissecans,outcome
+776,777,378160,Otorrhea,outcome
+776,777,439035,Otosclerosis,outcome
+776,777,77356,Pathological dislocation of joint,outcome
+776,777,4022076,Patient dependence on care provider,outcome
+776,777,375292,Perforation of tympanic membrane,outcome
+776,777,78162,Peripheral vertigo,outcome
+776,777,437092,Physiological development failure,outcome
+776,777,253796,Pneumothorax,outcome
+776,777,4295261,Postmenopausal state,outcome
+776,777,4202045,Postviral fatigue syndrome,outcome
+776,777,433542,Precipitate labor,outcome
+776,777,4094448,Pregnancy test negative,outcome
+776,777,434319,Premature ejaculation,outcome
+776,777,198715,Premature menopause,outcome
+776,777,439081,Premenstrual tension syndrome,outcome
+776,777,46286594,Problem related to lifestyle,outcome
+776,777,199876,Prolapse of female genital organs,outcome
+776,777,4295888,Prolapse of intestine,outcome
+776,777,194997,Prostatitis,outcome
+776,777,439790,Psychalgia,outcome
+776,777,440068,Psychosexual dysfunction,outcome
+776,777,435028,Puerperal pyrexia of unknown origin,outcome
+776,777,4245252,Raised prostate specific antigen,outcome
+776,777,436246,Reduced libido,outcome
+776,777,45772079,Retinopathy of prematurity stage 0,outcome
+776,777,436828,Saliva abnormal,outcome
+776,777,435088,Senility,outcome
+776,777,4052226,Sequelae of injuries of lower limb,outcome
+776,777,4056577,Sequelae of open wound of head,outcome
+776,777,4233565,Severe protein-calorie malnutrition (Gomez: less than 60 percent of standard weight),outcome
+776,777,4250163,Sexual arousal disorder,outcome
+776,777,4096999,Short rib,outcome
+776,777,4305303,Sleep deprivation,outcome
+776,777,195926,Slowing of urinary stream,outcome
+776,777,4125590,Slurred speech,outcome
+776,777,4019836,Social exclusion,outcome
+776,777,444127,Specimen satisfactory for evaluation but limited,outcome
+776,777,4345332,Spinal instability,outcome
+776,777,443172,"Splinter of face, without major open wound",outcome
+776,777,443082,Starvation,outcome
+776,777,440233,Strain of supraspinatus muscle AND/OR tendon,outcome
+776,777,135852,Teething syndrome,outcome
+776,777,4195698,Tenosynovitis,outcome
+776,777,4339088,Testicular mass,outcome
+776,777,440457,Threatened miscarriage,outcome
+776,777,374907,Tics of organic origin,outcome
+776,777,80946,Tinea manus,outcome
+776,777,4163280,Tinea of perianal region,outcome
+776,777,133141,Tinea pedis,outcome
+776,777,433244,Tooth loss,outcome
+776,777,440268,Toxic effect of carbon monoxide,outcome
+776,777,81930,Transient arthropathy,outcome
+776,777,4029731,Trimethylaminuria,outcome
+776,777,40482801,Type II diabetes mellitus uncontrolled,outcome
+776,777,74719,Ulcer of foot,outcome
+776,777,443593,Ulcer of thigh,outcome
+776,777,4199550,Unable to mobilize,outcome
+776,777,4002572,"Uncomplicated sedative, hypnotic AND/OR anxiolytic withdrawal",outcome
+776,777,4092743,Unsteady when standing,outcome
+776,777,195591,Urethral overactivity,outcome
+776,777,4216708,Urgent desire for stool,outcome
+776,777,80070,Uric acid urolithiasis,outcome
+776,777,4088910,Uterine cervix absent,outcome
+776,777,4092565,Uterine prolapse,outcome
+776,777,4088920,Uterus absent,outcome
+776,777,435131,Victim of neglect,outcome
+776,777,261599,Vocal cord paralysis,outcome
+776,777,4104132,Vomit contains feces,outcome
+776,777,439405,Walking disability,outcome
+776,777,314754,Wheezing,outcome
+776,777,132834,White piedra,outcome
+776,777,435723,Wound seroma,outcome
+776,777,440193,Wristdrop,outcome
 776,778,4175583,3-Methylglutaconic aciduria type 2,outcome
 776,778,375824,Abnormal auditory perception,outcome
 776,778,435574,Abnormal form of root of tooth,outcome
@@ -345,6 +614,275 @@ targetId,comparatorId,outcomeId,outcomeName,type
 776,778,4104132,Vomit contains feces,outcome
 776,778,439405,Walking disability,outcome
 776,778,314754,Wheezing,outcome
+776,778,435723,Wound seroma,outcome
+776,778,440193,Wristdrop,outcome
+776,778,4175583,3-Methylglutaconic aciduria type 2,outcome
+776,778,443698,Abnormal anal Papanicolaou smear,outcome
+776,778,375824,Abnormal auditory perception,outcome
+776,778,435574,Abnormal form of root of tooth,outcome
+776,778,4262562,Abnormal heart beat,outcome
+776,778,439935,Abnormal posture,outcome
+776,778,436409,Abnormal pupil,outcome
+776,778,443702,Abnormal response to nerve stimulation,outcome
+776,778,443585,Abrasion and/or friction burn of multiple sites,outcome
+776,778,4088768,Absent nipple,outcome
+776,778,44783954,Acid reflux,outcome
+776,778,380818,Acquired deformity of head,outcome
+776,778,31668,Acquired deformity of neck,outcome
+776,778,4319325,Acquired deformity of trunk,outcome
+776,778,432411,Acquired equinus deformity of foot,outcome
+776,778,439673,Acute hepatitis B with delta-agent (coinfection) without hepatic coma,outcome
+776,778,441481,Adult victim of abuse,outcome
+776,778,435720,Adverse anesthesia outcome,outcome
+776,778,4218106,Alcoholism,outcome
+776,778,4303805,Allergic reaction to bite and/or sting,outcome
+776,778,4254371,Altered growth and development,outcome
+776,778,434916,"Amphetamine or psychostimulant dependence, continuous",outcome
+776,778,4101660,Amputated below knee,outcome
+776,778,4198962,Amputated thumb,outcome
+776,778,4155909,Anesthesia of skin,outcome
+776,778,4171556,Ankle ulcer,outcome
+776,778,45757682,Anomaly of jaw size,outcome
+776,778,4060259,Antenatal amniocentesis - abnormal,outcome
+776,778,4061157,Antenatal ultrasound scan abnormal,outcome
+776,778,77650,Aseptic necrosis of bone,outcome
+776,778,439237,Assault,outcome
+776,778,76744,Azoospermia,outcome
+776,778,4216219,Bizarre personal appearance,outcome
+776,778,141797,Black piedra,outcome
+776,778,433813,Bladder neck obstruction,outcome
+776,778,436230,Blood chemistry abnormal,outcome
+776,778,74698,Breech presentation,outcome
+776,778,256449,Bronchiectasis,outcome
+776,778,79232,Burn of ankle,outcome
+776,778,134765,Cachexia,outcome
+776,778,4172458,Candidiasis of skin,outcome
+776,778,4228429,Carnitine deficiency,outcome
+776,778,42709838,Cellulitis of lower limb,outcome
+776,778,4213540,Cervical somatic dysfunction,outcome
+776,778,443570,Cervicovaginal cytology: Low grade squamous intraepithelial lesion,outcome
+776,778,439674,Chronic viral hepatitis B without delta-agent,outcome
+776,778,438262,Chyluria,outcome
+776,778,4066505,Clicking hip,outcome
+776,778,196454,Colostomy and enterostomy malfunction,outcome
+776,778,4201390,Colostomy present,outcome
+776,778,134734,Compartment syndrome,outcome
+776,778,46269889,Complication due to Crohn's disease,outcome
+776,778,4173078,Complication due to immunization,outcome
+776,778,434675,Complication of gastrostomy,outcome
+776,778,438624,Complication of renal dialysis,outcome
+776,778,72995,Contracture of joint of hand,outcome
+776,778,80492,Contracture of knee joint,outcome
+776,778,439666,Contracture of multiple joints,outcome
+776,778,199978,Contusion of lower limb,outcome
+776,778,433071,Contusion of multiple sites,outcome
+776,778,4022071,Convalescence,outcome
+776,778,432729,Crying infant,outcome
+776,778,75389,Current tear of lateral cartilage AND/OR meniscus of knee,outcome
+776,778,80242,Current tear of medial cartilage AND/OR meniscus of knee,outcome
+776,778,73575,Deformity of toe,outcome
+776,778,436233,Delayed milestone,outcome
+776,778,443737,Dental restoration lost,outcome
+776,778,438183,Denture occlusion incorrect,outcome
+776,778,438759,Descemet's membrane fold,outcome
+776,778,4101282,Dietary selenium deficiency,outcome
+776,778,4115402,Difficulty sleeping,outcome
+776,778,4019971,Discord in school,outcome
+776,778,4022078,Discord with counselor,outcome
+776,778,436906,Disease caused by rickettsiae,outcome
+776,778,4135080,Dislocation of radial head,outcome
+776,778,201091,Disproportion - major pelvic abnormality,outcome
+776,778,372329,Dissociated deviation,outcome
+776,778,4155818,Does climb,outcome
+776,778,4196636,Dysarthria,outcome
+776,778,433441,Ectopic production of endocrine substance,outcome
+776,778,433111,Effects of hunger,outcome
+776,778,78834,Effusion of joint of hand,outcome
+776,778,4247710,Effusion of joint of pelvic region,outcome
+776,778,72407,Effusion of joint of shoulder region,outcome
+776,778,439791,Emotional upset,outcome
+776,778,4150043,Epididymitis,outcome
+776,778,4029271,Essential fatty acid deficiency,outcome
+776,778,197607,Excessive and frequent menstruation,outcome
+776,778,40480271,Extra unidentified structurally abnormal chromosome,outcome
+776,778,193598,Extravasation of urine,outcome
+776,778,439128,Extreme prematurity of infant,outcome
+776,778,4059015,Falls,outcome
+776,778,4092896,Feces contents abnormal,outcome
+776,778,4182437,Female genital cutting,outcome
+776,778,4118057,Fetal or neonatal effect of maternal oligohydramnios,outcome
+776,778,4229403,Flat anterior chamber of eye,outcome
+776,778,4069540,Flexion deformity of knee,outcome
+776,778,374801,Foreign body in ear,outcome
+776,778,4096540,Foreskin deficient,outcome
+776,778,441487,Frostbite,outcome
+776,778,73564,Full thickness rotator cuff tear,outcome
+776,778,40481568,Fussy infant,outcome
+776,778,439788,Galactosemia,outcome
+776,778,40481632,Ganglion cyst,outcome
+776,778,435775,Genetic anomaly of leukocyte,outcome
+776,778,74855,Genital herpes simplex,outcome
+776,778,437744,Heat exhaustion,outcome
+776,778,440021,Herpes simplex without complication,outcome
+776,778,437489,Herpes zoster with complication,outcome
+776,778,440329,Herpes zoster without complication,outcome
+776,778,4012570,High risk sexual behavior,outcome
+776,778,435511,Hypercalcemia,outcome
+776,778,77364,Hypermobility of coccyx,outcome
+776,778,441829,Hyperosmolality and or hypernatremia,outcome
+776,778,4287416,Hyperphenylalaninemia,outcome
+776,778,192298,Hypersplenism,outcome
+776,778,74731,Hypertrophic osteoarthropathy,outcome
+776,778,440129,Hypertrophy of nasal turbinates,outcome
+776,778,4029280,Hypervitaminosis B6,outcome
+776,778,435522,Hypervitaminosis D,outcome
+776,778,434004,Hypervolemia,outcome
+776,778,4024266,Hypocupremia,outcome
+776,778,440072,Hypogammaglobulinemia,outcome
+776,778,437390,Hypoxemia,outcome
+776,778,443447,Iatrogenic hypotension,outcome
+776,778,432596,Immune defect,outcome
+776,778,4344500,Impingement syndrome of shoulder region,outcome
+776,778,4090353,Incompetent urethral closure mechanism,outcome
+776,778,441417,Incoordination,outcome
+776,778,434485,Increase in body fat,outcome
+776,778,440276,"Infection AND/OR inflammatory reaction due to internal prosthetic device, implant AND/OR graft",outcome
+776,778,434872,Infection by Trichomonas,outcome
+776,778,440053,Infestation by insect,outcome
+776,778,4057662,Infestation by Phthirus,outcome
+776,778,442120,Injection site extravasation,outcome
+776,778,4168222,"Intra-abdominal and pelvic swelling, mass and lump",outcome
+776,778,440710,Intraretinal microvascular abnormality,outcome
+776,778,72994,Jaccoud's syndrome,outcome
+776,778,78512,Joint contracture of the ankle and/or foot,outcome
+776,778,78228,Joint derangement,outcome
+776,778,77072,Joint effusion of ankle AND/OR foot,outcome
+776,778,72404,Joint stiffness,outcome
+776,778,435903,Juvenile osteochondrosis of foot,outcome
+776,778,438527,"Juvenile osteochondrosis of lower extremity, excluding foot",outcome
+776,778,435633,Juvenile osteochondrosis of upper extremity,outcome
+776,778,4115991,Knee joint effusion,outcome
+776,778,4093346,Large prostate,outcome
+776,778,133088,Late amputation stump complication,outcome
+776,778,436041,Leech infestation,outcome
+776,778,4228331,Leukokeratosis nicotina palati,outcome
+776,778,377873,Lid lag,outcome
+776,778,4027782,Lipid storage disease,outcome
+776,778,435516,Lipoprotein deficiency disorder,outcome
+776,778,4297984,Local infection of wound,outcome
+776,778,440638,Lyme disease,outcome
+776,778,4083487,Macular drusen,outcome
+776,778,438067,Malaria,outcome
+776,778,4051630,Malingering,outcome
+776,778,436426,Malleus mobility reduced,outcome
+776,778,44783760,Mammographic calcification of breast,outcome
+776,778,258540,Marfan's syndrome,outcome
+776,778,438297,"Mechanical complication of cardiac device, implant AND/OR graft",outcome
+776,778,432798,"Mechanical complication of internal orthopedic device, implant AND/OR graft",outcome
+776,778,439082,Menopausal syndrome,outcome
+776,778,436940,Metabolic syndrome X,outcome
+776,778,435247,Metallosis,outcome
+776,778,45757258,Minimal keratinized residual ridge mucosa,outcome
+776,778,40480000,Multiple complications due to diabetes mellitus,outcome
+776,778,137967,"Muscle, ligament and fascia disorders",outcome
+776,778,4271024,Musculoskeletal fibromatosis,outcome
+776,778,134315,Myelophthisis,outcome
+776,778,4195085,Nasal congestion,outcome
+776,778,4209423,Nicotine dependence,outcome
+776,778,434016,"Nondependent opioid abuse, continuous",outcome
+776,778,201792,Nongonococcal urethritis,outcome
+776,778,4035269,Non-ketotic hyperglycinemia,outcome
+776,778,40480893,Nonspecific tuberculin test reaction,outcome
+776,778,72413,Nontraumatic rupture of muscle,outcome
+776,778,198802,Occlusion of ureter,outcome
+776,778,4215978,Onychomycosis,outcome
+776,778,140648,Onychomycosis due to dermatophyte,outcome
+776,778,4129408,Open wound of ankle,outcome
+776,778,4053600,Open wound of elbow,outcome
+776,778,77139,Open wound of finger without complication,outcome
+776,778,444426,Open wound of foot except toes without complication,outcome
+776,778,137426,Open wound of forearm without complication,outcome
+776,778,77421,Open wound of hand except fingers without complication,outcome
+776,778,4051004,Open wound of scalp,outcome
+776,778,4129404,Open wound of upper arm,outcome
+776,778,438130,Opioid abuse,outcome
+776,778,438120,Opioid dependence,outcome
+776,778,4171915,Orchitis,outcome
+776,778,315361,Orthopnea,outcome
+776,778,74080,Orthostatic proteinuria,outcome
+776,778,75920,Osteitis condensans,outcome
+776,778,437359,Osteochondritis dissecans,outcome
+776,778,378160,Otorrhea,outcome
+776,778,439035,Otosclerosis,outcome
+776,778,77356,Pathological dislocation of joint,outcome
+776,778,4022076,Patient dependence on care provider,outcome
+776,778,375292,Perforation of tympanic membrane,outcome
+776,778,78162,Peripheral vertigo,outcome
+776,778,437092,Physiological development failure,outcome
+776,778,253796,Pneumothorax,outcome
+776,778,4295261,Postmenopausal state,outcome
+776,778,4202045,Postviral fatigue syndrome,outcome
+776,778,433542,Precipitate labor,outcome
+776,778,4094448,Pregnancy test negative,outcome
+776,778,434319,Premature ejaculation,outcome
+776,778,198715,Premature menopause,outcome
+776,778,439081,Premenstrual tension syndrome,outcome
+776,778,46286594,Problem related to lifestyle,outcome
+776,778,199876,Prolapse of female genital organs,outcome
+776,778,4295888,Prolapse of intestine,outcome
+776,778,194997,Prostatitis,outcome
+776,778,439790,Psychalgia,outcome
+776,778,440068,Psychosexual dysfunction,outcome
+776,778,435028,Puerperal pyrexia of unknown origin,outcome
+776,778,4245252,Raised prostate specific antigen,outcome
+776,778,436246,Reduced libido,outcome
+776,778,45772079,Retinopathy of prematurity stage 0,outcome
+776,778,436828,Saliva abnormal,outcome
+776,778,435088,Senility,outcome
+776,778,4052226,Sequelae of injuries of lower limb,outcome
+776,778,4056577,Sequelae of open wound of head,outcome
+776,778,4233565,Severe protein-calorie malnutrition (Gomez: less than 60 percent of standard weight),outcome
+776,778,4250163,Sexual arousal disorder,outcome
+776,778,4096999,Short rib,outcome
+776,778,4305303,Sleep deprivation,outcome
+776,778,195926,Slowing of urinary stream,outcome
+776,778,4125590,Slurred speech,outcome
+776,778,4019836,Social exclusion,outcome
+776,778,444127,Specimen satisfactory for evaluation but limited,outcome
+776,778,4345332,Spinal instability,outcome
+776,778,443172,"Splinter of face, without major open wound",outcome
+776,778,443082,Starvation,outcome
+776,778,440233,Strain of supraspinatus muscle AND/OR tendon,outcome
+776,778,135852,Teething syndrome,outcome
+776,778,4195698,Tenosynovitis,outcome
+776,778,4339088,Testicular mass,outcome
+776,778,440457,Threatened miscarriage,outcome
+776,778,374907,Tics of organic origin,outcome
+776,778,80946,Tinea manus,outcome
+776,778,4163280,Tinea of perianal region,outcome
+776,778,133141,Tinea pedis,outcome
+776,778,433244,Tooth loss,outcome
+776,778,440268,Toxic effect of carbon monoxide,outcome
+776,778,81930,Transient arthropathy,outcome
+776,778,4029731,Trimethylaminuria,outcome
+776,778,40482801,Type II diabetes mellitus uncontrolled,outcome
+776,778,74719,Ulcer of foot,outcome
+776,778,443593,Ulcer of thigh,outcome
+776,778,4199550,Unable to mobilize,outcome
+776,778,4002572,"Uncomplicated sedative, hypnotic AND/OR anxiolytic withdrawal",outcome
+776,778,4092743,Unsteady when standing,outcome
+776,778,195591,Urethral overactivity,outcome
+776,778,4216708,Urgent desire for stool,outcome
+776,778,80070,Uric acid urolithiasis,outcome
+776,778,4088910,Uterine cervix absent,outcome
+776,778,4092565,Uterine prolapse,outcome
+776,778,4088920,Uterus absent,outcome
+776,778,435131,Victim of neglect,outcome
+776,778,261599,Vocal cord paralysis,outcome
+776,778,4104132,Vomit contains feces,outcome
+776,778,439405,Walking disability,outcome
+776,778,314754,Wheezing,outcome
+776,778,132834,White piedra,outcome
 776,778,435723,Wound seroma,outcome
 776,778,440193,Wristdrop,outcome
 779,780,4175583,3-Methylglutaconic aciduria type 2,outcome
@@ -521,6 +1059,275 @@ targetId,comparatorId,outcomeId,outcomeName,type
 779,780,314754,Wheezing,outcome
 779,780,435723,Wound seroma,outcome
 779,780,440193,Wristdrop,outcome
+779,780,4175583,3-Methylglutaconic aciduria type 2,outcome
+779,780,443698,Abnormal anal Papanicolaou smear,outcome
+779,780,375824,Abnormal auditory perception,outcome
+779,780,435574,Abnormal form of root of tooth,outcome
+779,780,4262562,Abnormal heart beat,outcome
+779,780,439935,Abnormal posture,outcome
+779,780,436409,Abnormal pupil,outcome
+779,780,443702,Abnormal response to nerve stimulation,outcome
+779,780,443585,Abrasion and/or friction burn of multiple sites,outcome
+779,780,4088768,Absent nipple,outcome
+779,780,44783954,Acid reflux,outcome
+779,780,380818,Acquired deformity of head,outcome
+779,780,31668,Acquired deformity of neck,outcome
+779,780,4319325,Acquired deformity of trunk,outcome
+779,780,432411,Acquired equinus deformity of foot,outcome
+779,780,439673,Acute hepatitis B with delta-agent (coinfection) without hepatic coma,outcome
+779,780,441481,Adult victim of abuse,outcome
+779,780,435720,Adverse anesthesia outcome,outcome
+779,780,4218106,Alcoholism,outcome
+779,780,4303805,Allergic reaction to bite and/or sting,outcome
+779,780,4254371,Altered growth and development,outcome
+779,780,434916,"Amphetamine or psychostimulant dependence, continuous",outcome
+779,780,4101660,Amputated below knee,outcome
+779,780,4198962,Amputated thumb,outcome
+779,780,4155909,Anesthesia of skin,outcome
+779,780,4171556,Ankle ulcer,outcome
+779,780,45757682,Anomaly of jaw size,outcome
+779,780,4060259,Antenatal amniocentesis - abnormal,outcome
+779,780,4061157,Antenatal ultrasound scan abnormal,outcome
+779,780,77650,Aseptic necrosis of bone,outcome
+779,780,439237,Assault,outcome
+779,780,76744,Azoospermia,outcome
+779,780,4216219,Bizarre personal appearance,outcome
+779,780,141797,Black piedra,outcome
+779,780,433813,Bladder neck obstruction,outcome
+779,780,436230,Blood chemistry abnormal,outcome
+779,780,74698,Breech presentation,outcome
+779,780,256449,Bronchiectasis,outcome
+779,780,79232,Burn of ankle,outcome
+779,780,134765,Cachexia,outcome
+779,780,4172458,Candidiasis of skin,outcome
+779,780,4228429,Carnitine deficiency,outcome
+779,780,42709838,Cellulitis of lower limb,outcome
+779,780,4213540,Cervical somatic dysfunction,outcome
+779,780,443570,Cervicovaginal cytology: Low grade squamous intraepithelial lesion,outcome
+779,780,439674,Chronic viral hepatitis B without delta-agent,outcome
+779,780,438262,Chyluria,outcome
+779,780,4066505,Clicking hip,outcome
+779,780,196454,Colostomy and enterostomy malfunction,outcome
+779,780,4201390,Colostomy present,outcome
+779,780,134734,Compartment syndrome,outcome
+779,780,46269889,Complication due to Crohn's disease,outcome
+779,780,4173078,Complication due to immunization,outcome
+779,780,434675,Complication of gastrostomy,outcome
+779,780,438624,Complication of renal dialysis,outcome
+779,780,72995,Contracture of joint of hand,outcome
+779,780,80492,Contracture of knee joint,outcome
+779,780,439666,Contracture of multiple joints,outcome
+779,780,199978,Contusion of lower limb,outcome
+779,780,433071,Contusion of multiple sites,outcome
+779,780,4022071,Convalescence,outcome
+779,780,432729,Crying infant,outcome
+779,780,75389,Current tear of lateral cartilage AND/OR meniscus of knee,outcome
+779,780,80242,Current tear of medial cartilage AND/OR meniscus of knee,outcome
+779,780,73575,Deformity of toe,outcome
+779,780,436233,Delayed milestone,outcome
+779,780,443737,Dental restoration lost,outcome
+779,780,438183,Denture occlusion incorrect,outcome
+779,780,438759,Descemet's membrane fold,outcome
+779,780,4101282,Dietary selenium deficiency,outcome
+779,780,4115402,Difficulty sleeping,outcome
+779,780,4019971,Discord in school,outcome
+779,780,4022078,Discord with counselor,outcome
+779,780,436906,Disease caused by rickettsiae,outcome
+779,780,4135080,Dislocation of radial head,outcome
+779,780,201091,Disproportion - major pelvic abnormality,outcome
+779,780,372329,Dissociated deviation,outcome
+779,780,4155818,Does climb,outcome
+779,780,4196636,Dysarthria,outcome
+779,780,433441,Ectopic production of endocrine substance,outcome
+779,780,433111,Effects of hunger,outcome
+779,780,78834,Effusion of joint of hand,outcome
+779,780,4247710,Effusion of joint of pelvic region,outcome
+779,780,72407,Effusion of joint of shoulder region,outcome
+779,780,439791,Emotional upset,outcome
+779,780,4150043,Epididymitis,outcome
+779,780,4029271,Essential fatty acid deficiency,outcome
+779,780,197607,Excessive and frequent menstruation,outcome
+779,780,40480271,Extra unidentified structurally abnormal chromosome,outcome
+779,780,193598,Extravasation of urine,outcome
+779,780,439128,Extreme prematurity of infant,outcome
+779,780,4059015,Falls,outcome
+779,780,4092896,Feces contents abnormal,outcome
+779,780,4182437,Female genital cutting,outcome
+779,780,4118057,Fetal or neonatal effect of maternal oligohydramnios,outcome
+779,780,4229403,Flat anterior chamber of eye,outcome
+779,780,4069540,Flexion deformity of knee,outcome
+779,780,374801,Foreign body in ear,outcome
+779,780,4096540,Foreskin deficient,outcome
+779,780,441487,Frostbite,outcome
+779,780,73564,Full thickness rotator cuff tear,outcome
+779,780,40481568,Fussy infant,outcome
+779,780,439788,Galactosemia,outcome
+779,780,40481632,Ganglion cyst,outcome
+779,780,435775,Genetic anomaly of leukocyte,outcome
+779,780,74855,Genital herpes simplex,outcome
+779,780,437744,Heat exhaustion,outcome
+779,780,440021,Herpes simplex without complication,outcome
+779,780,437489,Herpes zoster with complication,outcome
+779,780,440329,Herpes zoster without complication,outcome
+779,780,4012570,High risk sexual behavior,outcome
+779,780,435511,Hypercalcemia,outcome
+779,780,77364,Hypermobility of coccyx,outcome
+779,780,441829,Hyperosmolality and or hypernatremia,outcome
+779,780,4287416,Hyperphenylalaninemia,outcome
+779,780,192298,Hypersplenism,outcome
+779,780,74731,Hypertrophic osteoarthropathy,outcome
+779,780,440129,Hypertrophy of nasal turbinates,outcome
+779,780,4029280,Hypervitaminosis B6,outcome
+779,780,435522,Hypervitaminosis D,outcome
+779,780,434004,Hypervolemia,outcome
+779,780,4024266,Hypocupremia,outcome
+779,780,440072,Hypogammaglobulinemia,outcome
+779,780,437390,Hypoxemia,outcome
+779,780,443447,Iatrogenic hypotension,outcome
+779,780,432596,Immune defect,outcome
+779,780,4344500,Impingement syndrome of shoulder region,outcome
+779,780,4090353,Incompetent urethral closure mechanism,outcome
+779,780,441417,Incoordination,outcome
+779,780,434485,Increase in body fat,outcome
+779,780,440276,"Infection AND/OR inflammatory reaction due to internal prosthetic device, implant AND/OR graft",outcome
+779,780,434872,Infection by Trichomonas,outcome
+779,780,440053,Infestation by insect,outcome
+779,780,4057662,Infestation by Phthirus,outcome
+779,780,442120,Injection site extravasation,outcome
+779,780,4168222,"Intra-abdominal and pelvic swelling, mass and lump",outcome
+779,780,440710,Intraretinal microvascular abnormality,outcome
+779,780,72994,Jaccoud's syndrome,outcome
+779,780,78512,Joint contracture of the ankle and/or foot,outcome
+779,780,78228,Joint derangement,outcome
+779,780,77072,Joint effusion of ankle AND/OR foot,outcome
+779,780,72404,Joint stiffness,outcome
+779,780,435903,Juvenile osteochondrosis of foot,outcome
+779,780,438527,"Juvenile osteochondrosis of lower extremity, excluding foot",outcome
+779,780,435633,Juvenile osteochondrosis of upper extremity,outcome
+779,780,4115991,Knee joint effusion,outcome
+779,780,4093346,Large prostate,outcome
+779,780,133088,Late amputation stump complication,outcome
+779,780,436041,Leech infestation,outcome
+779,780,4228331,Leukokeratosis nicotina palati,outcome
+779,780,377873,Lid lag,outcome
+779,780,4027782,Lipid storage disease,outcome
+779,780,435516,Lipoprotein deficiency disorder,outcome
+779,780,4297984,Local infection of wound,outcome
+779,780,440638,Lyme disease,outcome
+779,780,4083487,Macular drusen,outcome
+779,780,438067,Malaria,outcome
+779,780,4051630,Malingering,outcome
+779,780,436426,Malleus mobility reduced,outcome
+779,780,44783760,Mammographic calcification of breast,outcome
+779,780,258540,Marfan's syndrome,outcome
+779,780,438297,"Mechanical complication of cardiac device, implant AND/OR graft",outcome
+779,780,432798,"Mechanical complication of internal orthopedic device, implant AND/OR graft",outcome
+779,780,439082,Menopausal syndrome,outcome
+779,780,436940,Metabolic syndrome X,outcome
+779,780,435247,Metallosis,outcome
+779,780,45757258,Minimal keratinized residual ridge mucosa,outcome
+779,780,40480000,Multiple complications due to diabetes mellitus,outcome
+779,780,137967,"Muscle, ligament and fascia disorders",outcome
+779,780,4271024,Musculoskeletal fibromatosis,outcome
+779,780,134315,Myelophthisis,outcome
+779,780,4195085,Nasal congestion,outcome
+779,780,4209423,Nicotine dependence,outcome
+779,780,434016,"Nondependent opioid abuse, continuous",outcome
+779,780,201792,Nongonococcal urethritis,outcome
+779,780,4035269,Non-ketotic hyperglycinemia,outcome
+779,780,40480893,Nonspecific tuberculin test reaction,outcome
+779,780,72413,Nontraumatic rupture of muscle,outcome
+779,780,198802,Occlusion of ureter,outcome
+779,780,4215978,Onychomycosis,outcome
+779,780,140648,Onychomycosis due to dermatophyte,outcome
+779,780,4129408,Open wound of ankle,outcome
+779,780,4053600,Open wound of elbow,outcome
+779,780,77139,Open wound of finger without complication,outcome
+779,780,444426,Open wound of foot except toes without complication,outcome
+779,780,137426,Open wound of forearm without complication,outcome
+779,780,77421,Open wound of hand except fingers without complication,outcome
+779,780,4051004,Open wound of scalp,outcome
+779,780,4129404,Open wound of upper arm,outcome
+779,780,438130,Opioid abuse,outcome
+779,780,438120,Opioid dependence,outcome
+779,780,4171915,Orchitis,outcome
+779,780,315361,Orthopnea,outcome
+779,780,74080,Orthostatic proteinuria,outcome
+779,780,75920,Osteitis condensans,outcome
+779,780,437359,Osteochondritis dissecans,outcome
+779,780,378160,Otorrhea,outcome
+779,780,439035,Otosclerosis,outcome
+779,780,77356,Pathological dislocation of joint,outcome
+779,780,4022076,Patient dependence on care provider,outcome
+779,780,375292,Perforation of tympanic membrane,outcome
+779,780,78162,Peripheral vertigo,outcome
+779,780,437092,Physiological development failure,outcome
+779,780,253796,Pneumothorax,outcome
+779,780,4295261,Postmenopausal state,outcome
+779,780,4202045,Postviral fatigue syndrome,outcome
+779,780,433542,Precipitate labor,outcome
+779,780,4094448,Pregnancy test negative,outcome
+779,780,434319,Premature ejaculation,outcome
+779,780,198715,Premature menopause,outcome
+779,780,439081,Premenstrual tension syndrome,outcome
+779,780,46286594,Problem related to lifestyle,outcome
+779,780,199876,Prolapse of female genital organs,outcome
+779,780,4295888,Prolapse of intestine,outcome
+779,780,194997,Prostatitis,outcome
+779,780,439790,Psychalgia,outcome
+779,780,440068,Psychosexual dysfunction,outcome
+779,780,435028,Puerperal pyrexia of unknown origin,outcome
+779,780,4245252,Raised prostate specific antigen,outcome
+779,780,436246,Reduced libido,outcome
+779,780,45772079,Retinopathy of prematurity stage 0,outcome
+779,780,436828,Saliva abnormal,outcome
+779,780,435088,Senility,outcome
+779,780,4052226,Sequelae of injuries of lower limb,outcome
+779,780,4056577,Sequelae of open wound of head,outcome
+779,780,4233565,Severe protein-calorie malnutrition (Gomez: less than 60 percent of standard weight),outcome
+779,780,4250163,Sexual arousal disorder,outcome
+779,780,4096999,Short rib,outcome
+779,780,4305303,Sleep deprivation,outcome
+779,780,195926,Slowing of urinary stream,outcome
+779,780,4125590,Slurred speech,outcome
+779,780,4019836,Social exclusion,outcome
+779,780,444127,Specimen satisfactory for evaluation but limited,outcome
+779,780,4345332,Spinal instability,outcome
+779,780,443172,"Splinter of face, without major open wound",outcome
+779,780,443082,Starvation,outcome
+779,780,440233,Strain of supraspinatus muscle AND/OR tendon,outcome
+779,780,135852,Teething syndrome,outcome
+779,780,4195698,Tenosynovitis,outcome
+779,780,4339088,Testicular mass,outcome
+779,780,440457,Threatened miscarriage,outcome
+779,780,374907,Tics of organic origin,outcome
+779,780,80946,Tinea manus,outcome
+779,780,4163280,Tinea of perianal region,outcome
+779,780,133141,Tinea pedis,outcome
+779,780,433244,Tooth loss,outcome
+779,780,440268,Toxic effect of carbon monoxide,outcome
+779,780,81930,Transient arthropathy,outcome
+779,780,4029731,Trimethylaminuria,outcome
+779,780,40482801,Type II diabetes mellitus uncontrolled,outcome
+779,780,74719,Ulcer of foot,outcome
+779,780,443593,Ulcer of thigh,outcome
+779,780,4199550,Unable to mobilize,outcome
+779,780,4002572,"Uncomplicated sedative, hypnotic AND/OR anxiolytic withdrawal",outcome
+779,780,4092743,Unsteady when standing,outcome
+779,780,195591,Urethral overactivity,outcome
+779,780,4216708,Urgent desire for stool,outcome
+779,780,80070,Uric acid urolithiasis,outcome
+779,780,4088910,Uterine cervix absent,outcome
+779,780,4092565,Uterine prolapse,outcome
+779,780,4088920,Uterus absent,outcome
+779,780,435131,Victim of neglect,outcome
+779,780,261599,Vocal cord paralysis,outcome
+779,780,4104132,Vomit contains feces,outcome
+779,780,439405,Walking disability,outcome
+779,780,314754,Wheezing,outcome
+779,780,132834,White piedra,outcome
+779,780,435723,Wound seroma,outcome
+779,780,440193,Wristdrop,outcome
 781,782,4175583,3-Methylglutaconic aciduria type 2,outcome
 781,782,375824,Abnormal auditory perception,outcome
 781,782,435574,Abnormal form of root of tooth,outcome
@@ -693,6 +1500,275 @@ targetId,comparatorId,outcomeId,outcomeName,type
 781,782,4104132,Vomit contains feces,outcome
 781,782,439405,Walking disability,outcome
 781,782,314754,Wheezing,outcome
+781,782,435723,Wound seroma,outcome
+781,782,440193,Wristdrop,outcome
+781,782,4175583,3-Methylglutaconic aciduria type 2,outcome
+781,782,443698,Abnormal anal Papanicolaou smear,outcome
+781,782,375824,Abnormal auditory perception,outcome
+781,782,435574,Abnormal form of root of tooth,outcome
+781,782,4262562,Abnormal heart beat,outcome
+781,782,439935,Abnormal posture,outcome
+781,782,436409,Abnormal pupil,outcome
+781,782,443702,Abnormal response to nerve stimulation,outcome
+781,782,443585,Abrasion and/or friction burn of multiple sites,outcome
+781,782,4088768,Absent nipple,outcome
+781,782,44783954,Acid reflux,outcome
+781,782,380818,Acquired deformity of head,outcome
+781,782,31668,Acquired deformity of neck,outcome
+781,782,4319325,Acquired deformity of trunk,outcome
+781,782,432411,Acquired equinus deformity of foot,outcome
+781,782,439673,Acute hepatitis B with delta-agent (coinfection) without hepatic coma,outcome
+781,782,441481,Adult victim of abuse,outcome
+781,782,435720,Adverse anesthesia outcome,outcome
+781,782,4218106,Alcoholism,outcome
+781,782,4303805,Allergic reaction to bite and/or sting,outcome
+781,782,4254371,Altered growth and development,outcome
+781,782,434916,"Amphetamine or psychostimulant dependence, continuous",outcome
+781,782,4101660,Amputated below knee,outcome
+781,782,4198962,Amputated thumb,outcome
+781,782,4155909,Anesthesia of skin,outcome
+781,782,4171556,Ankle ulcer,outcome
+781,782,45757682,Anomaly of jaw size,outcome
+781,782,4060259,Antenatal amniocentesis - abnormal,outcome
+781,782,4061157,Antenatal ultrasound scan abnormal,outcome
+781,782,77650,Aseptic necrosis of bone,outcome
+781,782,439237,Assault,outcome
+781,782,76744,Azoospermia,outcome
+781,782,4216219,Bizarre personal appearance,outcome
+781,782,141797,Black piedra,outcome
+781,782,433813,Bladder neck obstruction,outcome
+781,782,436230,Blood chemistry abnormal,outcome
+781,782,74698,Breech presentation,outcome
+781,782,256449,Bronchiectasis,outcome
+781,782,79232,Burn of ankle,outcome
+781,782,134765,Cachexia,outcome
+781,782,4172458,Candidiasis of skin,outcome
+781,782,4228429,Carnitine deficiency,outcome
+781,782,42709838,Cellulitis of lower limb,outcome
+781,782,4213540,Cervical somatic dysfunction,outcome
+781,782,443570,Cervicovaginal cytology: Low grade squamous intraepithelial lesion,outcome
+781,782,439674,Chronic viral hepatitis B without delta-agent,outcome
+781,782,438262,Chyluria,outcome
+781,782,4066505,Clicking hip,outcome
+781,782,196454,Colostomy and enterostomy malfunction,outcome
+781,782,4201390,Colostomy present,outcome
+781,782,134734,Compartment syndrome,outcome
+781,782,46269889,Complication due to Crohn's disease,outcome
+781,782,4173078,Complication due to immunization,outcome
+781,782,434675,Complication of gastrostomy,outcome
+781,782,438624,Complication of renal dialysis,outcome
+781,782,72995,Contracture of joint of hand,outcome
+781,782,80492,Contracture of knee joint,outcome
+781,782,439666,Contracture of multiple joints,outcome
+781,782,199978,Contusion of lower limb,outcome
+781,782,433071,Contusion of multiple sites,outcome
+781,782,4022071,Convalescence,outcome
+781,782,432729,Crying infant,outcome
+781,782,75389,Current tear of lateral cartilage AND/OR meniscus of knee,outcome
+781,782,80242,Current tear of medial cartilage AND/OR meniscus of knee,outcome
+781,782,73575,Deformity of toe,outcome
+781,782,436233,Delayed milestone,outcome
+781,782,443737,Dental restoration lost,outcome
+781,782,438183,Denture occlusion incorrect,outcome
+781,782,438759,Descemet's membrane fold,outcome
+781,782,4101282,Dietary selenium deficiency,outcome
+781,782,4115402,Difficulty sleeping,outcome
+781,782,4019971,Discord in school,outcome
+781,782,4022078,Discord with counselor,outcome
+781,782,436906,Disease caused by rickettsiae,outcome
+781,782,4135080,Dislocation of radial head,outcome
+781,782,201091,Disproportion - major pelvic abnormality,outcome
+781,782,372329,Dissociated deviation,outcome
+781,782,4155818,Does climb,outcome
+781,782,4196636,Dysarthria,outcome
+781,782,433441,Ectopic production of endocrine substance,outcome
+781,782,433111,Effects of hunger,outcome
+781,782,78834,Effusion of joint of hand,outcome
+781,782,4247710,Effusion of joint of pelvic region,outcome
+781,782,72407,Effusion of joint of shoulder region,outcome
+781,782,439791,Emotional upset,outcome
+781,782,4150043,Epididymitis,outcome
+781,782,4029271,Essential fatty acid deficiency,outcome
+781,782,197607,Excessive and frequent menstruation,outcome
+781,782,40480271,Extra unidentified structurally abnormal chromosome,outcome
+781,782,193598,Extravasation of urine,outcome
+781,782,439128,Extreme prematurity of infant,outcome
+781,782,4059015,Falls,outcome
+781,782,4092896,Feces contents abnormal,outcome
+781,782,4182437,Female genital cutting,outcome
+781,782,4118057,Fetal or neonatal effect of maternal oligohydramnios,outcome
+781,782,4229403,Flat anterior chamber of eye,outcome
+781,782,4069540,Flexion deformity of knee,outcome
+781,782,374801,Foreign body in ear,outcome
+781,782,4096540,Foreskin deficient,outcome
+781,782,441487,Frostbite,outcome
+781,782,73564,Full thickness rotator cuff tear,outcome
+781,782,40481568,Fussy infant,outcome
+781,782,439788,Galactosemia,outcome
+781,782,40481632,Ganglion cyst,outcome
+781,782,435775,Genetic anomaly of leukocyte,outcome
+781,782,74855,Genital herpes simplex,outcome
+781,782,437744,Heat exhaustion,outcome
+781,782,440021,Herpes simplex without complication,outcome
+781,782,437489,Herpes zoster with complication,outcome
+781,782,440329,Herpes zoster without complication,outcome
+781,782,4012570,High risk sexual behavior,outcome
+781,782,435511,Hypercalcemia,outcome
+781,782,77364,Hypermobility of coccyx,outcome
+781,782,441829,Hyperosmolality and or hypernatremia,outcome
+781,782,4287416,Hyperphenylalaninemia,outcome
+781,782,192298,Hypersplenism,outcome
+781,782,74731,Hypertrophic osteoarthropathy,outcome
+781,782,440129,Hypertrophy of nasal turbinates,outcome
+781,782,4029280,Hypervitaminosis B6,outcome
+781,782,435522,Hypervitaminosis D,outcome
+781,782,434004,Hypervolemia,outcome
+781,782,4024266,Hypocupremia,outcome
+781,782,440072,Hypogammaglobulinemia,outcome
+781,782,437390,Hypoxemia,outcome
+781,782,443447,Iatrogenic hypotension,outcome
+781,782,432596,Immune defect,outcome
+781,782,4344500,Impingement syndrome of shoulder region,outcome
+781,782,4090353,Incompetent urethral closure mechanism,outcome
+781,782,441417,Incoordination,outcome
+781,782,434485,Increase in body fat,outcome
+781,782,440276,"Infection AND/OR inflammatory reaction due to internal prosthetic device, implant AND/OR graft",outcome
+781,782,434872,Infection by Trichomonas,outcome
+781,782,440053,Infestation by insect,outcome
+781,782,4057662,Infestation by Phthirus,outcome
+781,782,442120,Injection site extravasation,outcome
+781,782,4168222,"Intra-abdominal and pelvic swelling, mass and lump",outcome
+781,782,440710,Intraretinal microvascular abnormality,outcome
+781,782,72994,Jaccoud's syndrome,outcome
+781,782,78512,Joint contracture of the ankle and/or foot,outcome
+781,782,78228,Joint derangement,outcome
+781,782,77072,Joint effusion of ankle AND/OR foot,outcome
+781,782,72404,Joint stiffness,outcome
+781,782,435903,Juvenile osteochondrosis of foot,outcome
+781,782,438527,"Juvenile osteochondrosis of lower extremity, excluding foot",outcome
+781,782,435633,Juvenile osteochondrosis of upper extremity,outcome
+781,782,4115991,Knee joint effusion,outcome
+781,782,4093346,Large prostate,outcome
+781,782,133088,Late amputation stump complication,outcome
+781,782,436041,Leech infestation,outcome
+781,782,4228331,Leukokeratosis nicotina palati,outcome
+781,782,377873,Lid lag,outcome
+781,782,4027782,Lipid storage disease,outcome
+781,782,435516,Lipoprotein deficiency disorder,outcome
+781,782,4297984,Local infection of wound,outcome
+781,782,440638,Lyme disease,outcome
+781,782,4083487,Macular drusen,outcome
+781,782,438067,Malaria,outcome
+781,782,4051630,Malingering,outcome
+781,782,436426,Malleus mobility reduced,outcome
+781,782,44783760,Mammographic calcification of breast,outcome
+781,782,258540,Marfan's syndrome,outcome
+781,782,438297,"Mechanical complication of cardiac device, implant AND/OR graft",outcome
+781,782,432798,"Mechanical complication of internal orthopedic device, implant AND/OR graft",outcome
+781,782,439082,Menopausal syndrome,outcome
+781,782,436940,Metabolic syndrome X,outcome
+781,782,435247,Metallosis,outcome
+781,782,45757258,Minimal keratinized residual ridge mucosa,outcome
+781,782,40480000,Multiple complications due to diabetes mellitus,outcome
+781,782,137967,"Muscle, ligament and fascia disorders",outcome
+781,782,4271024,Musculoskeletal fibromatosis,outcome
+781,782,134315,Myelophthisis,outcome
+781,782,4195085,Nasal congestion,outcome
+781,782,4209423,Nicotine dependence,outcome
+781,782,434016,"Nondependent opioid abuse, continuous",outcome
+781,782,201792,Nongonococcal urethritis,outcome
+781,782,4035269,Non-ketotic hyperglycinemia,outcome
+781,782,40480893,Nonspecific tuberculin test reaction,outcome
+781,782,72413,Nontraumatic rupture of muscle,outcome
+781,782,198802,Occlusion of ureter,outcome
+781,782,4215978,Onychomycosis,outcome
+781,782,140648,Onychomycosis due to dermatophyte,outcome
+781,782,4129408,Open wound of ankle,outcome
+781,782,4053600,Open wound of elbow,outcome
+781,782,77139,Open wound of finger without complication,outcome
+781,782,444426,Open wound of foot except toes without complication,outcome
+781,782,137426,Open wound of forearm without complication,outcome
+781,782,77421,Open wound of hand except fingers without complication,outcome
+781,782,4051004,Open wound of scalp,outcome
+781,782,4129404,Open wound of upper arm,outcome
+781,782,438130,Opioid abuse,outcome
+781,782,438120,Opioid dependence,outcome
+781,782,4171915,Orchitis,outcome
+781,782,315361,Orthopnea,outcome
+781,782,74080,Orthostatic proteinuria,outcome
+781,782,75920,Osteitis condensans,outcome
+781,782,437359,Osteochondritis dissecans,outcome
+781,782,378160,Otorrhea,outcome
+781,782,439035,Otosclerosis,outcome
+781,782,77356,Pathological dislocation of joint,outcome
+781,782,4022076,Patient dependence on care provider,outcome
+781,782,375292,Perforation of tympanic membrane,outcome
+781,782,78162,Peripheral vertigo,outcome
+781,782,437092,Physiological development failure,outcome
+781,782,253796,Pneumothorax,outcome
+781,782,4295261,Postmenopausal state,outcome
+781,782,4202045,Postviral fatigue syndrome,outcome
+781,782,433542,Precipitate labor,outcome
+781,782,4094448,Pregnancy test negative,outcome
+781,782,434319,Premature ejaculation,outcome
+781,782,198715,Premature menopause,outcome
+781,782,439081,Premenstrual tension syndrome,outcome
+781,782,46286594,Problem related to lifestyle,outcome
+781,782,199876,Prolapse of female genital organs,outcome
+781,782,4295888,Prolapse of intestine,outcome
+781,782,194997,Prostatitis,outcome
+781,782,439790,Psychalgia,outcome
+781,782,440068,Psychosexual dysfunction,outcome
+781,782,435028,Puerperal pyrexia of unknown origin,outcome
+781,782,4245252,Raised prostate specific antigen,outcome
+781,782,436246,Reduced libido,outcome
+781,782,45772079,Retinopathy of prematurity stage 0,outcome
+781,782,436828,Saliva abnormal,outcome
+781,782,435088,Senility,outcome
+781,782,4052226,Sequelae of injuries of lower limb,outcome
+781,782,4056577,Sequelae of open wound of head,outcome
+781,782,4233565,Severe protein-calorie malnutrition (Gomez: less than 60 percent of standard weight),outcome
+781,782,4250163,Sexual arousal disorder,outcome
+781,782,4096999,Short rib,outcome
+781,782,4305303,Sleep deprivation,outcome
+781,782,195926,Slowing of urinary stream,outcome
+781,782,4125590,Slurred speech,outcome
+781,782,4019836,Social exclusion,outcome
+781,782,444127,Specimen satisfactory for evaluation but limited,outcome
+781,782,4345332,Spinal instability,outcome
+781,782,443172,"Splinter of face, without major open wound",outcome
+781,782,443082,Starvation,outcome
+781,782,440233,Strain of supraspinatus muscle AND/OR tendon,outcome
+781,782,135852,Teething syndrome,outcome
+781,782,4195698,Tenosynovitis,outcome
+781,782,4339088,Testicular mass,outcome
+781,782,440457,Threatened miscarriage,outcome
+781,782,374907,Tics of organic origin,outcome
+781,782,80946,Tinea manus,outcome
+781,782,4163280,Tinea of perianal region,outcome
+781,782,133141,Tinea pedis,outcome
+781,782,433244,Tooth loss,outcome
+781,782,440268,Toxic effect of carbon monoxide,outcome
+781,782,81930,Transient arthropathy,outcome
+781,782,4029731,Trimethylaminuria,outcome
+781,782,40482801,Type II diabetes mellitus uncontrolled,outcome
+781,782,74719,Ulcer of foot,outcome
+781,782,443593,Ulcer of thigh,outcome
+781,782,4199550,Unable to mobilize,outcome
+781,782,4002572,"Uncomplicated sedative, hypnotic AND/OR anxiolytic withdrawal",outcome
+781,782,4092743,Unsteady when standing,outcome
+781,782,195591,Urethral overactivity,outcome
+781,782,4216708,Urgent desire for stool,outcome
+781,782,80070,Uric acid urolithiasis,outcome
+781,782,4088910,Uterine cervix absent,outcome
+781,782,4092565,Uterine prolapse,outcome
+781,782,4088920,Uterus absent,outcome
+781,782,435131,Victim of neglect,outcome
+781,782,261599,Vocal cord paralysis,outcome
+781,782,4104132,Vomit contains feces,outcome
+781,782,439405,Walking disability,outcome
+781,782,314754,Wheezing,outcome
+781,782,132834,White piedra,outcome
 781,782,435723,Wound seroma,outcome
 781,782,440193,Wristdrop,outcome
 759,760,4175583,3-Methylglutaconic aciduria type 2,outcome
@@ -869,6 +1945,275 @@ targetId,comparatorId,outcomeId,outcomeName,type
 759,760,314754,Wheezing,outcome
 759,760,435723,Wound seroma,outcome
 759,760,440193,Wristdrop,outcome
+759,760,4175583,3-Methylglutaconic aciduria type 2,outcome
+759,760,443698,Abnormal anal Papanicolaou smear,outcome
+759,760,375824,Abnormal auditory perception,outcome
+759,760,435574,Abnormal form of root of tooth,outcome
+759,760,4262562,Abnormal heart beat,outcome
+759,760,439935,Abnormal posture,outcome
+759,760,436409,Abnormal pupil,outcome
+759,760,443702,Abnormal response to nerve stimulation,outcome
+759,760,443585,Abrasion and/or friction burn of multiple sites,outcome
+759,760,4088768,Absent nipple,outcome
+759,760,44783954,Acid reflux,outcome
+759,760,380818,Acquired deformity of head,outcome
+759,760,31668,Acquired deformity of neck,outcome
+759,760,4319325,Acquired deformity of trunk,outcome
+759,760,432411,Acquired equinus deformity of foot,outcome
+759,760,439673,Acute hepatitis B with delta-agent (coinfection) without hepatic coma,outcome
+759,760,441481,Adult victim of abuse,outcome
+759,760,435720,Adverse anesthesia outcome,outcome
+759,760,4218106,Alcoholism,outcome
+759,760,4303805,Allergic reaction to bite and/or sting,outcome
+759,760,4254371,Altered growth and development,outcome
+759,760,434916,"Amphetamine or psychostimulant dependence, continuous",outcome
+759,760,4101660,Amputated below knee,outcome
+759,760,4198962,Amputated thumb,outcome
+759,760,4155909,Anesthesia of skin,outcome
+759,760,4171556,Ankle ulcer,outcome
+759,760,45757682,Anomaly of jaw size,outcome
+759,760,4060259,Antenatal amniocentesis - abnormal,outcome
+759,760,4061157,Antenatal ultrasound scan abnormal,outcome
+759,760,77650,Aseptic necrosis of bone,outcome
+759,760,439237,Assault,outcome
+759,760,76744,Azoospermia,outcome
+759,760,4216219,Bizarre personal appearance,outcome
+759,760,141797,Black piedra,outcome
+759,760,433813,Bladder neck obstruction,outcome
+759,760,436230,Blood chemistry abnormal,outcome
+759,760,74698,Breech presentation,outcome
+759,760,256449,Bronchiectasis,outcome
+759,760,79232,Burn of ankle,outcome
+759,760,134765,Cachexia,outcome
+759,760,4172458,Candidiasis of skin,outcome
+759,760,4228429,Carnitine deficiency,outcome
+759,760,42709838,Cellulitis of lower limb,outcome
+759,760,4213540,Cervical somatic dysfunction,outcome
+759,760,443570,Cervicovaginal cytology: Low grade squamous intraepithelial lesion,outcome
+759,760,439674,Chronic viral hepatitis B without delta-agent,outcome
+759,760,438262,Chyluria,outcome
+759,760,4066505,Clicking hip,outcome
+759,760,196454,Colostomy and enterostomy malfunction,outcome
+759,760,4201390,Colostomy present,outcome
+759,760,134734,Compartment syndrome,outcome
+759,760,46269889,Complication due to Crohn's disease,outcome
+759,760,4173078,Complication due to immunization,outcome
+759,760,434675,Complication of gastrostomy,outcome
+759,760,438624,Complication of renal dialysis,outcome
+759,760,72995,Contracture of joint of hand,outcome
+759,760,80492,Contracture of knee joint,outcome
+759,760,439666,Contracture of multiple joints,outcome
+759,760,199978,Contusion of lower limb,outcome
+759,760,433071,Contusion of multiple sites,outcome
+759,760,4022071,Convalescence,outcome
+759,760,432729,Crying infant,outcome
+759,760,75389,Current tear of lateral cartilage AND/OR meniscus of knee,outcome
+759,760,80242,Current tear of medial cartilage AND/OR meniscus of knee,outcome
+759,760,73575,Deformity of toe,outcome
+759,760,436233,Delayed milestone,outcome
+759,760,443737,Dental restoration lost,outcome
+759,760,438183,Denture occlusion incorrect,outcome
+759,760,438759,Descemet's membrane fold,outcome
+759,760,4101282,Dietary selenium deficiency,outcome
+759,760,4115402,Difficulty sleeping,outcome
+759,760,4019971,Discord in school,outcome
+759,760,4022078,Discord with counselor,outcome
+759,760,436906,Disease caused by rickettsiae,outcome
+759,760,4135080,Dislocation of radial head,outcome
+759,760,201091,Disproportion - major pelvic abnormality,outcome
+759,760,372329,Dissociated deviation,outcome
+759,760,4155818,Does climb,outcome
+759,760,4196636,Dysarthria,outcome
+759,760,433441,Ectopic production of endocrine substance,outcome
+759,760,433111,Effects of hunger,outcome
+759,760,78834,Effusion of joint of hand,outcome
+759,760,4247710,Effusion of joint of pelvic region,outcome
+759,760,72407,Effusion of joint of shoulder region,outcome
+759,760,439791,Emotional upset,outcome
+759,760,4150043,Epididymitis,outcome
+759,760,4029271,Essential fatty acid deficiency,outcome
+759,760,197607,Excessive and frequent menstruation,outcome
+759,760,40480271,Extra unidentified structurally abnormal chromosome,outcome
+759,760,193598,Extravasation of urine,outcome
+759,760,439128,Extreme prematurity of infant,outcome
+759,760,4059015,Falls,outcome
+759,760,4092896,Feces contents abnormal,outcome
+759,760,4182437,Female genital cutting,outcome
+759,760,4118057,Fetal or neonatal effect of maternal oligohydramnios,outcome
+759,760,4229403,Flat anterior chamber of eye,outcome
+759,760,4069540,Flexion deformity of knee,outcome
+759,760,374801,Foreign body in ear,outcome
+759,760,4096540,Foreskin deficient,outcome
+759,760,441487,Frostbite,outcome
+759,760,73564,Full thickness rotator cuff tear,outcome
+759,760,40481568,Fussy infant,outcome
+759,760,439788,Galactosemia,outcome
+759,760,40481632,Ganglion cyst,outcome
+759,760,435775,Genetic anomaly of leukocyte,outcome
+759,760,74855,Genital herpes simplex,outcome
+759,760,437744,Heat exhaustion,outcome
+759,760,440021,Herpes simplex without complication,outcome
+759,760,437489,Herpes zoster with complication,outcome
+759,760,440329,Herpes zoster without complication,outcome
+759,760,4012570,High risk sexual behavior,outcome
+759,760,435511,Hypercalcemia,outcome
+759,760,77364,Hypermobility of coccyx,outcome
+759,760,441829,Hyperosmolality and or hypernatremia,outcome
+759,760,4287416,Hyperphenylalaninemia,outcome
+759,760,192298,Hypersplenism,outcome
+759,760,74731,Hypertrophic osteoarthropathy,outcome
+759,760,440129,Hypertrophy of nasal turbinates,outcome
+759,760,4029280,Hypervitaminosis B6,outcome
+759,760,435522,Hypervitaminosis D,outcome
+759,760,434004,Hypervolemia,outcome
+759,760,4024266,Hypocupremia,outcome
+759,760,440072,Hypogammaglobulinemia,outcome
+759,760,437390,Hypoxemia,outcome
+759,760,443447,Iatrogenic hypotension,outcome
+759,760,432596,Immune defect,outcome
+759,760,4344500,Impingement syndrome of shoulder region,outcome
+759,760,4090353,Incompetent urethral closure mechanism,outcome
+759,760,441417,Incoordination,outcome
+759,760,434485,Increase in body fat,outcome
+759,760,440276,"Infection AND/OR inflammatory reaction due to internal prosthetic device, implant AND/OR graft",outcome
+759,760,434872,Infection by Trichomonas,outcome
+759,760,440053,Infestation by insect,outcome
+759,760,4057662,Infestation by Phthirus,outcome
+759,760,442120,Injection site extravasation,outcome
+759,760,4168222,"Intra-abdominal and pelvic swelling, mass and lump",outcome
+759,760,440710,Intraretinal microvascular abnormality,outcome
+759,760,72994,Jaccoud's syndrome,outcome
+759,760,78512,Joint contracture of the ankle and/or foot,outcome
+759,760,78228,Joint derangement,outcome
+759,760,77072,Joint effusion of ankle AND/OR foot,outcome
+759,760,72404,Joint stiffness,outcome
+759,760,435903,Juvenile osteochondrosis of foot,outcome
+759,760,438527,"Juvenile osteochondrosis of lower extremity, excluding foot",outcome
+759,760,435633,Juvenile osteochondrosis of upper extremity,outcome
+759,760,4115991,Knee joint effusion,outcome
+759,760,4093346,Large prostate,outcome
+759,760,133088,Late amputation stump complication,outcome
+759,760,436041,Leech infestation,outcome
+759,760,4228331,Leukokeratosis nicotina palati,outcome
+759,760,377873,Lid lag,outcome
+759,760,4027782,Lipid storage disease,outcome
+759,760,435516,Lipoprotein deficiency disorder,outcome
+759,760,4297984,Local infection of wound,outcome
+759,760,440638,Lyme disease,outcome
+759,760,4083487,Macular drusen,outcome
+759,760,438067,Malaria,outcome
+759,760,4051630,Malingering,outcome
+759,760,436426,Malleus mobility reduced,outcome
+759,760,44783760,Mammographic calcification of breast,outcome
+759,760,258540,Marfan's syndrome,outcome
+759,760,438297,"Mechanical complication of cardiac device, implant AND/OR graft",outcome
+759,760,432798,"Mechanical complication of internal orthopedic device, implant AND/OR graft",outcome
+759,760,439082,Menopausal syndrome,outcome
+759,760,436940,Metabolic syndrome X,outcome
+759,760,435247,Metallosis,outcome
+759,760,45757258,Minimal keratinized residual ridge mucosa,outcome
+759,760,40480000,Multiple complications due to diabetes mellitus,outcome
+759,760,137967,"Muscle, ligament and fascia disorders",outcome
+759,760,4271024,Musculoskeletal fibromatosis,outcome
+759,760,134315,Myelophthisis,outcome
+759,760,4195085,Nasal congestion,outcome
+759,760,4209423,Nicotine dependence,outcome
+759,760,434016,"Nondependent opioid abuse, continuous",outcome
+759,760,201792,Nongonococcal urethritis,outcome
+759,760,4035269,Non-ketotic hyperglycinemia,outcome
+759,760,40480893,Nonspecific tuberculin test reaction,outcome
+759,760,72413,Nontraumatic rupture of muscle,outcome
+759,760,198802,Occlusion of ureter,outcome
+759,760,4215978,Onychomycosis,outcome
+759,760,140648,Onychomycosis due to dermatophyte,outcome
+759,760,4129408,Open wound of ankle,outcome
+759,760,4053600,Open wound of elbow,outcome
+759,760,77139,Open wound of finger without complication,outcome
+759,760,444426,Open wound of foot except toes without complication,outcome
+759,760,137426,Open wound of forearm without complication,outcome
+759,760,77421,Open wound of hand except fingers without complication,outcome
+759,760,4051004,Open wound of scalp,outcome
+759,760,4129404,Open wound of upper arm,outcome
+759,760,438130,Opioid abuse,outcome
+759,760,438120,Opioid dependence,outcome
+759,760,4171915,Orchitis,outcome
+759,760,315361,Orthopnea,outcome
+759,760,74080,Orthostatic proteinuria,outcome
+759,760,75920,Osteitis condensans,outcome
+759,760,437359,Osteochondritis dissecans,outcome
+759,760,378160,Otorrhea,outcome
+759,760,439035,Otosclerosis,outcome
+759,760,77356,Pathological dislocation of joint,outcome
+759,760,4022076,Patient dependence on care provider,outcome
+759,760,375292,Perforation of tympanic membrane,outcome
+759,760,78162,Peripheral vertigo,outcome
+759,760,437092,Physiological development failure,outcome
+759,760,253796,Pneumothorax,outcome
+759,760,4295261,Postmenopausal state,outcome
+759,760,4202045,Postviral fatigue syndrome,outcome
+759,760,433542,Precipitate labor,outcome
+759,760,4094448,Pregnancy test negative,outcome
+759,760,434319,Premature ejaculation,outcome
+759,760,198715,Premature menopause,outcome
+759,760,439081,Premenstrual tension syndrome,outcome
+759,760,46286594,Problem related to lifestyle,outcome
+759,760,199876,Prolapse of female genital organs,outcome
+759,760,4295888,Prolapse of intestine,outcome
+759,760,194997,Prostatitis,outcome
+759,760,439790,Psychalgia,outcome
+759,760,440068,Psychosexual dysfunction,outcome
+759,760,435028,Puerperal pyrexia of unknown origin,outcome
+759,760,4245252,Raised prostate specific antigen,outcome
+759,760,436246,Reduced libido,outcome
+759,760,45772079,Retinopathy of prematurity stage 0,outcome
+759,760,436828,Saliva abnormal,outcome
+759,760,435088,Senility,outcome
+759,760,4052226,Sequelae of injuries of lower limb,outcome
+759,760,4056577,Sequelae of open wound of head,outcome
+759,760,4233565,Severe protein-calorie malnutrition (Gomez: less than 60 percent of standard weight),outcome
+759,760,4250163,Sexual arousal disorder,outcome
+759,760,4096999,Short rib,outcome
+759,760,4305303,Sleep deprivation,outcome
+759,760,195926,Slowing of urinary stream,outcome
+759,760,4125590,Slurred speech,outcome
+759,760,4019836,Social exclusion,outcome
+759,760,444127,Specimen satisfactory for evaluation but limited,outcome
+759,760,4345332,Spinal instability,outcome
+759,760,443172,"Splinter of face, without major open wound",outcome
+759,760,443082,Starvation,outcome
+759,760,440233,Strain of supraspinatus muscle AND/OR tendon,outcome
+759,760,135852,Teething syndrome,outcome
+759,760,4195698,Tenosynovitis,outcome
+759,760,4339088,Testicular mass,outcome
+759,760,440457,Threatened miscarriage,outcome
+759,760,374907,Tics of organic origin,outcome
+759,760,80946,Tinea manus,outcome
+759,760,4163280,Tinea of perianal region,outcome
+759,760,133141,Tinea pedis,outcome
+759,760,433244,Tooth loss,outcome
+759,760,440268,Toxic effect of carbon monoxide,outcome
+759,760,81930,Transient arthropathy,outcome
+759,760,4029731,Trimethylaminuria,outcome
+759,760,40482801,Type II diabetes mellitus uncontrolled,outcome
+759,760,74719,Ulcer of foot,outcome
+759,760,443593,Ulcer of thigh,outcome
+759,760,4199550,Unable to mobilize,outcome
+759,760,4002572,"Uncomplicated sedative, hypnotic AND/OR anxiolytic withdrawal",outcome
+759,760,4092743,Unsteady when standing,outcome
+759,760,195591,Urethral overactivity,outcome
+759,760,4216708,Urgent desire for stool,outcome
+759,760,80070,Uric acid urolithiasis,outcome
+759,760,4088910,Uterine cervix absent,outcome
+759,760,4092565,Uterine prolapse,outcome
+759,760,4088920,Uterus absent,outcome
+759,760,435131,Victim of neglect,outcome
+759,760,261599,Vocal cord paralysis,outcome
+759,760,4104132,Vomit contains feces,outcome
+759,760,439405,Walking disability,outcome
+759,760,314754,Wheezing,outcome
+759,760,132834,White piedra,outcome
+759,760,435723,Wound seroma,outcome
+759,760,440193,Wristdrop,outcome
 759,763,4175583,3-Methylglutaconic aciduria type 2,outcome
 759,763,375824,Abnormal auditory perception,outcome
 759,763,435574,Abnormal form of root of tooth,outcome
@@ -1041,6 +2386,275 @@ targetId,comparatorId,outcomeId,outcomeName,type
 759,763,4104132,Vomit contains feces,outcome
 759,763,439405,Walking disability,outcome
 759,763,314754,Wheezing,outcome
+759,763,435723,Wound seroma,outcome
+759,763,440193,Wristdrop,outcome
+759,763,4175583,3-Methylglutaconic aciduria type 2,outcome
+759,763,443698,Abnormal anal Papanicolaou smear,outcome
+759,763,375824,Abnormal auditory perception,outcome
+759,763,435574,Abnormal form of root of tooth,outcome
+759,763,4262562,Abnormal heart beat,outcome
+759,763,439935,Abnormal posture,outcome
+759,763,436409,Abnormal pupil,outcome
+759,763,443702,Abnormal response to nerve stimulation,outcome
+759,763,443585,Abrasion and/or friction burn of multiple sites,outcome
+759,763,4088768,Absent nipple,outcome
+759,763,44783954,Acid reflux,outcome
+759,763,380818,Acquired deformity of head,outcome
+759,763,31668,Acquired deformity of neck,outcome
+759,763,4319325,Acquired deformity of trunk,outcome
+759,763,432411,Acquired equinus deformity of foot,outcome
+759,763,439673,Acute hepatitis B with delta-agent (coinfection) without hepatic coma,outcome
+759,763,441481,Adult victim of abuse,outcome
+759,763,435720,Adverse anesthesia outcome,outcome
+759,763,4218106,Alcoholism,outcome
+759,763,4303805,Allergic reaction to bite and/or sting,outcome
+759,763,4254371,Altered growth and development,outcome
+759,763,434916,"Amphetamine or psychostimulant dependence, continuous",outcome
+759,763,4101660,Amputated below knee,outcome
+759,763,4198962,Amputated thumb,outcome
+759,763,4155909,Anesthesia of skin,outcome
+759,763,4171556,Ankle ulcer,outcome
+759,763,45757682,Anomaly of jaw size,outcome
+759,763,4060259,Antenatal amniocentesis - abnormal,outcome
+759,763,4061157,Antenatal ultrasound scan abnormal,outcome
+759,763,77650,Aseptic necrosis of bone,outcome
+759,763,439237,Assault,outcome
+759,763,76744,Azoospermia,outcome
+759,763,4216219,Bizarre personal appearance,outcome
+759,763,141797,Black piedra,outcome
+759,763,433813,Bladder neck obstruction,outcome
+759,763,436230,Blood chemistry abnormal,outcome
+759,763,74698,Breech presentation,outcome
+759,763,256449,Bronchiectasis,outcome
+759,763,79232,Burn of ankle,outcome
+759,763,134765,Cachexia,outcome
+759,763,4172458,Candidiasis of skin,outcome
+759,763,4228429,Carnitine deficiency,outcome
+759,763,42709838,Cellulitis of lower limb,outcome
+759,763,4213540,Cervical somatic dysfunction,outcome
+759,763,443570,Cervicovaginal cytology: Low grade squamous intraepithelial lesion,outcome
+759,763,439674,Chronic viral hepatitis B without delta-agent,outcome
+759,763,438262,Chyluria,outcome
+759,763,4066505,Clicking hip,outcome
+759,763,196454,Colostomy and enterostomy malfunction,outcome
+759,763,4201390,Colostomy present,outcome
+759,763,134734,Compartment syndrome,outcome
+759,763,46269889,Complication due to Crohn's disease,outcome
+759,763,4173078,Complication due to immunization,outcome
+759,763,434675,Complication of gastrostomy,outcome
+759,763,438624,Complication of renal dialysis,outcome
+759,763,72995,Contracture of joint of hand,outcome
+759,763,80492,Contracture of knee joint,outcome
+759,763,439666,Contracture of multiple joints,outcome
+759,763,199978,Contusion of lower limb,outcome
+759,763,433071,Contusion of multiple sites,outcome
+759,763,4022071,Convalescence,outcome
+759,763,432729,Crying infant,outcome
+759,763,75389,Current tear of lateral cartilage AND/OR meniscus of knee,outcome
+759,763,80242,Current tear of medial cartilage AND/OR meniscus of knee,outcome
+759,763,73575,Deformity of toe,outcome
+759,763,436233,Delayed milestone,outcome
+759,763,443737,Dental restoration lost,outcome
+759,763,438183,Denture occlusion incorrect,outcome
+759,763,438759,Descemet's membrane fold,outcome
+759,763,4101282,Dietary selenium deficiency,outcome
+759,763,4115402,Difficulty sleeping,outcome
+759,763,4019971,Discord in school,outcome
+759,763,4022078,Discord with counselor,outcome
+759,763,436906,Disease caused by rickettsiae,outcome
+759,763,4135080,Dislocation of radial head,outcome
+759,763,201091,Disproportion - major pelvic abnormality,outcome
+759,763,372329,Dissociated deviation,outcome
+759,763,4155818,Does climb,outcome
+759,763,4196636,Dysarthria,outcome
+759,763,433441,Ectopic production of endocrine substance,outcome
+759,763,433111,Effects of hunger,outcome
+759,763,78834,Effusion of joint of hand,outcome
+759,763,4247710,Effusion of joint of pelvic region,outcome
+759,763,72407,Effusion of joint of shoulder region,outcome
+759,763,439791,Emotional upset,outcome
+759,763,4150043,Epididymitis,outcome
+759,763,4029271,Essential fatty acid deficiency,outcome
+759,763,197607,Excessive and frequent menstruation,outcome
+759,763,40480271,Extra unidentified structurally abnormal chromosome,outcome
+759,763,193598,Extravasation of urine,outcome
+759,763,439128,Extreme prematurity of infant,outcome
+759,763,4059015,Falls,outcome
+759,763,4092896,Feces contents abnormal,outcome
+759,763,4182437,Female genital cutting,outcome
+759,763,4118057,Fetal or neonatal effect of maternal oligohydramnios,outcome
+759,763,4229403,Flat anterior chamber of eye,outcome
+759,763,4069540,Flexion deformity of knee,outcome
+759,763,374801,Foreign body in ear,outcome
+759,763,4096540,Foreskin deficient,outcome
+759,763,441487,Frostbite,outcome
+759,763,73564,Full thickness rotator cuff tear,outcome
+759,763,40481568,Fussy infant,outcome
+759,763,439788,Galactosemia,outcome
+759,763,40481632,Ganglion cyst,outcome
+759,763,435775,Genetic anomaly of leukocyte,outcome
+759,763,74855,Genital herpes simplex,outcome
+759,763,437744,Heat exhaustion,outcome
+759,763,440021,Herpes simplex without complication,outcome
+759,763,437489,Herpes zoster with complication,outcome
+759,763,440329,Herpes zoster without complication,outcome
+759,763,4012570,High risk sexual behavior,outcome
+759,763,435511,Hypercalcemia,outcome
+759,763,77364,Hypermobility of coccyx,outcome
+759,763,441829,Hyperosmolality and or hypernatremia,outcome
+759,763,4287416,Hyperphenylalaninemia,outcome
+759,763,192298,Hypersplenism,outcome
+759,763,74731,Hypertrophic osteoarthropathy,outcome
+759,763,440129,Hypertrophy of nasal turbinates,outcome
+759,763,4029280,Hypervitaminosis B6,outcome
+759,763,435522,Hypervitaminosis D,outcome
+759,763,434004,Hypervolemia,outcome
+759,763,4024266,Hypocupremia,outcome
+759,763,440072,Hypogammaglobulinemia,outcome
+759,763,437390,Hypoxemia,outcome
+759,763,443447,Iatrogenic hypotension,outcome
+759,763,432596,Immune defect,outcome
+759,763,4344500,Impingement syndrome of shoulder region,outcome
+759,763,4090353,Incompetent urethral closure mechanism,outcome
+759,763,441417,Incoordination,outcome
+759,763,434485,Increase in body fat,outcome
+759,763,440276,"Infection AND/OR inflammatory reaction due to internal prosthetic device, implant AND/OR graft",outcome
+759,763,434872,Infection by Trichomonas,outcome
+759,763,440053,Infestation by insect,outcome
+759,763,4057662,Infestation by Phthirus,outcome
+759,763,442120,Injection site extravasation,outcome
+759,763,4168222,"Intra-abdominal and pelvic swelling, mass and lump",outcome
+759,763,440710,Intraretinal microvascular abnormality,outcome
+759,763,72994,Jaccoud's syndrome,outcome
+759,763,78512,Joint contracture of the ankle and/or foot,outcome
+759,763,78228,Joint derangement,outcome
+759,763,77072,Joint effusion of ankle AND/OR foot,outcome
+759,763,72404,Joint stiffness,outcome
+759,763,435903,Juvenile osteochondrosis of foot,outcome
+759,763,438527,"Juvenile osteochondrosis of lower extremity, excluding foot",outcome
+759,763,435633,Juvenile osteochondrosis of upper extremity,outcome
+759,763,4115991,Knee joint effusion,outcome
+759,763,4093346,Large prostate,outcome
+759,763,133088,Late amputation stump complication,outcome
+759,763,436041,Leech infestation,outcome
+759,763,4228331,Leukokeratosis nicotina palati,outcome
+759,763,377873,Lid lag,outcome
+759,763,4027782,Lipid storage disease,outcome
+759,763,435516,Lipoprotein deficiency disorder,outcome
+759,763,4297984,Local infection of wound,outcome
+759,763,440638,Lyme disease,outcome
+759,763,4083487,Macular drusen,outcome
+759,763,438067,Malaria,outcome
+759,763,4051630,Malingering,outcome
+759,763,436426,Malleus mobility reduced,outcome
+759,763,44783760,Mammographic calcification of breast,outcome
+759,763,258540,Marfan's syndrome,outcome
+759,763,438297,"Mechanical complication of cardiac device, implant AND/OR graft",outcome
+759,763,432798,"Mechanical complication of internal orthopedic device, implant AND/OR graft",outcome
+759,763,439082,Menopausal syndrome,outcome
+759,763,436940,Metabolic syndrome X,outcome
+759,763,435247,Metallosis,outcome
+759,763,45757258,Minimal keratinized residual ridge mucosa,outcome
+759,763,40480000,Multiple complications due to diabetes mellitus,outcome
+759,763,137967,"Muscle, ligament and fascia disorders",outcome
+759,763,4271024,Musculoskeletal fibromatosis,outcome
+759,763,134315,Myelophthisis,outcome
+759,763,4195085,Nasal congestion,outcome
+759,763,4209423,Nicotine dependence,outcome
+759,763,434016,"Nondependent opioid abuse, continuous",outcome
+759,763,201792,Nongonococcal urethritis,outcome
+759,763,4035269,Non-ketotic hyperglycinemia,outcome
+759,763,40480893,Nonspecific tuberculin test reaction,outcome
+759,763,72413,Nontraumatic rupture of muscle,outcome
+759,763,198802,Occlusion of ureter,outcome
+759,763,4215978,Onychomycosis,outcome
+759,763,140648,Onychomycosis due to dermatophyte,outcome
+759,763,4129408,Open wound of ankle,outcome
+759,763,4053600,Open wound of elbow,outcome
+759,763,77139,Open wound of finger without complication,outcome
+759,763,444426,Open wound of foot except toes without complication,outcome
+759,763,137426,Open wound of forearm without complication,outcome
+759,763,77421,Open wound of hand except fingers without complication,outcome
+759,763,4051004,Open wound of scalp,outcome
+759,763,4129404,Open wound of upper arm,outcome
+759,763,438130,Opioid abuse,outcome
+759,763,438120,Opioid dependence,outcome
+759,763,4171915,Orchitis,outcome
+759,763,315361,Orthopnea,outcome
+759,763,74080,Orthostatic proteinuria,outcome
+759,763,75920,Osteitis condensans,outcome
+759,763,437359,Osteochondritis dissecans,outcome
+759,763,378160,Otorrhea,outcome
+759,763,439035,Otosclerosis,outcome
+759,763,77356,Pathological dislocation of joint,outcome
+759,763,4022076,Patient dependence on care provider,outcome
+759,763,375292,Perforation of tympanic membrane,outcome
+759,763,78162,Peripheral vertigo,outcome
+759,763,437092,Physiological development failure,outcome
+759,763,253796,Pneumothorax,outcome
+759,763,4295261,Postmenopausal state,outcome
+759,763,4202045,Postviral fatigue syndrome,outcome
+759,763,433542,Precipitate labor,outcome
+759,763,4094448,Pregnancy test negative,outcome
+759,763,434319,Premature ejaculation,outcome
+759,763,198715,Premature menopause,outcome
+759,763,439081,Premenstrual tension syndrome,outcome
+759,763,46286594,Problem related to lifestyle,outcome
+759,763,199876,Prolapse of female genital organs,outcome
+759,763,4295888,Prolapse of intestine,outcome
+759,763,194997,Prostatitis,outcome
+759,763,439790,Psychalgia,outcome
+759,763,440068,Psychosexual dysfunction,outcome
+759,763,435028,Puerperal pyrexia of unknown origin,outcome
+759,763,4245252,Raised prostate specific antigen,outcome
+759,763,436246,Reduced libido,outcome
+759,763,45772079,Retinopathy of prematurity stage 0,outcome
+759,763,436828,Saliva abnormal,outcome
+759,763,435088,Senility,outcome
+759,763,4052226,Sequelae of injuries of lower limb,outcome
+759,763,4056577,Sequelae of open wound of head,outcome
+759,763,4233565,Severe protein-calorie malnutrition (Gomez: less than 60 percent of standard weight),outcome
+759,763,4250163,Sexual arousal disorder,outcome
+759,763,4096999,Short rib,outcome
+759,763,4305303,Sleep deprivation,outcome
+759,763,195926,Slowing of urinary stream,outcome
+759,763,4125590,Slurred speech,outcome
+759,763,4019836,Social exclusion,outcome
+759,763,444127,Specimen satisfactory for evaluation but limited,outcome
+759,763,4345332,Spinal instability,outcome
+759,763,443172,"Splinter of face, without major open wound",outcome
+759,763,443082,Starvation,outcome
+759,763,440233,Strain of supraspinatus muscle AND/OR tendon,outcome
+759,763,135852,Teething syndrome,outcome
+759,763,4195698,Tenosynovitis,outcome
+759,763,4339088,Testicular mass,outcome
+759,763,440457,Threatened miscarriage,outcome
+759,763,374907,Tics of organic origin,outcome
+759,763,80946,Tinea manus,outcome
+759,763,4163280,Tinea of perianal region,outcome
+759,763,133141,Tinea pedis,outcome
+759,763,433244,Tooth loss,outcome
+759,763,440268,Toxic effect of carbon monoxide,outcome
+759,763,81930,Transient arthropathy,outcome
+759,763,4029731,Trimethylaminuria,outcome
+759,763,40482801,Type II diabetes mellitus uncontrolled,outcome
+759,763,74719,Ulcer of foot,outcome
+759,763,443593,Ulcer of thigh,outcome
+759,763,4199550,Unable to mobilize,outcome
+759,763,4002572,"Uncomplicated sedative, hypnotic AND/OR anxiolytic withdrawal",outcome
+759,763,4092743,Unsteady when standing,outcome
+759,763,195591,Urethral overactivity,outcome
+759,763,4216708,Urgent desire for stool,outcome
+759,763,80070,Uric acid urolithiasis,outcome
+759,763,4088910,Uterine cervix absent,outcome
+759,763,4092565,Uterine prolapse,outcome
+759,763,4088920,Uterus absent,outcome
+759,763,435131,Victim of neglect,outcome
+759,763,261599,Vocal cord paralysis,outcome
+759,763,4104132,Vomit contains feces,outcome
+759,763,439405,Walking disability,outcome
+759,763,314754,Wheezing,outcome
+759,763,132834,White piedra,outcome
 759,763,435723,Wound seroma,outcome
 759,763,440193,Wristdrop,outcome
 761,762,4175583,3-Methylglutaconic aciduria type 2,outcome
@@ -1217,6 +2831,275 @@ targetId,comparatorId,outcomeId,outcomeName,type
 761,762,314754,Wheezing,outcome
 761,762,435723,Wound seroma,outcome
 761,762,440193,Wristdrop,outcome
+761,762,4175583,3-Methylglutaconic aciduria type 2,outcome
+761,762,443698,Abnormal anal Papanicolaou smear,outcome
+761,762,375824,Abnormal auditory perception,outcome
+761,762,435574,Abnormal form of root of tooth,outcome
+761,762,4262562,Abnormal heart beat,outcome
+761,762,439935,Abnormal posture,outcome
+761,762,436409,Abnormal pupil,outcome
+761,762,443702,Abnormal response to nerve stimulation,outcome
+761,762,443585,Abrasion and/or friction burn of multiple sites,outcome
+761,762,4088768,Absent nipple,outcome
+761,762,44783954,Acid reflux,outcome
+761,762,380818,Acquired deformity of head,outcome
+761,762,31668,Acquired deformity of neck,outcome
+761,762,4319325,Acquired deformity of trunk,outcome
+761,762,432411,Acquired equinus deformity of foot,outcome
+761,762,439673,Acute hepatitis B with delta-agent (coinfection) without hepatic coma,outcome
+761,762,441481,Adult victim of abuse,outcome
+761,762,435720,Adverse anesthesia outcome,outcome
+761,762,4218106,Alcoholism,outcome
+761,762,4303805,Allergic reaction to bite and/or sting,outcome
+761,762,4254371,Altered growth and development,outcome
+761,762,434916,"Amphetamine or psychostimulant dependence, continuous",outcome
+761,762,4101660,Amputated below knee,outcome
+761,762,4198962,Amputated thumb,outcome
+761,762,4155909,Anesthesia of skin,outcome
+761,762,4171556,Ankle ulcer,outcome
+761,762,45757682,Anomaly of jaw size,outcome
+761,762,4060259,Antenatal amniocentesis - abnormal,outcome
+761,762,4061157,Antenatal ultrasound scan abnormal,outcome
+761,762,77650,Aseptic necrosis of bone,outcome
+761,762,439237,Assault,outcome
+761,762,76744,Azoospermia,outcome
+761,762,4216219,Bizarre personal appearance,outcome
+761,762,141797,Black piedra,outcome
+761,762,433813,Bladder neck obstruction,outcome
+761,762,436230,Blood chemistry abnormal,outcome
+761,762,74698,Breech presentation,outcome
+761,762,256449,Bronchiectasis,outcome
+761,762,79232,Burn of ankle,outcome
+761,762,134765,Cachexia,outcome
+761,762,4172458,Candidiasis of skin,outcome
+761,762,4228429,Carnitine deficiency,outcome
+761,762,42709838,Cellulitis of lower limb,outcome
+761,762,4213540,Cervical somatic dysfunction,outcome
+761,762,443570,Cervicovaginal cytology: Low grade squamous intraepithelial lesion,outcome
+761,762,439674,Chronic viral hepatitis B without delta-agent,outcome
+761,762,438262,Chyluria,outcome
+761,762,4066505,Clicking hip,outcome
+761,762,196454,Colostomy and enterostomy malfunction,outcome
+761,762,4201390,Colostomy present,outcome
+761,762,134734,Compartment syndrome,outcome
+761,762,46269889,Complication due to Crohn's disease,outcome
+761,762,4173078,Complication due to immunization,outcome
+761,762,434675,Complication of gastrostomy,outcome
+761,762,438624,Complication of renal dialysis,outcome
+761,762,72995,Contracture of joint of hand,outcome
+761,762,80492,Contracture of knee joint,outcome
+761,762,439666,Contracture of multiple joints,outcome
+761,762,199978,Contusion of lower limb,outcome
+761,762,433071,Contusion of multiple sites,outcome
+761,762,4022071,Convalescence,outcome
+761,762,432729,Crying infant,outcome
+761,762,75389,Current tear of lateral cartilage AND/OR meniscus of knee,outcome
+761,762,80242,Current tear of medial cartilage AND/OR meniscus of knee,outcome
+761,762,73575,Deformity of toe,outcome
+761,762,436233,Delayed milestone,outcome
+761,762,443737,Dental restoration lost,outcome
+761,762,438183,Denture occlusion incorrect,outcome
+761,762,438759,Descemet's membrane fold,outcome
+761,762,4101282,Dietary selenium deficiency,outcome
+761,762,4115402,Difficulty sleeping,outcome
+761,762,4019971,Discord in school,outcome
+761,762,4022078,Discord with counselor,outcome
+761,762,436906,Disease caused by rickettsiae,outcome
+761,762,4135080,Dislocation of radial head,outcome
+761,762,201091,Disproportion - major pelvic abnormality,outcome
+761,762,372329,Dissociated deviation,outcome
+761,762,4155818,Does climb,outcome
+761,762,4196636,Dysarthria,outcome
+761,762,433441,Ectopic production of endocrine substance,outcome
+761,762,433111,Effects of hunger,outcome
+761,762,78834,Effusion of joint of hand,outcome
+761,762,4247710,Effusion of joint of pelvic region,outcome
+761,762,72407,Effusion of joint of shoulder region,outcome
+761,762,439791,Emotional upset,outcome
+761,762,4150043,Epididymitis,outcome
+761,762,4029271,Essential fatty acid deficiency,outcome
+761,762,197607,Excessive and frequent menstruation,outcome
+761,762,40480271,Extra unidentified structurally abnormal chromosome,outcome
+761,762,193598,Extravasation of urine,outcome
+761,762,439128,Extreme prematurity of infant,outcome
+761,762,4059015,Falls,outcome
+761,762,4092896,Feces contents abnormal,outcome
+761,762,4182437,Female genital cutting,outcome
+761,762,4118057,Fetal or neonatal effect of maternal oligohydramnios,outcome
+761,762,4229403,Flat anterior chamber of eye,outcome
+761,762,4069540,Flexion deformity of knee,outcome
+761,762,374801,Foreign body in ear,outcome
+761,762,4096540,Foreskin deficient,outcome
+761,762,441487,Frostbite,outcome
+761,762,73564,Full thickness rotator cuff tear,outcome
+761,762,40481568,Fussy infant,outcome
+761,762,439788,Galactosemia,outcome
+761,762,40481632,Ganglion cyst,outcome
+761,762,435775,Genetic anomaly of leukocyte,outcome
+761,762,74855,Genital herpes simplex,outcome
+761,762,437744,Heat exhaustion,outcome
+761,762,440021,Herpes simplex without complication,outcome
+761,762,437489,Herpes zoster with complication,outcome
+761,762,440329,Herpes zoster without complication,outcome
+761,762,4012570,High risk sexual behavior,outcome
+761,762,435511,Hypercalcemia,outcome
+761,762,77364,Hypermobility of coccyx,outcome
+761,762,441829,Hyperosmolality and or hypernatremia,outcome
+761,762,4287416,Hyperphenylalaninemia,outcome
+761,762,192298,Hypersplenism,outcome
+761,762,74731,Hypertrophic osteoarthropathy,outcome
+761,762,440129,Hypertrophy of nasal turbinates,outcome
+761,762,4029280,Hypervitaminosis B6,outcome
+761,762,435522,Hypervitaminosis D,outcome
+761,762,434004,Hypervolemia,outcome
+761,762,4024266,Hypocupremia,outcome
+761,762,440072,Hypogammaglobulinemia,outcome
+761,762,437390,Hypoxemia,outcome
+761,762,443447,Iatrogenic hypotension,outcome
+761,762,432596,Immune defect,outcome
+761,762,4344500,Impingement syndrome of shoulder region,outcome
+761,762,4090353,Incompetent urethral closure mechanism,outcome
+761,762,441417,Incoordination,outcome
+761,762,434485,Increase in body fat,outcome
+761,762,440276,"Infection AND/OR inflammatory reaction due to internal prosthetic device, implant AND/OR graft",outcome
+761,762,434872,Infection by Trichomonas,outcome
+761,762,440053,Infestation by insect,outcome
+761,762,4057662,Infestation by Phthirus,outcome
+761,762,442120,Injection site extravasation,outcome
+761,762,4168222,"Intra-abdominal and pelvic swelling, mass and lump",outcome
+761,762,440710,Intraretinal microvascular abnormality,outcome
+761,762,72994,Jaccoud's syndrome,outcome
+761,762,78512,Joint contracture of the ankle and/or foot,outcome
+761,762,78228,Joint derangement,outcome
+761,762,77072,Joint effusion of ankle AND/OR foot,outcome
+761,762,72404,Joint stiffness,outcome
+761,762,435903,Juvenile osteochondrosis of foot,outcome
+761,762,438527,"Juvenile osteochondrosis of lower extremity, excluding foot",outcome
+761,762,435633,Juvenile osteochondrosis of upper extremity,outcome
+761,762,4115991,Knee joint effusion,outcome
+761,762,4093346,Large prostate,outcome
+761,762,133088,Late amputation stump complication,outcome
+761,762,436041,Leech infestation,outcome
+761,762,4228331,Leukokeratosis nicotina palati,outcome
+761,762,377873,Lid lag,outcome
+761,762,4027782,Lipid storage disease,outcome
+761,762,435516,Lipoprotein deficiency disorder,outcome
+761,762,4297984,Local infection of wound,outcome
+761,762,440638,Lyme disease,outcome
+761,762,4083487,Macular drusen,outcome
+761,762,438067,Malaria,outcome
+761,762,4051630,Malingering,outcome
+761,762,436426,Malleus mobility reduced,outcome
+761,762,44783760,Mammographic calcification of breast,outcome
+761,762,258540,Marfan's syndrome,outcome
+761,762,438297,"Mechanical complication of cardiac device, implant AND/OR graft",outcome
+761,762,432798,"Mechanical complication of internal orthopedic device, implant AND/OR graft",outcome
+761,762,439082,Menopausal syndrome,outcome
+761,762,436940,Metabolic syndrome X,outcome
+761,762,435247,Metallosis,outcome
+761,762,45757258,Minimal keratinized residual ridge mucosa,outcome
+761,762,40480000,Multiple complications due to diabetes mellitus,outcome
+761,762,137967,"Muscle, ligament and fascia disorders",outcome
+761,762,4271024,Musculoskeletal fibromatosis,outcome
+761,762,134315,Myelophthisis,outcome
+761,762,4195085,Nasal congestion,outcome
+761,762,4209423,Nicotine dependence,outcome
+761,762,434016,"Nondependent opioid abuse, continuous",outcome
+761,762,201792,Nongonococcal urethritis,outcome
+761,762,4035269,Non-ketotic hyperglycinemia,outcome
+761,762,40480893,Nonspecific tuberculin test reaction,outcome
+761,762,72413,Nontraumatic rupture of muscle,outcome
+761,762,198802,Occlusion of ureter,outcome
+761,762,4215978,Onychomycosis,outcome
+761,762,140648,Onychomycosis due to dermatophyte,outcome
+761,762,4129408,Open wound of ankle,outcome
+761,762,4053600,Open wound of elbow,outcome
+761,762,77139,Open wound of finger without complication,outcome
+761,762,444426,Open wound of foot except toes without complication,outcome
+761,762,137426,Open wound of forearm without complication,outcome
+761,762,77421,Open wound of hand except fingers without complication,outcome
+761,762,4051004,Open wound of scalp,outcome
+761,762,4129404,Open wound of upper arm,outcome
+761,762,438130,Opioid abuse,outcome
+761,762,438120,Opioid dependence,outcome
+761,762,4171915,Orchitis,outcome
+761,762,315361,Orthopnea,outcome
+761,762,74080,Orthostatic proteinuria,outcome
+761,762,75920,Osteitis condensans,outcome
+761,762,437359,Osteochondritis dissecans,outcome
+761,762,378160,Otorrhea,outcome
+761,762,439035,Otosclerosis,outcome
+761,762,77356,Pathological dislocation of joint,outcome
+761,762,4022076,Patient dependence on care provider,outcome
+761,762,375292,Perforation of tympanic membrane,outcome
+761,762,78162,Peripheral vertigo,outcome
+761,762,437092,Physiological development failure,outcome
+761,762,253796,Pneumothorax,outcome
+761,762,4295261,Postmenopausal state,outcome
+761,762,4202045,Postviral fatigue syndrome,outcome
+761,762,433542,Precipitate labor,outcome
+761,762,4094448,Pregnancy test negative,outcome
+761,762,434319,Premature ejaculation,outcome
+761,762,198715,Premature menopause,outcome
+761,762,439081,Premenstrual tension syndrome,outcome
+761,762,46286594,Problem related to lifestyle,outcome
+761,762,199876,Prolapse of female genital organs,outcome
+761,762,4295888,Prolapse of intestine,outcome
+761,762,194997,Prostatitis,outcome
+761,762,439790,Psychalgia,outcome
+761,762,440068,Psychosexual dysfunction,outcome
+761,762,435028,Puerperal pyrexia of unknown origin,outcome
+761,762,4245252,Raised prostate specific antigen,outcome
+761,762,436246,Reduced libido,outcome
+761,762,45772079,Retinopathy of prematurity stage 0,outcome
+761,762,436828,Saliva abnormal,outcome
+761,762,435088,Senility,outcome
+761,762,4052226,Sequelae of injuries of lower limb,outcome
+761,762,4056577,Sequelae of open wound of head,outcome
+761,762,4233565,Severe protein-calorie malnutrition (Gomez: less than 60 percent of standard weight),outcome
+761,762,4250163,Sexual arousal disorder,outcome
+761,762,4096999,Short rib,outcome
+761,762,4305303,Sleep deprivation,outcome
+761,762,195926,Slowing of urinary stream,outcome
+761,762,4125590,Slurred speech,outcome
+761,762,4019836,Social exclusion,outcome
+761,762,444127,Specimen satisfactory for evaluation but limited,outcome
+761,762,4345332,Spinal instability,outcome
+761,762,443172,"Splinter of face, without major open wound",outcome
+761,762,443082,Starvation,outcome
+761,762,440233,Strain of supraspinatus muscle AND/OR tendon,outcome
+761,762,135852,Teething syndrome,outcome
+761,762,4195698,Tenosynovitis,outcome
+761,762,4339088,Testicular mass,outcome
+761,762,440457,Threatened miscarriage,outcome
+761,762,374907,Tics of organic origin,outcome
+761,762,80946,Tinea manus,outcome
+761,762,4163280,Tinea of perianal region,outcome
+761,762,133141,Tinea pedis,outcome
+761,762,433244,Tooth loss,outcome
+761,762,440268,Toxic effect of carbon monoxide,outcome
+761,762,81930,Transient arthropathy,outcome
+761,762,4029731,Trimethylaminuria,outcome
+761,762,40482801,Type II diabetes mellitus uncontrolled,outcome
+761,762,74719,Ulcer of foot,outcome
+761,762,443593,Ulcer of thigh,outcome
+761,762,4199550,Unable to mobilize,outcome
+761,762,4002572,"Uncomplicated sedative, hypnotic AND/OR anxiolytic withdrawal",outcome
+761,762,4092743,Unsteady when standing,outcome
+761,762,195591,Urethral overactivity,outcome
+761,762,4216708,Urgent desire for stool,outcome
+761,762,80070,Uric acid urolithiasis,outcome
+761,762,4088910,Uterine cervix absent,outcome
+761,762,4092565,Uterine prolapse,outcome
+761,762,4088920,Uterus absent,outcome
+761,762,435131,Victim of neglect,outcome
+761,762,261599,Vocal cord paralysis,outcome
+761,762,4104132,Vomit contains feces,outcome
+761,762,439405,Walking disability,outcome
+761,762,314754,Wheezing,outcome
+761,762,132834,White piedra,outcome
+761,762,435723,Wound seroma,outcome
+761,762,440193,Wristdrop,outcome
 764,765,4175583,3-Methylglutaconic aciduria type 2,outcome
 764,765,375824,Abnormal auditory perception,outcome
 764,765,435574,Abnormal form of root of tooth,outcome
@@ -1389,5 +3272,274 @@ targetId,comparatorId,outcomeId,outcomeName,type
 764,765,4104132,Vomit contains feces,outcome
 764,765,439405,Walking disability,outcome
 764,765,314754,Wheezing,outcome
+764,765,435723,Wound seroma,outcome
+764,765,440193,Wristdrop,outcome
+764,765,4175583,3-Methylglutaconic aciduria type 2,outcome
+764,765,443698,Abnormal anal Papanicolaou smear,outcome
+764,765,375824,Abnormal auditory perception,outcome
+764,765,435574,Abnormal form of root of tooth,outcome
+764,765,4262562,Abnormal heart beat,outcome
+764,765,439935,Abnormal posture,outcome
+764,765,436409,Abnormal pupil,outcome
+764,765,443702,Abnormal response to nerve stimulation,outcome
+764,765,443585,Abrasion and/or friction burn of multiple sites,outcome
+764,765,4088768,Absent nipple,outcome
+764,765,44783954,Acid reflux,outcome
+764,765,380818,Acquired deformity of head,outcome
+764,765,31668,Acquired deformity of neck,outcome
+764,765,4319325,Acquired deformity of trunk,outcome
+764,765,432411,Acquired equinus deformity of foot,outcome
+764,765,439673,Acute hepatitis B with delta-agent (coinfection) without hepatic coma,outcome
+764,765,441481,Adult victim of abuse,outcome
+764,765,435720,Adverse anesthesia outcome,outcome
+764,765,4218106,Alcoholism,outcome
+764,765,4303805,Allergic reaction to bite and/or sting,outcome
+764,765,4254371,Altered growth and development,outcome
+764,765,434916,"Amphetamine or psychostimulant dependence, continuous",outcome
+764,765,4101660,Amputated below knee,outcome
+764,765,4198962,Amputated thumb,outcome
+764,765,4155909,Anesthesia of skin,outcome
+764,765,4171556,Ankle ulcer,outcome
+764,765,45757682,Anomaly of jaw size,outcome
+764,765,4060259,Antenatal amniocentesis - abnormal,outcome
+764,765,4061157,Antenatal ultrasound scan abnormal,outcome
+764,765,77650,Aseptic necrosis of bone,outcome
+764,765,439237,Assault,outcome
+764,765,76744,Azoospermia,outcome
+764,765,4216219,Bizarre personal appearance,outcome
+764,765,141797,Black piedra,outcome
+764,765,433813,Bladder neck obstruction,outcome
+764,765,436230,Blood chemistry abnormal,outcome
+764,765,74698,Breech presentation,outcome
+764,765,256449,Bronchiectasis,outcome
+764,765,79232,Burn of ankle,outcome
+764,765,134765,Cachexia,outcome
+764,765,4172458,Candidiasis of skin,outcome
+764,765,4228429,Carnitine deficiency,outcome
+764,765,42709838,Cellulitis of lower limb,outcome
+764,765,4213540,Cervical somatic dysfunction,outcome
+764,765,443570,Cervicovaginal cytology: Low grade squamous intraepithelial lesion,outcome
+764,765,439674,Chronic viral hepatitis B without delta-agent,outcome
+764,765,438262,Chyluria,outcome
+764,765,4066505,Clicking hip,outcome
+764,765,196454,Colostomy and enterostomy malfunction,outcome
+764,765,4201390,Colostomy present,outcome
+764,765,134734,Compartment syndrome,outcome
+764,765,46269889,Complication due to Crohn's disease,outcome
+764,765,4173078,Complication due to immunization,outcome
+764,765,434675,Complication of gastrostomy,outcome
+764,765,438624,Complication of renal dialysis,outcome
+764,765,72995,Contracture of joint of hand,outcome
+764,765,80492,Contracture of knee joint,outcome
+764,765,439666,Contracture of multiple joints,outcome
+764,765,199978,Contusion of lower limb,outcome
+764,765,433071,Contusion of multiple sites,outcome
+764,765,4022071,Convalescence,outcome
+764,765,432729,Crying infant,outcome
+764,765,75389,Current tear of lateral cartilage AND/OR meniscus of knee,outcome
+764,765,80242,Current tear of medial cartilage AND/OR meniscus of knee,outcome
+764,765,73575,Deformity of toe,outcome
+764,765,436233,Delayed milestone,outcome
+764,765,443737,Dental restoration lost,outcome
+764,765,438183,Denture occlusion incorrect,outcome
+764,765,438759,Descemet's membrane fold,outcome
+764,765,4101282,Dietary selenium deficiency,outcome
+764,765,4115402,Difficulty sleeping,outcome
+764,765,4019971,Discord in school,outcome
+764,765,4022078,Discord with counselor,outcome
+764,765,436906,Disease caused by rickettsiae,outcome
+764,765,4135080,Dislocation of radial head,outcome
+764,765,201091,Disproportion - major pelvic abnormality,outcome
+764,765,372329,Dissociated deviation,outcome
+764,765,4155818,Does climb,outcome
+764,765,4196636,Dysarthria,outcome
+764,765,433441,Ectopic production of endocrine substance,outcome
+764,765,433111,Effects of hunger,outcome
+764,765,78834,Effusion of joint of hand,outcome
+764,765,4247710,Effusion of joint of pelvic region,outcome
+764,765,72407,Effusion of joint of shoulder region,outcome
+764,765,439791,Emotional upset,outcome
+764,765,4150043,Epididymitis,outcome
+764,765,4029271,Essential fatty acid deficiency,outcome
+764,765,197607,Excessive and frequent menstruation,outcome
+764,765,40480271,Extra unidentified structurally abnormal chromosome,outcome
+764,765,193598,Extravasation of urine,outcome
+764,765,439128,Extreme prematurity of infant,outcome
+764,765,4059015,Falls,outcome
+764,765,4092896,Feces contents abnormal,outcome
+764,765,4182437,Female genital cutting,outcome
+764,765,4118057,Fetal or neonatal effect of maternal oligohydramnios,outcome
+764,765,4229403,Flat anterior chamber of eye,outcome
+764,765,4069540,Flexion deformity of knee,outcome
+764,765,374801,Foreign body in ear,outcome
+764,765,4096540,Foreskin deficient,outcome
+764,765,441487,Frostbite,outcome
+764,765,73564,Full thickness rotator cuff tear,outcome
+764,765,40481568,Fussy infant,outcome
+764,765,439788,Galactosemia,outcome
+764,765,40481632,Ganglion cyst,outcome
+764,765,435775,Genetic anomaly of leukocyte,outcome
+764,765,74855,Genital herpes simplex,outcome
+764,765,437744,Heat exhaustion,outcome
+764,765,440021,Herpes simplex without complication,outcome
+764,765,437489,Herpes zoster with complication,outcome
+764,765,440329,Herpes zoster without complication,outcome
+764,765,4012570,High risk sexual behavior,outcome
+764,765,435511,Hypercalcemia,outcome
+764,765,77364,Hypermobility of coccyx,outcome
+764,765,441829,Hyperosmolality and or hypernatremia,outcome
+764,765,4287416,Hyperphenylalaninemia,outcome
+764,765,192298,Hypersplenism,outcome
+764,765,74731,Hypertrophic osteoarthropathy,outcome
+764,765,440129,Hypertrophy of nasal turbinates,outcome
+764,765,4029280,Hypervitaminosis B6,outcome
+764,765,435522,Hypervitaminosis D,outcome
+764,765,434004,Hypervolemia,outcome
+764,765,4024266,Hypocupremia,outcome
+764,765,440072,Hypogammaglobulinemia,outcome
+764,765,437390,Hypoxemia,outcome
+764,765,443447,Iatrogenic hypotension,outcome
+764,765,432596,Immune defect,outcome
+764,765,4344500,Impingement syndrome of shoulder region,outcome
+764,765,4090353,Incompetent urethral closure mechanism,outcome
+764,765,441417,Incoordination,outcome
+764,765,434485,Increase in body fat,outcome
+764,765,440276,"Infection AND/OR inflammatory reaction due to internal prosthetic device, implant AND/OR graft",outcome
+764,765,434872,Infection by Trichomonas,outcome
+764,765,440053,Infestation by insect,outcome
+764,765,4057662,Infestation by Phthirus,outcome
+764,765,442120,Injection site extravasation,outcome
+764,765,4168222,"Intra-abdominal and pelvic swelling, mass and lump",outcome
+764,765,440710,Intraretinal microvascular abnormality,outcome
+764,765,72994,Jaccoud's syndrome,outcome
+764,765,78512,Joint contracture of the ankle and/or foot,outcome
+764,765,78228,Joint derangement,outcome
+764,765,77072,Joint effusion of ankle AND/OR foot,outcome
+764,765,72404,Joint stiffness,outcome
+764,765,435903,Juvenile osteochondrosis of foot,outcome
+764,765,438527,"Juvenile osteochondrosis of lower extremity, excluding foot",outcome
+764,765,435633,Juvenile osteochondrosis of upper extremity,outcome
+764,765,4115991,Knee joint effusion,outcome
+764,765,4093346,Large prostate,outcome
+764,765,133088,Late amputation stump complication,outcome
+764,765,436041,Leech infestation,outcome
+764,765,4228331,Leukokeratosis nicotina palati,outcome
+764,765,377873,Lid lag,outcome
+764,765,4027782,Lipid storage disease,outcome
+764,765,435516,Lipoprotein deficiency disorder,outcome
+764,765,4297984,Local infection of wound,outcome
+764,765,440638,Lyme disease,outcome
+764,765,4083487,Macular drusen,outcome
+764,765,438067,Malaria,outcome
+764,765,4051630,Malingering,outcome
+764,765,436426,Malleus mobility reduced,outcome
+764,765,44783760,Mammographic calcification of breast,outcome
+764,765,258540,Marfan's syndrome,outcome
+764,765,438297,"Mechanical complication of cardiac device, implant AND/OR graft",outcome
+764,765,432798,"Mechanical complication of internal orthopedic device, implant AND/OR graft",outcome
+764,765,439082,Menopausal syndrome,outcome
+764,765,436940,Metabolic syndrome X,outcome
+764,765,435247,Metallosis,outcome
+764,765,45757258,Minimal keratinized residual ridge mucosa,outcome
+764,765,40480000,Multiple complications due to diabetes mellitus,outcome
+764,765,137967,"Muscle, ligament and fascia disorders",outcome
+764,765,4271024,Musculoskeletal fibromatosis,outcome
+764,765,134315,Myelophthisis,outcome
+764,765,4195085,Nasal congestion,outcome
+764,765,4209423,Nicotine dependence,outcome
+764,765,434016,"Nondependent opioid abuse, continuous",outcome
+764,765,201792,Nongonococcal urethritis,outcome
+764,765,4035269,Non-ketotic hyperglycinemia,outcome
+764,765,40480893,Nonspecific tuberculin test reaction,outcome
+764,765,72413,Nontraumatic rupture of muscle,outcome
+764,765,198802,Occlusion of ureter,outcome
+764,765,4215978,Onychomycosis,outcome
+764,765,140648,Onychomycosis due to dermatophyte,outcome
+764,765,4129408,Open wound of ankle,outcome
+764,765,4053600,Open wound of elbow,outcome
+764,765,77139,Open wound of finger without complication,outcome
+764,765,444426,Open wound of foot except toes without complication,outcome
+764,765,137426,Open wound of forearm without complication,outcome
+764,765,77421,Open wound of hand except fingers without complication,outcome
+764,765,4051004,Open wound of scalp,outcome
+764,765,4129404,Open wound of upper arm,outcome
+764,765,438130,Opioid abuse,outcome
+764,765,438120,Opioid dependence,outcome
+764,765,4171915,Orchitis,outcome
+764,765,315361,Orthopnea,outcome
+764,765,74080,Orthostatic proteinuria,outcome
+764,765,75920,Osteitis condensans,outcome
+764,765,437359,Osteochondritis dissecans,outcome
+764,765,378160,Otorrhea,outcome
+764,765,439035,Otosclerosis,outcome
+764,765,77356,Pathological dislocation of joint,outcome
+764,765,4022076,Patient dependence on care provider,outcome
+764,765,375292,Perforation of tympanic membrane,outcome
+764,765,78162,Peripheral vertigo,outcome
+764,765,437092,Physiological development failure,outcome
+764,765,253796,Pneumothorax,outcome
+764,765,4295261,Postmenopausal state,outcome
+764,765,4202045,Postviral fatigue syndrome,outcome
+764,765,433542,Precipitate labor,outcome
+764,765,4094448,Pregnancy test negative,outcome
+764,765,434319,Premature ejaculation,outcome
+764,765,198715,Premature menopause,outcome
+764,765,439081,Premenstrual tension syndrome,outcome
+764,765,46286594,Problem related to lifestyle,outcome
+764,765,199876,Prolapse of female genital organs,outcome
+764,765,4295888,Prolapse of intestine,outcome
+764,765,194997,Prostatitis,outcome
+764,765,439790,Psychalgia,outcome
+764,765,440068,Psychosexual dysfunction,outcome
+764,765,435028,Puerperal pyrexia of unknown origin,outcome
+764,765,4245252,Raised prostate specific antigen,outcome
+764,765,436246,Reduced libido,outcome
+764,765,45772079,Retinopathy of prematurity stage 0,outcome
+764,765,436828,Saliva abnormal,outcome
+764,765,435088,Senility,outcome
+764,765,4052226,Sequelae of injuries of lower limb,outcome
+764,765,4056577,Sequelae of open wound of head,outcome
+764,765,4233565,Severe protein-calorie malnutrition (Gomez: less than 60 percent of standard weight),outcome
+764,765,4250163,Sexual arousal disorder,outcome
+764,765,4096999,Short rib,outcome
+764,765,4305303,Sleep deprivation,outcome
+764,765,195926,Slowing of urinary stream,outcome
+764,765,4125590,Slurred speech,outcome
+764,765,4019836,Social exclusion,outcome
+764,765,444127,Specimen satisfactory for evaluation but limited,outcome
+764,765,4345332,Spinal instability,outcome
+764,765,443172,"Splinter of face, without major open wound",outcome
+764,765,443082,Starvation,outcome
+764,765,440233,Strain of supraspinatus muscle AND/OR tendon,outcome
+764,765,135852,Teething syndrome,outcome
+764,765,4195698,Tenosynovitis,outcome
+764,765,4339088,Testicular mass,outcome
+764,765,440457,Threatened miscarriage,outcome
+764,765,374907,Tics of organic origin,outcome
+764,765,80946,Tinea manus,outcome
+764,765,4163280,Tinea of perianal region,outcome
+764,765,133141,Tinea pedis,outcome
+764,765,433244,Tooth loss,outcome
+764,765,440268,Toxic effect of carbon monoxide,outcome
+764,765,81930,Transient arthropathy,outcome
+764,765,4029731,Trimethylaminuria,outcome
+764,765,40482801,Type II diabetes mellitus uncontrolled,outcome
+764,765,74719,Ulcer of foot,outcome
+764,765,443593,Ulcer of thigh,outcome
+764,765,4199550,Unable to mobilize,outcome
+764,765,4002572,"Uncomplicated sedative, hypnotic AND/OR anxiolytic withdrawal",outcome
+764,765,4092743,Unsteady when standing,outcome
+764,765,195591,Urethral overactivity,outcome
+764,765,4216708,Urgent desire for stool,outcome
+764,765,80070,Uric acid urolithiasis,outcome
+764,765,4088910,Uterine cervix absent,outcome
+764,765,4092565,Uterine prolapse,outcome
+764,765,4088920,Uterus absent,outcome
+764,765,435131,Victim of neglect,outcome
+764,765,261599,Vocal cord paralysis,outcome
+764,765,4104132,Vomit contains feces,outcome
+764,765,439405,Walking disability,outcome
+764,765,314754,Wheezing,outcome
+764,765,132834,White piedra,outcome
 764,765,435723,Wound seroma,outcome
 764,765,440193,Wristdrop,outcome
