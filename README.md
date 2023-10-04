@@ -1,4 +1,4 @@
-evidnet
+DdiPpiClo
 ==============================
 
 
@@ -13,25 +13,23 @@ Requirements
 
 How to run
 ==========
-1. Follow [these instructions](https://ohdsi.github.io/Hades/rSetup.html) for setting up your R environment, including RTools and Java. 
+1. Follow [these instructions](https://ohdsi.github.io/Hades/rSetup.html) for seting up your R environment, including RTools and Java. 
 
-2. Create an empty folder or new RStudio project, and in `R`, use the following code to install the study package and its dependencies:
-
-    ```r
-    install.packages("renv")
-    download.file("https://raw.githubusercontent.com/ohdsi-studies/evidnet/main/renv.lock", "renv.lock")
-    renv::init()
-    ```  
-    
-    If renv mentions that the project already has a lockfile select "*1: Restore the project from the lockfile.*".
-
-3. Once installed, you can execute the study by modifying and using the code below. For your convenience, this code is also provided under `extras/CodeToRun.R`:
+2. Open your study package in RStudio. Use the following code to install all the dependencies:
 
     ```r
-    library(evidnet)
+    renv::restore()
+    ```
+
+3. In RStudio, select 'Build' then 'Install and Restart' to build the package.
+
+   Once installed, you can execute the study by modifying and using the code below. For your convenience, this code is also provided under `extras/CodeToRun.R`:
+
+    ```r
+    library(DdiPpiClo)
 
     # Optional: specify where the temporary files (used by the Andromeda package) will be created:
-    options(andromedaTempFolder = "s:/andromedaTemp")
+    options(andromedaTempFolder = "D:/andromedaTemp")
 	
     # Maximum number of cores to be used:
     maxCores <- parallel::detectCores()
@@ -40,26 +38,26 @@ How to run
     minCellCount <- 5
 	
     # The folder where the study intermediate and result files will be written:
-    outputFolder <- "c:/evidnet"
+    outputFolder <- "D:/DdiPpiClo"
 	
     # Details for connecting to the server:
     # See ?DatabaseConnector::createConnectionDetails for help
-    connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = "redshift",
-                                                                connectionString = keyring::key_get("redShiftConnectionStringOhdaMdcr"),
-                                                                user = keyring::key_get("redShiftUserName"),
-                                                                password = keyring::key_get("redShiftPassword"))
-
+    connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = "sql server",
+                                                                server = Sys.getenv("server"),
+                                                                user = Sys.getenv("user"),
+                                                                password = Sys.getenv("password"),
+                                                                pathToDriver = "D:/pathToDriver")
     # The name of the database schema where the CDM data can be found:
-    cdmDatabaseSchema <- "cdm_truven_mdcr_v1911"
+    cdmDatabaseSchema <- "cdm_db"
 
     # The name of the database schema and table where the study-specific cohorts will be instantiated:
-    cohortDatabaseSchema <- "scratch_mschuemi"
-    cohortTable <- "estimation_skeleton"
+    cohortDatabaseSchema <- "scratch.dbo"
+    cohortTable <- "ddippicloCohortStudy"
 
     # Some meta-information that will be used by the export function:
-    databaseId <- "IBM_MDCR"
-    databaseName <- "IBM MarketScan® Medicare Supplemental and Coordination of Benefits Database"
-    databaseDescription <- "IBM MarketScan® Medicare Supplemental and Coordination of Benefits Database (MDCR) represents health services of retirees in the United States with primary or Medicare supplemental coverage through privately insured fee-for-service, point-of-service, or capitated health plans.  These data include adjudicated health insurance claims (e.g. inpatient, outpatient, and outpatient pharmacy). Additionally, it captures laboratory tests for a subset of the covered lives."
+    databaseId <- "DdiPpiClo"
+    databaseName <- "DdiPpiClo"
+    databaseDescription <- "Drug-drug interaction of PPI and clopidogrel"
 
     # For some database platforms (e.g. Oracle): define a schema that can be used to emulate temp tables:
     options(sqlRenderTempEmulationSchema = NULL)
@@ -99,11 +97,11 @@ How to run
 
 License
 =======
-The evidnet package is licensed under Apache License 2.0
+The DdiPpiClo package is licensed under Apache License 2.0
 
 Development
 ===========
-evidnet was developed in ATLAS and R Studio.
+DdiPpiClo was developed in ATLAS and R Studio.
 
 ### Development status
 
