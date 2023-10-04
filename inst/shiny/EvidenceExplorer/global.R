@@ -1,19 +1,11 @@
 source("DataPulls.R")
 source("PlotsAndTables.R")
 
-shinySettings <- list(dataFolder = "./ShinyData", blind = FALSE)
+# shinySettings <- list(dataFolder = "D:\\DdiPpiClo\\export\\shinyData", blind = F)
 dataFolder <- shinySettings$dataFolder
 blind <- shinySettings$blind
 connection <- NULL
 positiveControlOutcome <- NULL
-
-#database_cdm <- readRDS(file.path(dataFolder, sprintf("./ShinyData/database_%.rds",databaseId)))
-#`database_Meta-analysis` <- readRDS("./ShinyData/database_Meta-analysis.rds")
-#`database_Meta-analysis`$vocabulary_version <- database_cdm$vocabulary_version
-#`database_Meta-analysis`$min_obs_period_date <- database_cdm$min_obs_period_date
-#`database_Meta-analysis`$max_obs_period_date <- database_cdm$max_obs_period_date
-#`database_Meta-analysis`$study_package_version <- database_cdm$study_package_version
-#saveRDS(file = "./ShinyData/database_Meta-analysis.rds", object = `database_Meta-analysis`)
 
 splittableTables <- c("covariate_balance", "preference_score_dist", "kaplan_meier_dist")
 
@@ -43,17 +35,30 @@ loadFile <- function(file, removePart) {
     colnames(newData) <- SqlRender::snakeCaseToCamelCase(colnames(newData))
     if (exists(camelCaseName, envir = .GlobalEnv)) {
       existingData <- get(camelCaseName, envir = .GlobalEnv)
-      newData <- rbind(existingData, newData)
+      newData$tau <- NULL
+      newData$traditionalLogRr <- NULL
+      newData$traditionalSeLogRr <- NULL
+      if (!all(colnames(newData) %in% colnames(existingData))) {
+         stop(sprintf("Columns names do not match in %s. \nObserved:\n %s, \nExpecting:\n %s", 
+                      file,
+                      paste(colnames(newData), collapse = ", "),
+                      paste(colnames(existingData), collapse = ", ")))
+                      
+      }
+      newData <- dplyr::bind_rows(existingData, newData)
       newData <- unique(newData)
     }
     assign(camelCaseName, newData, envir = .GlobalEnv)
   }
   invisible(NULL)
 }
+# removePart <- removeParts[3]
+file <- files[grepl(removePart, files)][1]
 for (removePart in removeParts) {
-  lapply(files[grepl(removePart, files)], loadFile, removePart)
+  invisible(lapply(files[grepl(removePart, files)], loadFile, removePart))
 }
 
 tcos <- unique(cohortMethodResult[, c("targetId", "comparatorId", "outcomeId")])
 tcos <- tcos[tcos$outcomeId %in% outcomeOfInterest$outcomeId, ]
+metaAnalysisDbIds <- database$databaseId[database$isMetaAnalysis == 1]
                

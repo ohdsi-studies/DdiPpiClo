@@ -28,18 +28,18 @@ databaseId <- "DdiPpiClo"
 databaseName <- "DdiPpiClo"
 databaseDescription <- "Drug-drug interaction of PPI and clopidogrel"
 
-# For Oracle: define a schema that can be used to emulate temp tables:
-oracleTempSchema <- NULL
+# For some database platforms (e.g. Oracle): define a schema that can be used to emulate temp tables:
+options(sqlRenderTempEmulationSchema = NULL)
 
 execute(connectionDetails = connectionDetails,
         cdmDatabaseSchema = cdmDatabaseSchema,
         cohortDatabaseSchema = cohortDatabaseSchema,
         cohortTable = cohortTable,
-        oracleTempSchema = oracleTempSchema,
         outputFolder = outputFolder,
         databaseId = databaseId,
         databaseName = databaseName,
         databaseDescription = databaseDescription,
+        verifyDependencies = TRUE,
         createCohorts = TRUE,
         synthesizePositiveControls = TRUE,
         runAnalyses = TRUE,
