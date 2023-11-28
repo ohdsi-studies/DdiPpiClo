@@ -1,6 +1,20 @@
-DdiPpiClo
-==============================
+DDI between PPIs and clopidogrel (DdiPpiClo)
+=============
 
+<img src="https://img.shields.io/badge/Study%20Status-Repo%20Created-lightgray.svg" alt="Study Status: Started">
+
+- Analytics use case(s): **Population-Level Estimation**
+- Study type: **Clinical Application**
+- Tags: **DrugDrugInteraction, PotonPumInhibitors**
+- Study lead: **Seng Chan You, Seung In Seo, Seonji Kim**
+- Study lead forums tag: **[SCYou](https://forums.ohdsi.org/u/SCYou)**
+- Study start date: **4 July 2022**
+- Study end date: 
+- Protocol: **https://github.com/ohdsi-studies/DdiPpiClo/tree/master/documents/**
+- Publications: 
+- Results explorer: 
+
+It is still controversial regarding the interaction between proton pump inhibitors (PPIs) and clopidogrel. Both PPIs and clopidogrel are metabolized by hepatic cytochrome P450 (CYP) enzymes, and in the presence of CYP2C19 inhibition, PPIs could reduce the efficacy of clopidogrel's protective roles in cardiovascular events. Hence, The US Food and Drug Administration (FDA) issued safety announcements between January 2009 and October 2010 warning against concomitant use of clopidogrel and PPIs, especially omeprazole and esomeprazole, due to a potential drug interaction that may attenuate clopidogrel’s antiplatelet activity. After the FDA’s warnings against the use of clopidogrel with strong competitive inhibitor for CYP2C19 (inhibiting PPIs, omeprazole and esomeprazole), treatment with inhibiting PPIs and clopidogrel has continued to decrease since 2010, however, the real-world evidence has not been fully evaluated about whether inhibiting PPIs lead to more severe cardiovascular outcomes compared with weak competitive inhibitor for CYP2C19 (other PPIs, lansoprazole, pantoprazole, rabeprazole, and dexlansoprazole). This study will compare the major adverse cardiovascular events of inhibiting PPIs with other PPIs in patients who receiving clopidogrel. 
 
 Requirements
 ============
@@ -105,4 +119,4 @@ DdiPpiClo was developed in ATLAS and R Studio.
 
 ### Development status
 
-Unknown
+Under development
