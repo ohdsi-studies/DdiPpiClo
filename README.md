@@ -70,7 +70,7 @@ How to run
             databaseId = databaseId,
             databaseName = databaseName,
             databaseDescription = databaseDescription,
-            verifyDependencies = TRUE,
+            verifyDependencies = FALSE,
             createCohorts = TRUE,
             synthesizePositiveControls = TRUE,
             runAnalyses = TRUE,
